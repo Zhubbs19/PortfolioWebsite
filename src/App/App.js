@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '../Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    document.title = "Zach Hubbard | Home",
+    <div>
+       <Navbar />
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,7 +24,9 @@ function App() {
         </a>
       </header>
     </div>
+    </div>
   );
 }
+
 
 export default App;
