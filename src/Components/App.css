@@ -5,12 +5,14 @@
   font-size: 32px;
   color: white;
   background: black;
+  display: flex;
 }
 
 .Content {
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
 }
 
 .App{
@@ -19,24 +21,46 @@
 
 .about-container{
   justify-content: left;
+  display: flex;
 }
 
 .about {
-  padding: 20px;
+  display: flex;
   
 }
 
 .about-header{
   font-size: 28px;
+  display: flex;
+  padding-left: 80px;
 }
 
 .about-text {
   text-align: left;
   font-size: 20px;
+  display: flex;
 }
 
 .about-content {
   padding: 20px;
+  display: flex;
+}
+
+.experience-header {
+  font-weight: bold;
+  padding-left: 80px;
+  text-align: left;
+  font-size: 32px;
+  color: black;
+  display: flex;
+  text-decoration: underline;
+}
+
+.experience-job {
+  padding-left: 80px;
+  padding-top: 20px;
+  font-size: 18px;
+  display: flex;
 }
 
 

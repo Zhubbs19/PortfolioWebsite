@@ -10,7 +10,7 @@ function NavbarComponent() {
     <Navbar expand="lg" className="navbar">
       <Container className="navbar-content">
         <text className="NavbarTitle">Zach Hubbard</text>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle classNamearia-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link><Link to="/">Home</Link></Nav.Link>

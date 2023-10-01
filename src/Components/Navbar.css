@@ -1,9 +1,14 @@
 .navbar {
     background: black;
+    display: flex;
 }
 
 .NavbarTitle {
     color: white;
     font-size: 18px;
+}
+
+.me-auto{
+    display: flex;
 }
 
