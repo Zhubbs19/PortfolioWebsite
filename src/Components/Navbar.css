@@ -3,12 +3,15 @@
     display: flex;
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px
+}
+
 .NavbarTitle {
     color: white;
     font-size: 18px;
-}
-
-.me-auto{
-    display: flex;
+    font-weight: bold;
 }
 

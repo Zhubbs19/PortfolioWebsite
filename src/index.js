@@ -23,6 +23,12 @@ const router = createBrowserRouter([
     path: "game-projects",
     element: <GameProjects/>,
   },
+  {
+    path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true", 
+  },
+  {
+    path: "https://www.linkedin.com/in/zachary-hubbard-39645b204/", 
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
