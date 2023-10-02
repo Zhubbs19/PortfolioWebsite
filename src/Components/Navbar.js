@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function NavbarComponent() {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" className="navbar">
+    <Navbar collaspeOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navbar">
       <Container className="navbar-content">
         <text className="NavbarTitle">Zach Hubbard</text>
         <Navbar.Toggle classNamearia-controls="basic-navbar-nav" />

@@ -1,55 +1,53 @@
+.App{
+  background: #d3d3d3;
+}
+
+.CardsGrid {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.grid-item {
+  max-width: 400px;
+  padding: 2%
+}
+
+.Card {
+  padding: 2%;
+ }
+
 .about-header {
   font-weight: bold;
-  padding: 40px;
+  padding: 2%;
   text-align: left;
-  font-size: 32px;
+  font-size: 36px;
   color: white;
   background: black;
   display: flex;
 }
 
-.Content {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: flex;
-}
-
-.App{
-  background: #d3d3d3;
-}
-
-.about-container{
-  justify-content: left;
-  display: flex;
-}
-
-.about {
-  display: flex;
-  
-}
-
-.about-header{
-  font-size: 28px;
-  display: flex;
-  padding-left: 80px;
-}
-
-.about-text {
-  text-align: left;
-  font-size: 20px;
-  display: flex;
-}
-
 .about-content {
-  padding: 20px;
+  padding: 2%;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+.about-item {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 1.25rem;
+  padding: 4%;
+}
+
+.Experience {
+  background: #d3d3d3;
   display: flex;
 }
 
 .experience-header {
   font-weight: bold;
-  padding-left: 80px;
-  text-align: left;
   font-size: 32px;
   color: black;
   display: flex;
@@ -57,10 +55,6 @@
 }
 
 .experience-job {
-  padding-left: 80px;
-  padding-top: 20px;
   font-size: 18px;
-  display: flex;
 }
-
 
