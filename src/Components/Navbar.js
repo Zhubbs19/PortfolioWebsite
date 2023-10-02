@@ -16,6 +16,7 @@ function NavbarComponent() {
             <Nav.Link><Link className='link' to="/">Home</Link></Nav.Link>
             <Nav.Link className='link' href="/game-projects">Game Projects</Nav.Link>
             <Nav.Link className='link' href="/course-projects">Course Projects</Nav.Link>
+            <Nav.Link className='link' href="/personal-projects">Personal Projects</Nav.Link>
             <Nav.Link className='link' href="https://drive.google.com/file/d/1OCzhkLCWfZ5nWLExsAy0WAApGkR03BHa/view?usp=sharing">Resume</Nav.Link>
             <Nav.Link className='link' href="https://www.linkedin.com/in/zachary-hubbard-39645b204/">LinkedIn</Nav.Link>
           </Nav>

@@ -7,6 +7,7 @@ import GameProjects from './Pages/Game Projects/GameProjects';
 import WVQuest from './Pages/WV Quest/WVQuest';
 import DawnOfAlina from './Pages/Dawn of Alina/DawnOfAlina';
 import SeedAPult from './Pages/SeedAPult/SeedAPult';
+import PersonalProjects from './Pages/Personal Projects/PersonalProjects';
 
 import {
   createBrowserRouter,
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "game-projects",
     element: <GameProjects/>,
+  },
+  {
+    path: "personal-projects",
+    element: <PersonalProjects/>,
   },
   {
     path: "WVQuest",
@@ -50,4 +55,3 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <RouterProvider router={router} />
 );
-
