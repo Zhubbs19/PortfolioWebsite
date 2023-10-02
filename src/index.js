@@ -4,6 +4,9 @@ import './index.css';
 import App from './Components/App';
 import CourseProjects from './Pages/Course Projects/CourseProjects';
 import GameProjects from './Pages/Game Projects/GameProjects';
+import WVQuest from './Pages/WV Quest/WVQuest';
+import DawnOfAlina from './Pages/Dawn of Alina/DawnOfAlina';
+import SeedAPult from './Pages/SeedAPult/SeedAPult';
 
 import {
   createBrowserRouter,
@@ -22,6 +25,18 @@ const router = createBrowserRouter([
   {
     path: "game-projects",
     element: <GameProjects/>,
+  },
+  {
+    path: "WVQuest",
+    element: <WVQuest/>,
+  },
+  {
+    path: "DawnOfAlina",
+    element: <DawnOfAlina/>,
+  },
+  {
+    path: "SeedAPult",
+    element: <SeedAPult/>,
   },
   {
     path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true", 

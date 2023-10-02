@@ -29,7 +29,7 @@ export default function ApplachianSeedCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small" href='SeedAPult'>Learn More</Button>
       </CardActions>
     </Card>
   );
@@ -53,7 +53,7 @@ export function WVQuestCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small" href='WVQuest'>Learn More</Button>
       </CardActions>
     </Card>
   );
@@ -77,7 +77,7 @@ export function DawnOfAlinaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small" href='DawnOfAlina'>Learn More</Button>
       </CardActions>
     </Card>
   );
