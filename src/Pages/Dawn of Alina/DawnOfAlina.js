@@ -1,5 +1,6 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar";
+import Footer from '../../Components/Footer.js';
 
 function DawnOfAlina() {
   return (

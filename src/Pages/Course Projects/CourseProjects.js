@@ -3,12 +3,14 @@ import NavbarComponent from "../../Components/Navbar";
 import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "../../Components/Card";
 import './CourseProjects.css';
 import { Grid } from "@mui/material"
+import Footer from '../../Components/Footer.js';
+
 
 
 function CourseProjects() {
   return (
     document.title = "Zach Hubbard | Game Projects",
-    <div>
+    <div className="CourseProjects">
       <NavbarComponent />
       <h1 className="base-header">Course Projects</h1>
        <Grid container direction="row" justifyContent="center">
@@ -22,6 +24,7 @@ function CourseProjects() {
             <DawnOfAlinaCard />
           </Grid>
         </Grid>
+        <Footer />
       </div>
   );
 }

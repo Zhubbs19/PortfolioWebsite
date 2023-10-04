@@ -1,0 +1,13 @@
+.base-footer {
+    font-weight: bold;
+    padding: 1%;
+    font-size: 18px;
+    justify-content: center;
+    color: white;
+    background: #212529;
+    display: flex;
+  }
+
+  .PersonalProjects {
+    background: #d3d3d3;
+  }

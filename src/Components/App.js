@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar.js';
+import Footer from './Footer.js';
 import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "./Card";
 import { Grid } from "@mui/material"
 import PortfolioImg from './Images/PortfolioCropped.jpg';
@@ -95,6 +96,7 @@ function App() {
             </Grid>
           </Grid>
         </div>
+        <Footer />
     </div>
       );
   }
