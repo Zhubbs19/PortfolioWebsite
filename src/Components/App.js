@@ -5,8 +5,6 @@ import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "./Card";
 import { Grid } from "@mui/material"
 import PortfolioImg from './Images/PortfolioCropped.jpg';
 import GDCImg from './Images/GDC.JPG';
-import { Container } from '@mui/material';
-import {Box} from '@mui/material';
 
 
 function App() {
@@ -14,6 +12,7 @@ function App() {
     document.title = "Zach Hubbard | Home",
     <div className="App">
       <Navbar />
+      <h1 className="base-header">Featured Projects</h1>
       <div className="CardsGrid">
         <Grid container direction="row" justifyContent="center">
           <Grid item className='Card'>
@@ -27,7 +26,7 @@ function App() {
           </Grid>
         </Grid>
       </div>
-        <h1 className="about-header">About Me</h1>
+        <h1 className="base-header">About Me</h1>
       <div className="about-content">
         <Grid container direction="row" justifyContent="center" className='about-grid'>
           <Grid item className='grid-item'>
@@ -45,9 +44,9 @@ function App() {
           </Grid>
         </Grid>
       </div>
-      <h1 className="about-header">Experience</h1>
+      <h1 className="base-header">Experience</h1>
         <div className="experience-job">
-          <Grid container direction="row" justifyContent="center" className='experience-grid' >
+          <Grid container direction="row" justifyContent="left" className='experience-grid' >
             <Grid item xs='auto' className='grid-item'>
               <p style={{fontWeight:'bold'}}>Mon River Games</p> 
               <p>Morgantown, WV</p>
@@ -63,7 +62,7 @@ function App() {
           </Grid>
         </div>
         <div className="experience-job">
-          <Grid container direction="row" justifyContent="center" className='experience-grid' >
+          <Grid container direction="row" justifyContent="left" className='experience-grid' >
             <Grid item className='grid-item'>
               <p style={{fontWeight:'bold'}}>Senior Capstone Project - WV State Museum App - West Virginia University</p> 
               <p>Morgantown, WV</p>
@@ -80,14 +79,14 @@ function App() {
           </Grid>
         </div>
         <div className="experience-job">
-          <Grid container direction="row" justifyContent="center" className='experience-grid' >
+          <Grid container direction="row" justifyContent="left" className='experience-grid' >
             <Grid item className='grid-item'>
               <p style={{fontWeight:'bold'}}>LCSEE Learning Center, West Virginia University</p> 
               <p>Morgantown, WV</p>
               <p>Tutor</p>            
             </Grid>
             <Grid item className='grid-item'>
-              <p>Tutored students in 100 to 400-level computer science courses, such as 
+              <p className='ml-auto'>Tutored students in 100 to 400-level computer science courses, such as 
                 Intro to Computer Science, Intro to Data Structures, Software Engineering, and Operating 
                 Systems courses. </p>
             </Grid>

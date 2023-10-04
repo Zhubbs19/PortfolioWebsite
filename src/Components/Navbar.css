@@ -1,16 +1,28 @@
 .navbar {
-    background: black;
+    background-color: #1a1a1a;
+    width: 100%;
     display: flex;
 }
 
 .link {
     text-decoration: none;
     color: white;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 .NavbarTitle {
     color: white;
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: bold;
+    padding-left: 2%;
 }
+
+.navbar-content {
+    display: flex;
+}
+
+.mr-auto {
+    margin-left: auto;
+    padding-right: 3%;
+}
+

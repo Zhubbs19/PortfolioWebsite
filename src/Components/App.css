@@ -5,56 +5,34 @@
 .CardsGrid {
   text-align: center;
   display: flex;
-  align-items: center;
 }
 
 .grid-item {
-  max-width: 400px;
-  padding: 2%
+  max-width: 800px;
+  padding: 1em;
+  font-size: 18px;
 }
 
 .Card {
   padding: 2%;
+  max-width: 500px;
  }
 
-.about-header {
+.base-header {
   font-weight: bold;
   padding: 2%;
-  text-align: left;
-  font-size: 36px;
+  font-size: 28px;
   color: white;
-  background: black;
+  background: #212529;
   display: flex;
-}
-
-.about-content {
-  padding: 2%;
-  word-wrap: break-word;
-  overflow: auto;
 }
 
 .about-item {
-  justify-content: center;
-  align-items: center;
-  text-align: left;
   font-size: 1.25rem;
-  padding: 4%;
+  padding: 2%;
 }
 
 .Experience {
-  background: #d3d3d3;
   display: flex;
-}
-
-.experience-header {
-  font-weight: bold;
-  font-size: 32px;
-  color: black;
-  display: flex;
-  text-decoration: underline;
-}
-
-.experience-job {
-  font-size: 18px;
 }
 

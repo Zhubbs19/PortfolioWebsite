@@ -3,10 +3,10 @@ import NavbarComponent from "../../Components/Navbar";
 
 function DawnOfAlina() {
   return (
-    document.title = "Zach Hubbard | Dawn Of Alina",
-    <div>
+    document.title = "Zach Hubbard | Dawn of Alina",
+    <div className="DawnOfAlina">
       <NavbarComponent />
-      <h1>Dawn Of Alina</h1>
+      <h1 className="base-header">Dawn Of Alina</h1>
     </div>
   );
 }

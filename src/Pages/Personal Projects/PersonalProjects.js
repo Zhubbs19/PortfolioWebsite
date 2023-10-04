@@ -9,9 +9,7 @@ function PersonalProjects() {
     document.title = "Zach Hubbard | Personal Projects",
     <div>
       <NavbarComponent />
-      <div>
-        <h1 className="main-header">Personal Projects</h1>
-        <div>
+      <h1 className="base-header">Personal Projects</h1>
        <Grid container direction="row" justifyContent="center">
           <Grid item xs={3}>
             <ApplachianSeedCard />
@@ -24,8 +22,6 @@ function PersonalProjects() {
           </Grid>
         </Grid>
       </div>
-    </div>
-    </div>
   );
 }
 

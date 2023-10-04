@@ -1,13 +1,28 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar";
+import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "../../Components/Card";
+import './CourseProjects.css';
+import { Grid } from "@mui/material"
+
 
 function CourseProjects() {
   return (
-    document.title = "Zach Hubbard | Course Projects",
+    document.title = "Zach Hubbard | Game Projects",
     <div>
       <NavbarComponent />
-      <h1>Course Projects</h1>
-    </div>
+      <h1 className="base-header">Course Projects</h1>
+       <Grid container direction="row" justifyContent="center">
+          <Grid item xs={3}>
+            <ApplachianSeedCard />
+          </Grid>
+          <Grid item xs={3}>
+            <WVQuestCard />
+          </Grid>
+          <Grid item xs={3}>
+            <DawnOfAlinaCard />
+          </Grid>
+        </Grid>
+      </div>
   );
 }
 
