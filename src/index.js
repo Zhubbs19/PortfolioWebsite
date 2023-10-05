@@ -8,6 +8,7 @@ import WVQuest from './Pages/WV Quest/WVQuest';
 import DawnOfAlina from './Pages/Dawn of Alina/DawnOfAlina';
 import SeedAPult from './Pages/SeedAPult/SeedAPult';
 import PersonalProjects from './Pages/Personal Projects/PersonalProjects';
+import Experience from './Pages/Experience/Experience';
 
 import {
   createBrowserRouter,
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "personal-projects",
     element: <PersonalProjects/>,
+  },
+  {
+    path: "Experience",
+    element: <Experience/>,
   },
   {
     path: "WVQuest",

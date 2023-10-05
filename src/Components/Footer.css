@@ -1,7 +1,8 @@
 .base-footer {
+    margin-top: auto;
     font-weight: bold;
     padding: 1%;
-    font-size: 18px;
+    font-size: 16px;
     justify-content: center;
     color: white;
     background: #212529;

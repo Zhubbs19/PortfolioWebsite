@@ -8,6 +8,7 @@ function DawnOfAlina() {
     <div className="DawnOfAlina">
       <NavbarComponent />
       <h1 className="base-header">Dawn Of Alina</h1>
+      < Footer />
     </div>
   );
 }

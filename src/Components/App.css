@@ -1,5 +1,8 @@
 .App{
   background: #d3d3d3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .CardsGrid {
@@ -34,5 +37,14 @@
 
 .Experience {
   display: flex;
+}
+
+.experience-skills {
+  padding: 2%;
+  font-size: 1.25rem;
+}
+
+.bullet-list {
+  padding: 1%;
 }
 
