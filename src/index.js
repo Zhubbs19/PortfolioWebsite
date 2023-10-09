@@ -4,9 +4,9 @@ import './index.css';
 import App from './Components/App';
 import CourseProjects from './Pages/Course Projects/CourseProjects';
 import GameProjects from './Pages/Game Projects/GameProjects';
-import WVQuest from './Pages/WV Quest/WVQuest';
-import DawnOfAlina from './Pages/Dawn of Alina/DawnOfAlina';
-import SeedAPult from './Pages/SeedAPult/SeedAPult';
+import WVQuest from './Pages/Games/WV Quest/WVQuest';
+import DawnOfAlina from './Pages/Games/Dawn of Alina/DawnOfAlina';
+import SeedAPult from './Pages/Games/SeedAPult/SeedAPult';
 import PersonalProjects from './Pages/Personal Projects/PersonalProjects';
 import Experience from './Pages/Experience/Experience';
 

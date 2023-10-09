@@ -1,9 +1,9 @@
 import React from "react";
-import NavbarComponent from "../../Components/Navbar";
-import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "../../Components/Card";
+import NavbarComponent from "../../Components/Navbar/Navbar";
+import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "../../Components/Card/Card";
 import './CourseProjects.css';
 import { Grid } from "@mui/material"
-import Footer from '../../Components/Footer.js';
+import Footer from '../../Components/Footer/Footer.js';
 
 
 

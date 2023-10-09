@@ -1,8 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Navbar.js';
-import Footer from './Footer.js';
-import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "./Card";
+import Navbar from './Navbar/Navbar.js';
+import Footer from './Footer/Footer.js';
+import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "./Card/Card";
 import { Grid } from "@mui/material"
 import PortfolioImg from './Images/PortfolioCropped.jpg';
 import GDCImg from './Images/GDC.JPG';

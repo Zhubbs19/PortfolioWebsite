@@ -1,8 +1,8 @@
 import React from "react";
-import NavbarComponent from "../../Components/Navbar";
+import NavbarComponent from "../../../Components/Navbar/Navbar";
 import './WVQuest.css';
-import '../../Components/App.css';
-import Footer from '../../Components/Footer.js';
+import '../../../Components/App.css';
+import Footer from '../../../Components/Footer/Footer.js';
 
 function WVQuest() {
   return (

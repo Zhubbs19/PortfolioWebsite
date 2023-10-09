@@ -1,7 +1,7 @@
 import React from "react";
-import NavbarComponent from "../../Components/Navbar";
-import Footer from '../../Components/Footer.js';
-import '../../Components/App.css';
+import NavbarComponent from "../../../Components/Navbar/Navbar";
+import Footer from '../../../Components/Footer/Footer.js';
+import '../../../Components/App.css';
 import './SeedAPult.css';
 
 

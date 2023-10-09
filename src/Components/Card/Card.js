@@ -7,9 +7,9 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './Card.css'
 
-import AppalachianSeedLaunchImg from './Images/AppalachianSeedLaunch.png';
-import WVQuestImg from './Images/WVQuest.PNG';
-import DawnOfAlinaImg from './Images/DawnOfAlina.JPG';
+import AppalachianSeedLaunchImg from '../../Images/AppalachianSeedLaunch.png';
+import WVQuestImg from '../../Images/WVQuest.PNG';
+import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
 
 export default function ApplachianSeedCard() {
   return (
