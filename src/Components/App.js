@@ -13,7 +13,6 @@ function App() {
     document.title = "Zach Hubbard | Home",
     <div className="Global">
       <Navbar />
-      <h1 className="base-header">Featured Projects</h1>
       <div className="CardsGrid">
         <Grid container direction="row" justifyContent="center">
           <Grid item className='Card'>

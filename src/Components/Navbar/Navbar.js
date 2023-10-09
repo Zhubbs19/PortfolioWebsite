@@ -6,7 +6,7 @@ import './Navbar.css';
 function NavbarComponent() {
   return (
     <Navbar collaspeOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navbar">
-      <text className="NavbarTitle">Zach Hubbard</text>
+      <text className="NavbarTitle"><Nav.Link className='link' href="/">Zach Hubbard</Nav.Link></text>
         <Navbar.Toggle classNamearia-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navbar-dropdown'>
           <Nav className='mr-auto'>
