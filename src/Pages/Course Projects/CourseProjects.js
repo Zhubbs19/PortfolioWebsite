@@ -9,18 +9,18 @@ import Footer from '../../Components/Footer.js';
 
 function CourseProjects() {
   return (
-    document.title = "Zach Hubbard | Game Projects",
-    <div className="CourseProjects">
+    document.title = "Zach Hubbard | Course Projects",
+    <div className="Global">
       <NavbarComponent />
       <h1 className="base-header">Course Projects</h1>
        <Grid container direction="row" justifyContent="center">
-          <Grid item xs={3}>
+          <Grid item className='Card'>
             <ApplachianSeedCard />
           </Grid>
-          <Grid item xs={3}>
+          <Grid item className='Card'>
             <WVQuestCard />
           </Grid>
-          <Grid item xs={3}>
+          <Grid item className='Card'>
             <DawnOfAlinaCard />
           </Grid>
         </Grid>

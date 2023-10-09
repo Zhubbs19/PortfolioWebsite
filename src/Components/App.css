@@ -1,4 +1,4 @@
-.App{
+.Global{
   background: #d3d3d3;
   min-height: 100vh;
   display: flex;
@@ -28,20 +28,12 @@
   color: white;
   background: #212529;
   display: flex;
+  justify-content: center;
 }
 
 .about-item {
   font-size: 1.25rem;
   padding: 2%;
-}
-
-.Experience {
-  display: flex;
-}
-
-.experience-skills {
-  padding: 2%;
-  font-size: 1.25rem;
 }
 
 .bullet-list {

@@ -1,5 +1,6 @@
 
 import './Experience.css';
+import '../../Components/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../../Components/Navbar.js';
 import Footer from '../../Components/Footer.js';
@@ -8,7 +9,7 @@ import { Grid } from "@mui/material"
 function Experience () {
     return (
         document.title = "Zach Hubbard | Home",
-    <div className="Experience">
+    <div className="Global">
       <Navbar />
       <h1 className="base-header">Experience</h1>
       <div className="experience-job">

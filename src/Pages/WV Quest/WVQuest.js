@@ -7,7 +7,7 @@ import Footer from '../../Components/Footer.js';
 function WVQuest() {
   return (
     document.title = "Zach Hubbard | WV Quest",
-    <div className="WVQuest">
+    <div className="Global">
       <NavbarComponent />
       <h1 className="base-header">WV Quest</h1>
       <Footer />

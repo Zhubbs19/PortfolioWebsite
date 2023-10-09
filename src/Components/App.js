@@ -11,7 +11,7 @@ import GDCImg from './Images/GDC.JPG';
 function App() {
   return (
     document.title = "Zach Hubbard | Home",
-    <div className="App">
+    <div className="Global">
       <Navbar />
       <h1 className="base-header">Featured Projects</h1>
       <div className="CardsGrid">
