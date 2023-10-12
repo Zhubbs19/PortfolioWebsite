@@ -1,1 +1,21 @@
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    display: flexbox;
+    padding: 1%
+  }
 
+  .feature-list {
+    padding: 1%;
+  }
+
+  .subheader {
+    font-weight: bold;
+    padding-top: 3%;
+    font-size: 20px;
+    color: black;
+    display: flex;
+  }

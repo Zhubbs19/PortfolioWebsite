@@ -7,7 +7,6 @@ import GameProjects from './Pages/Game Projects/GameProjects';
 import WVQuest from './Pages/Games/WV Quest/WVQuest';
 import DawnOfAlina from './Pages/Games/Dawn of Alina/DawnOfAlina';
 import SeedAPult from './Pages/Games/SeedAPult/SeedAPult';
-import PersonalProjects from './Pages/Personal Projects/PersonalProjects';
 import Experience from './Pages/Experience/Experience';
 
 import {
@@ -27,10 +26,6 @@ const router = createBrowserRouter([
   {
     path: "game-projects",
     element: <GameProjects/>,
-  },
-  {
-    path: "personal-projects",
-    element: <PersonalProjects/>,
   },
   {
     path: "Experience",

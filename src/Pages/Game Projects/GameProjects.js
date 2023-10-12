@@ -9,10 +9,10 @@ import Footer from '../../Components/Footer/Footer.js';
 
 function GameProjects() {
   return (
-    document.title = "Zach Hubbard | Game Projects",
+    document.title = "Zach Hubbard | Game and Personal Projects",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Game Projects</h1>
+      <h1 className="base-header">Game and Personal Projects</h1>
       <div className="CardsGrid">
         <Grid container direction="row" justifyContent="center">
           <Grid item className='Card'>

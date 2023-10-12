@@ -2,17 +2,23 @@
     background-color: #1a1a1a;
     width: 100%;
     display: flex;
+    font-family: "Roboto";
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../RobotoCondensed-Regular.ttf") format("tff");
+  }
 
 .link {
     text-decoration: none;
     color: white;
-    font-size: 1.25em;
+    font-size: 1.5rem;
 }
 
 .NavbarTitle {
     color: white;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
     padding-left: 2%;
 }

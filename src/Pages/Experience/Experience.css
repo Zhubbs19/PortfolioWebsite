@@ -1,4 +1,16 @@
+  .experience-job {
+    padding: 2%;
+    font-size: 2rem;
+  }
+
   .experience-skills {
     padding: 2%;
-    font-size: 1.25rem;
+  }
+
+  .info {
+    font-size: 1.3rem;
+  }
+
+  .date {
+    font-size: 1.3rem;
   }

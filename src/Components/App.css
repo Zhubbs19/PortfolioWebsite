@@ -3,15 +3,21 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../RobotoCondensed-Regular.ttf") format("tff");
 }
 
 .CardsGrid {
-  text-align: center;
   display: flex;
+  text-align: center;
 }
 
 .grid-item {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 1em;
   font-size: 18px;
 }
@@ -19,12 +25,13 @@
 .Card {
   padding: 2%;
   max-width: 500px;
+  justify-content: center;
  }
 
 .base-header {
   font-weight: bold;
   padding: 2%;
-  font-size: 28px;
+  font-size: 2.5rem;
   color: white;
   background: #212529;
   display: flex;
@@ -32,11 +39,24 @@
 }
 
 .about-item {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 2%;
 }
 
 .bullet-list {
-  padding: 1%;
+  padding: 2%;
+  font-size: 1.25rem;
 }
+
+.video-responsive {
+  padding-bottom: 56.25%;
+  display: flexbox;
+}
+
+.video-responsive iframe {
+  display: flexbox;
+}
+
+
+
 
