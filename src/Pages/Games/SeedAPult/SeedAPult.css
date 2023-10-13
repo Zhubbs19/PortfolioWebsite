@@ -1,21 +1,25 @@
-.row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 50%;
-    display: flexbox;
-    padding: 1%
-  }
+
+.about-content {
+  max-width: 98%;
+  display: flex;
+  font-size: 6rem;
+}
 
   .feature-list {
     padding: 1%;
+    display: flexbox;
+
   }
 
   .subheader {
     font-weight: bold;
-    padding-top: 3%;
-    font-size: 20px;
+    padding-top: fit-content;
+    font-size: 1.5rem;
     color: black;
     display: flex;
+  }
+
+  .about-grid {
+
+    font-size: 2rem;
   }

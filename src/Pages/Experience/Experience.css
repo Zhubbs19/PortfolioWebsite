@@ -1,16 +1,21 @@
   .experience-job {
-    padding: 2%;
-    font-size: 2rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: fit-content;
+    border-color: #212529;
+    border-bottom: 8px outset #212529;
+    border-radius: 16px;
   }
 
   .experience-skills {
     padding: 2%;
+    font-size: 2rem;
   }
 
   .info {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .date {
-    font-size: 1.3rem;
+    font-size: fit-content;
   }

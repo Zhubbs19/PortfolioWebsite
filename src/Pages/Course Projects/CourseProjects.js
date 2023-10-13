@@ -3,6 +3,7 @@ import NavbarComponent from "../../Components/Navbar/Navbar";
 import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "../../Components/Card/Card";
 import './CourseProjects.css';
 import '../../Components/App.css';
+import '../../Components/Card/Card.css'
 import { Grid } from "@mui/material"
 import Footer from '../../Components/Footer/Footer.js';
 

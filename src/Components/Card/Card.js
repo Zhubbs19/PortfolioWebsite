@@ -11,6 +11,7 @@ import AppalachianSeedLaunchImg from '../../Images/AppalachianSeedLaunch.png';
 import WVQuestImg from '../../Images/WVQuest.PNG';
 import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
 
+//#region Appalachian Seed Launch
 export default function ApplachianSeedCard() {
   return (
     <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
@@ -29,12 +30,14 @@ export default function ApplachianSeedCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="large" href='SeedAPult'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='SeedAPult'>Learn More</Button>
       </CardActions>
     </Card>
   );
 }
+//#endregion
 
+//#region WV Quest
 export function WVQuestCard() {
   return (
     <Card className='Card' sx={{ minWidth: 400, minHeight: 500}}>
@@ -53,12 +56,14 @@ export function WVQuestCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="large" href='WVQuest'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='WVQuest'>Learn More</Button>
       </CardActions>
     </Card>
   );
 }
+//#endregion
 
+//#region Dawn of Alina
 export function DawnOfAlinaCard() {
   return (
     <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
@@ -77,8 +82,9 @@ export function DawnOfAlinaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="large" href='DawnOfAlina'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='DawnOfAlina'>Learn More</Button>
       </CardActions>
     </Card>
   );
 }
+//#endregion

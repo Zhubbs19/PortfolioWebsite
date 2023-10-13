@@ -2,11 +2,12 @@
     background-color: #1a1a1a;
     width: 100%;
     display: flex;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 @font-face {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     src: url("../../RobotoCondensed-Regular.ttf") format("tff");
   }
 

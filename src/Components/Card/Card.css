@@ -1,1 +1,15 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("../../RobotoCondensed-Regular.ttf") format("tff");
+  }
 
+.Card {
+    padding: 2%;
+    max-width: 500px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   .button {
+    text-shadow: 2px 2px 4px #000000;
+   }
