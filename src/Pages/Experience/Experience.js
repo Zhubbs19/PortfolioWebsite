@@ -62,6 +62,22 @@ function Experience () {
           </Grid>
         </Grid>
       </div>
+      <div className="experience-job">
+        <Grid container direction="row" justifyContent="left" className='experience-grid' >
+          <Grid item className='grid-item' style={{fontSize: '1.25rem', width: '32%'}}>
+            <p style={{ fontWeight: 'bold' }}>Cleveland State University</p>
+            <p>Cleveland, OH</p>
+            <p>Undergraduate Researcher - Rehabilitation Engineering</p>
+          </Grid>
+          <Grid item className='grid-item'>
+            <p className='info'>Created new and worked with existing MATLAB scripts to analyze and graph motion-capture data for post-stroke individuals participating in motion-based balance tasks as part of a summer internship and research project. 
+            Presented my work at the Midwest American Society of Biomechanics Conference in Cleveland, OH in September 2021. </p>
+          </Grid>
+          <Grid item className='grid-item'>
+            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>May 2021 - August 2021</p>
+          </Grid>
+        </Grid>
+      </div>
       <div className="experience-skills">
         <Grid container direction="Row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item'>
