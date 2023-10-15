@@ -5,7 +5,7 @@ import VideoEmbed from '../../../Components/EmbeddedVideo/EmbeddedVideo.js';
 import { Grid } from "@mui/material"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../../Components/App.css';
-import './SeedAPult.css';
+import '../GamePages.css';
 
 function SeedAPult() {
   return (

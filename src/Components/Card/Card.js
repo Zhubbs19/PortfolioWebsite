@@ -10,6 +10,7 @@ import './Card.css'
 import AppalachianSeedLaunchImg from '../../Images/AppalachianSeedLaunch.png';
 import WVQuestImg from '../../Images/WVQuest.PNG';
 import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
+import EndlessJumpImg from '../../Images/endlessjump.png';
 
 //#region Appalachian Seed Launch
 export default function ApplachianSeedCard() {
@@ -78,11 +79,37 @@ export function DawnOfAlinaCard() {
           Dawn of Alina
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Game Development, WV State Musuem Capstone Project
+        Mon River Games Summer 2022 and Fall 2023 Sessions
         </Typography>
       </CardContent>
       <CardActions>
         <Button className='button' size="large" variant='contained' href='DawnOfAlina'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+
+//#region Endless Jump
+export function EndlessJumpCard() {
+  return (
+    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 400 }}
+        component="img"
+        image={EndlessJumpImg}
+        title="Endless Jump"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+          Endless Jump
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+          Mon River Games, Advanced Game Design Course
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='EndlessJump'>Learn More</Button>
       </CardActions>
     </Card>
   );

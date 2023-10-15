@@ -8,6 +8,7 @@ import WVQuest from './Pages/Games/WV Quest/WVQuest';
 import DawnOfAlina from './Pages/Games/Dawn of Alina/DawnOfAlina';
 import SeedAPult from './Pages/Games/SeedAPult/SeedAPult';
 import Experience from './Pages/Experience/Experience';
+import EndlessJump from './Pages/Games/EndlessJump/EndlessJump';
 
 import {
   createBrowserRouter,
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: "SeedAPult",
     element: <SeedAPult/>,
+  },
+  {
+    path: "EndlessJump",
+    element: <EndlessJump/>,
   },
   {
     path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true", 

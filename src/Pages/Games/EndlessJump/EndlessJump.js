@@ -9,10 +9,10 @@ import WVQuestCamera from '../../../Images/WVQuestCameraScreen.PNG';
 
 function WVQuest() {
   return (
-    document.title = "Zach Hubbard | WV Quest",
+    document.title = "Zach Hubbard | Endless Jump",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">WV Quest - State Musuem Capstone Project</h1>
+      <h1 className="base-header">Endless Jump</h1>
       <div className="about-content">
       <Grid container direction="row" justifyContent="left" className='about-grid'>
       <Grid item className='about-item'>
