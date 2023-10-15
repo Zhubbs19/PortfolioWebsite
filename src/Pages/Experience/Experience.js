@@ -6,15 +6,15 @@ import Navbar from '../../Components/Navbar/Navbar.js';
 import Footer from '../../Components/Footer/Footer.js';
 import { Grid } from "@mui/material"
 
-function Experience () {
-    return (
-        document.title = "Zach Hubbard | Home",
+function Experience() {
+  return (
+    document.title = "Zach Hubbard | Home",
     <div className="Global">
       <Navbar />
       <h1 className="base-header">Experience</h1>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{fontSize: '1.25rem', width: '32%'}}>
+          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
             <p style={{ fontWeight: 'bold' }}>Mon River Games</p>
             <p>Morgantown, WV</p>
             <p>Member, Developer</p>
@@ -30,7 +30,7 @@ function Experience () {
       </div>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{fontSize: '1.25rem' , width: '32%'}}>
+          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
             <p style={{ fontWeight: 'bold' }}>Senior Capstone Project - WV State Museum App - West Virginia University</p>
             <p>Morgantown, WV</p>
             <p>Developer</p>
@@ -47,7 +47,7 @@ function Experience () {
       </div>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{fontSize: '1.25rem', width: '32%'}}>
+          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
             <p style={{ fontWeight: 'bold' }}>LCSEE Learning Center, West Virginia University</p>
             <p>Morgantown, WV</p>
             <p>Tutor</p>
@@ -64,14 +64,14 @@ function Experience () {
       </div>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{fontSize: '1.25rem', width: '32%'}}>
+          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
             <p style={{ fontWeight: 'bold' }}>Cleveland State University</p>
             <p>Cleveland, OH</p>
             <p>Undergraduate Researcher - Rehabilitation Engineering</p>
           </Grid>
           <Grid item className='grid-item'>
-            <p className='info'>Created new and worked with existing MATLAB scripts to analyze and graph motion-capture data for post-stroke individuals participating in motion-based balance tasks as part of a summer internship and research project. 
-            Presented my work at the Midwest American Society of Biomechanics Conference in Cleveland, OH in September 2021. </p>
+            <p className='info'>Created new and worked with existing MATLAB scripts to analyze and graph motion-capture data for post-stroke individuals participating in motion-based balance tasks as part of a summer internship and research project.
+              Presented my work at the Midwest American Society of Biomechanics Conference in Cleveland, OH in September 2021. </p>
           </Grid>
           <Grid item className='grid-item'>
             <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>May 2021 - August 2021</p>
@@ -81,33 +81,33 @@ function Experience () {
       <div className="experience-skills">
         <Grid container direction="Row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item'>
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', paddingBottom: '2%'}}>Relevant Courses</h3>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', paddingBottom: '2%' }}>Relevant Courses</h3>
             <li className='bullet-list'><strong>MDIA 472: Advanced Game Design</strong> -
               Developed 2D and 3D Games as a member of a nonprofit games development studio.</li>
-            <li className='bullet-list'><strong>CS 210: File and Data Structures</strong> - Development of Java database that can create, store, 
+            <li className='bullet-list'><strong>CS 210: File and Data Structures</strong> - Development of Java database that can create, store,
               and print tables and can interpret SQL queries.</li>
-            <li className='bullet-list'><strong>CS 440: Database Design and Theory</strong> - Developed an interactive database application using SQL and Oracle Database 
+            <li className='bullet-list'><strong>CS 440: Database Design and Theory</strong> - Developed an interactive database application using SQL and Oracle Database
               for the queries and tables, alongside Python and Tkinter for the application UI.</li>
-            <li className='bullet-list'><strong>CS 450: Operating Systems Structures</strong> - Worked in a team to implement functionality to a C operating system, such as a 
+            <li className='bullet-list'><strong>CS 450: Operating Systems Structures</strong> - Worked in a team to implement functionality to a C operating system, such as a
               command-line terminal, process/memory management, and interrupt-driven IO.</li>
-              <li className='bullet-list'><strong>CS 470: Intro to Computer Graphics</strong> - Used Python, Pygame, 
-                Tkinter and OpenGL to create simple computer graphics applications.</li>
+            <li className='bullet-list'><strong>CS 470: Intro to Computer Graphics</strong> - Used Python, Pygame,
+              Tkinter and OpenGL to create simple computer graphics applications.</li>
           </Grid>
           <Grid item className='grid-item'>
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%'}}>Education</h3>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Education</h3>
             <li className='bullet-list'><strong>West Virginia University, Morgantown, WV</strong></li>
             <li className='bullet-list'><strong>Bachelor of Science in Computer Science, Minor in Philosophy</strong></li>
             <li className='bullet-list'><strong>GPA: 3.34</strong></li>
             <li className='bullet-list'><strong>Graduated May 2023</strong></li>
 
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%'}}>Skills</h3>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Skills</h3>
             <li className='bullet-list'><strong>Languages: </strong> C#, Java, C, C++, Python, Javascript, HTML, CSS</li>
             <li className='bullet-list'><strong>Operating Systems: </strong>Windows, Linux</li>
             <li className='bullet-list'><strong>Graphics and Design: </strong>Unity, OpenGL</li>
             <li className='bullet-list'><strong>Databases: </strong>MySQL, Firebase, Oracle Database</li>
             <li className='bullet-list'><strong>Version Control: </strong>Git, Github, BitBucket</li>
 
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%'}}>Activites</h3>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Activites</h3>
             <li className='bullet-list'><strong>2022-2023 Vice President - WVU Game Developers Club</strong></li>
             <li className='bullet-list'><strong>2022-2023 Treasurer - WVU X-Reality (VR/AR Club)</strong></li>
           </Grid>
@@ -115,6 +115,6 @@ function Experience () {
       </div>
       <Footer />
     </div>
-      );
-    }
-    export default Experience;
+  );
+}
+export default Experience;
