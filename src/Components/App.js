@@ -9,12 +9,14 @@ import PortfolioImg from '../Images/PortfolioCropped.jpg';
 import GDCImg from '../Images/GDC.JPG';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
-import { createRoot } from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
 
-const container = document.getElementById('app');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<App tab="home" />);
-
+<React.StrictMode>
+    <HashRouter basename='/'>
+      <App />
+    </HashRouter>
+  </React.StrictMode>,
+  document.getElementById('root')
 
 function App() {
   return (
