@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/zmh0007/PortfolioWebsite/static/css/main.f1dca97c.css",
-    "main.js": "/zmh0007/PortfolioWebsite/static/js/main.0ac8571a.js",
-    "static/media/PortfolioCropped.jpg": "/zmh0007/PortfolioWebsite/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
-    "static/media/GDC.JPG": "/zmh0007/PortfolioWebsite/static/media/GDC.b34fb74c8a1ecd20d8f3.JPG",
-    "static/media/RobotoCondensed-Regular.ttf": "/zmh0007/PortfolioWebsite/static/media/RobotoCondensed-Regular.fc3d2f2e3a203d0037c1.ttf",
-    "static/media/HighBytes.png": "/zmh0007/PortfolioWebsite/static/media/HighBytes.ba1177d4a728c0f49833.png",
-    "static/media/WVQuest.PNG": "/zmh0007/PortfolioWebsite/static/media/WVQuest.1fc7c34c6c6425214951.PNG",
-    "static/media/AppalachianSeedLaunch.png": "/zmh0007/PortfolioWebsite/static/media/AppalachianSeedLaunch.a628223546b48cac6a02.png",
-    "static/media/DawnOfAlinaLarge.JPG": "/zmh0007/PortfolioWebsite/static/media/DawnOfAlinaLarge.0affe8e8295c354f68ab.JPG",
-    "static/media/WVQuestCameraScreen.PNG": "/zmh0007/PortfolioWebsite/static/media/WVQuestCameraScreen.d46cf2047bf6f1718237.PNG",
-    "static/media/DawnOfAlina.JPG": "/zmh0007/PortfolioWebsite/static/media/DawnOfAlina.a3c0c4d6d114f0f2e02c.JPG",
-    "static/media/RegistraitionWVQuest.PNG": "/zmh0007/PortfolioWebsite/static/media/RegistraitionWVQuest.428bb4ef47a16e697572.PNG",
-    "static/media/endlessjump.png": "/zmh0007/PortfolioWebsite/static/media/endlessjump.51a152ab0dbdfed23db2.png",
-    "index.html": "/zmh0007/PortfolioWebsite/index.html",
-    "main.f1dca97c.css.map": "/zmh0007/PortfolioWebsite/static/css/main.f1dca97c.css.map",
-    "main.0ac8571a.js.map": "/zmh0007/PortfolioWebsite/static/js/main.0ac8571a.js.map"
+    "main.css": "/static/css/main.2858311a.css",
+    "main.js": "/static/js/main.d9b7fde1.js",
+    "static/media/PortfolioCropped.jpg": "/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
+    "static/media/GDC.JPG": "/static/media/GDC.b34fb74c8a1ecd20d8f3.JPG",
+    "static/media/RobotoCondensed-Regular.ttf": "/static/media/RobotoCondensed-Regular.fc3d2f2e3a203d0037c1.ttf",
+    "static/media/HighBytes.png": "/static/media/HighBytes.ba1177d4a728c0f49833.png",
+    "static/media/WVQuest.PNG": "/static/media/WVQuest.1fc7c34c6c6425214951.PNG",
+    "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a628223546b48cac6a02.png",
+    "static/media/DawnOfAlina.JPG": "/static/media/DawnOfAlina.a3c0c4d6d114f0f2e02c.JPG",
+    "static/media/endlessjump.png": "/static/media/endlessjump.51a152ab0dbdfed23db2.png",
+    "index.html": "/index.html",
+    "main.2858311a.css.map": "/static/css/main.2858311a.css.map",
+    "main.d9b7fde1.js.map": "/static/js/main.d9b7fde1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1dca97c.css",
-    "static/js/main.0ac8571a.js"
+    "static/css/main.2858311a.css",
+    "static/js/main.d9b7fde1.js"
   ]
 }
