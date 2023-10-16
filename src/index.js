@@ -10,13 +10,10 @@ import SeedAPult from './Pages/Games/SeedAPult';
 import Experience from './Pages/Experience/Experience';
 import EndlessJump from './Pages/Games/EndlessJump';
 import HighBytesOS from './Pages/Course Projects/HighBytesOS';
+import { HashRouter as Router } from 'react-router-dom';
+import RouterProvider from "react-router-dom";
 
-import {
-  RouterProvider,
-  createHashRouter,
-} from "react-router-dom";
-
-const router = createHashRouter([
+const router = Router([
   {
     path: "/home",
     element: <App/>,
