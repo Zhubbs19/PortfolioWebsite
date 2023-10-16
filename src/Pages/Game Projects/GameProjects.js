@@ -6,11 +6,14 @@ import '../../Components/App.css';
 import '../../Components/Card/Card.css'
 import { Grid } from "@mui/material"
 import Footer from '../../Components/Footer/Footer.js';
+import siteTheme from '../../SiteTheme';
+import { ThemeProvider } from "@mui/material/styles";
 
 
 function GameProjects() {
   return (
     document.title = "Zach Hubbard | Game and Personal Projects",
+    <ThemeProvider theme={siteTheme}>
     <div className="Global">
       <NavbarComponent />
       <h1 className="base-header">Game and Personal Projects</h1>
@@ -32,6 +35,7 @@ function GameProjects() {
       </div>
       <Footer />
     </div>
+    </ThemeProvider>
   );
 }
 

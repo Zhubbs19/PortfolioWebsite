@@ -11,6 +11,7 @@ import AppalachianSeedLaunchImg from '../../Images/AppalachianSeedLaunch.png';
 import WVQuestImg from '../../Images/WVQuest.PNG';
 import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
 import EndlessJumpImg from '../../Images/endlessjump.png';
+import HighBytesOSImg from '../../Images/HighBytes.png';
 
 //#region Appalachian Seed Launch
 export default function ApplachianSeedCard() {
@@ -106,6 +107,58 @@ export function EndlessJumpCard() {
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
           Mon River Games, Advanced Game Design Course
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='EndlessJump'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+
+//#region High-Bytes OS
+export function HighBytesOSCard() {
+  return (
+    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 400 }}
+        component="img"
+        image={HighBytesOSImg}
+        title="Endless Jump"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+          High-Bytes OS
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+          CS 450 - Operating Systems Sturctures Group Project
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='HighBytesOS'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+
+//#region High-Bytes OS
+export function CS470MenuCard() {
+  return (
+    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 400 }}
+        component="img"
+        image={EndlessJumpImg}
+        title="Endless Jump"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+        Python Tinkter Menu
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+          CS 470 Menu Project written in Python and Tkinter
         </Typography>
       </CardContent>
       <CardActions>

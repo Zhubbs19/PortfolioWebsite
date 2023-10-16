@@ -4,11 +4,12 @@ import './index.css';
 import App from './Components/App';
 import CourseProjects from './Pages/Course Projects/CourseProjects';
 import GameProjects from './Pages/Game Projects/GameProjects';
-import WVQuest from './Pages/Games/WV Quest/WVQuest';
-import DawnOfAlina from './Pages/Games/Dawn of Alina/DawnOfAlina';
-import SeedAPult from './Pages/Games/SeedAPult/SeedAPult';
+import WVQuest from './Pages/Games/WVQuest';
+import DawnOfAlina from './Pages/Games/DawnOfAlina';
+import SeedAPult from './Pages/Games/SeedAPult';
 import Experience from './Pages/Experience/Experience';
-import EndlessJump from './Pages/Games/EndlessJump/EndlessJump';
+import EndlessJump from './Pages/Games/EndlessJump';
+import HighBytesOS from './Pages/Course Projects/HighBytesOS';
 
 import {
   createBrowserRouter,
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
   {
     path: "EndlessJump",
     element: <EndlessJump/>,
+  },
+  {
+    path: "HighBytesOS",
+    element: <HighBytesOS/>,
   },
   {
     path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true", 

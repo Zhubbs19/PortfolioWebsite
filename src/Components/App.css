@@ -18,8 +18,9 @@
 
 .grid-item {
   min-width: 40%;
-  max-width: 55%;
+  max-width: 57%;
   padding: 1em;
+  padding-bottom: 0em;
   font-size: 18px;
   display: flexbox;
 }

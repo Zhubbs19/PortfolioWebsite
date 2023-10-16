@@ -1,12 +1,12 @@
 import React from "react";
-import NavbarComponent from "../../../Components/Navbar/Navbar";
-import Footer from '../../../Components/Footer/Footer.js';
-import '../../../Components/App.css';
-import '../GamePages.css';
+import NavbarComponent from "../../Components/Navbar/Navbar";
+import Footer from '../../Components/Footer/Footer.js';
+import '../../Components/App.css';
+import './GamePages.css';
 import { Grid } from "@mui/material"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../../Components/App.css';
-import DawnOfAlinaImg from '../../../Images/DawnOfAlinaLarge.JPG';
+import '../../Components/App.css';
+import DawnOfAlinaImg from '../../Images/DawnOfAlinaLarge.JPG';
 
 function DawnOfAlina() {
   return (
