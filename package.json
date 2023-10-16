@@ -1,5 +1,6 @@
 {
-  "name": "portfolio_website",
+  "name": "react-app",
+  "homepage": "https://github.io/zmh0007/PortfolioWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
