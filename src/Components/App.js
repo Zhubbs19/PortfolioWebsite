@@ -10,7 +10,6 @@ import GDCImg from '../Images/GDC.JPG';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
 
-
 function App() {
   return (
     document.title = "Zach Hubbard | Home",

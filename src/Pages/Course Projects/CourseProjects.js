@@ -9,8 +9,6 @@ import Footer from '../../Components/Footer/Footer.js';
 import siteTheme from '../../SiteTheme';
 import { ThemeProvider } from "@mui/material/styles";
 
-
-
 function CourseProjects() {
   return (
     document.title = "Zach Hubbard | Course Projects",
