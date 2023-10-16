@@ -9,3 +9,9 @@ createRoot(document.getElementById('root')).render(
     <App />
   </HashRouter>
 );
+
+<React.StrictMode>
+    <HashRouter basename='/home'>
+      <App />
+    </HashRouter>
+  </React.StrictMode>

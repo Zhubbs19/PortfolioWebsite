@@ -9,14 +9,6 @@ import PortfolioImg from '../Images/PortfolioCropped.jpg';
 import GDCImg from '../Images/GDC.JPG';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
-import { HashRouter } from 'react-router-dom';
-
-<React.StrictMode>
-    <HashRouter basename='/'>
-      <App />
-    </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
 
 function App() {
   return (

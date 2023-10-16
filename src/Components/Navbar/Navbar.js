@@ -10,7 +10,7 @@ function NavbarComponent() {
         <Navbar.Toggle classNamearia-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navbar-dropdown'>
           <Nav className='mr-auto'>
-            <Nav.Link className='link' href="/">Home</Nav.Link>
+            <Nav.Link className='link' href="/home">Home</Nav.Link>
             <Nav.Link className='link' href="/game-projects">Game/Personal Projects</Nav.Link>
             <Nav.Link className='link' href="/course-projects">Course Projects</Nav.Link>
             <Nav.Link className='link' href="/experience">Experience</Nav.Link>
