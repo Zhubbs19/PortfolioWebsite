@@ -11,7 +11,7 @@ import Experience from './Pages/Experience/Experience';
 import EndlessJump from './Pages/Games/EndlessJump';
 import HighBytesOS from './Pages/Course Projects/HighBytesOS';
 import { HashRouter as Router } from 'react-router-dom';
-import RouterProvider from "react-router-dom";
+import {RouterProvider} from "react-router-dom";
 
 const router = Router([
   {
