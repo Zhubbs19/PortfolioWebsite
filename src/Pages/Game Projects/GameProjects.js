@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar/Navbar";
-import ApplachianSeedCard, { DawnOfAlinaCard, EndlessJumpCard, WVQuestCard } from "../../Components/Card/Card";
+import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "../../Components/Card/Card";
 import './GameProjects.css';
 import '../../Components/App.css';
 import '../../Components/Card/Card.css'
@@ -27,9 +27,6 @@ function GameProjects() {
           </Grid>
           <Grid item className='Card'>
             <DawnOfAlinaCard />
-          </Grid>
-          <Grid item className='Card'>
-            <EndlessJumpCard />
           </Grid>
         </Grid>
       </div>

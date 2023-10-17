@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar/Navbar";
-import { CS470MenuCard, HighBytesOSCard, WVQuestCard} from "../../Components/Card/Card";
+import {HighBytesOSCard, WVQuestCard} from "../../Components/Card/Card";
 import './CourseProjects.css';
 import '../../Components/App.css';
 import '../../Components/Card/Card.css'
@@ -23,9 +23,6 @@ function CourseProjects() {
         </Grid>
         <Grid item className='Card'>
           <WVQuestCard />
-        </Grid>
-        <Grid item className='Card'>
-          <CS470MenuCard />
         </Grid>
       </Grid>
       </div>
