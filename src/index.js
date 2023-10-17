@@ -1,17 +1,28 @@
 import React from 'react';
 import './index.css';
 import App from './Components/App';
-import { HashRouter } from 'react-router-dom';
 import { createRoot } from 'react-dom';
+import { RouterProvider } from 'react-router';
+import CourseProjects from './Pages/Course Projects/CourseProjects';
+import GameProjects from './Pages/Game Projects/GameProjects';
+import { createBrowserRouter } from 'react-router-dom';
 
-createRoot(document.getElementById('root')).render(
-  <HashRouter>
-    <App />
-  </HashRouter>
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  {
+    path: "course-projects",
+    element: <CourseProjects/>,
+  },
+  {
+    path: "game-projects",
+    element: <GameProjects/>,
+  },
+]);
+
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <RouterProvider router={router} />
 );
-
-<React.StrictMode>
-    <HashRouter basename='/home'>
-      <App />
-    </HashRouter>
-  </React.StrictMode>
