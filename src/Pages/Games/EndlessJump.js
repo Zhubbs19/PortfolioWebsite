@@ -4,8 +4,6 @@ import './GamePages.css';
 import '../../Components/App.css';
 import Footer from '../../Components/Footer/Footer.js';
 import { Grid } from "@mui/material"
-import WVQuestRegistration from '../../Images/RegistraitionWVQuest.PNG';
-import WVQuestCamera from '../../Images/WVQuestCameraScreen.PNG';
 
 function WVQuest() {
   return (
@@ -15,12 +13,6 @@ function WVQuest() {
       <h1 className="base-header">Endless Jump</h1>
       <div className="about-content">
       <Grid container direction="row" justifyContent="left" className='about-grid'>
-      <Grid item className='about-item'>
-        <img className='about-item' src={WVQuestRegistration} alt='Registraition Screen' width='404px' height='795px'></img>
-      </Grid>
-      <Grid item className='about-item'>
-        <img className='about-item' src={WVQuestCamera} alt='Camera Screen' width='404px' height='795px'></img>
-      </Grid>
         <Grid item className='grid-item'>
           <p className="grid-item">Endless jump is a 2D-platforming game inspired by popular mobile games such as doodle jump. 
           The main objective is to achieve as high a score as possible by jumping from platform to platform. 

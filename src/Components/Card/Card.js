@@ -32,7 +32,7 @@ export default function ApplachianSeedCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button className='button' size="large" variant='contained' href='SeedAPult'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='#SeedAPult'>Learn More</Button>
       </CardActions>
     </Card>
   );
@@ -58,7 +58,7 @@ export function WVQuestCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button className='button' size="large" variant='contained' href='WVQuest'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='#WVQuest'>Learn More</Button>
       </CardActions>
     </Card>
   );
@@ -84,7 +84,7 @@ export function DawnOfAlinaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button className='button' size="large" variant='contained' href='DawnOfAlina'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='#DawnOfAlina'>Learn More</Button>
       </CardActions>
     </Card>
   );
@@ -110,7 +110,7 @@ export function EndlessJumpCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button className='button' size="large" variant='contained' href='EndlessJump'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='#EndlessJump'>Learn More</Button>
       </CardActions>
     </Card>
   );
@@ -162,7 +162,7 @@ export function CS470MenuCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button className='button' size="large" variant='contained' href='EndlessJump'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='#EndlessJump'>Learn More</Button>
       </CardActions>
     </Card>
   );
