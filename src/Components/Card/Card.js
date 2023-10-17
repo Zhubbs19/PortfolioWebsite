@@ -21,11 +21,11 @@ export default function ApplachianSeedCard() {
         sx={{ height: 400 }}
         component="img"
         image={AppalachianSeedLaunchImg}
-        title="Appalachian Seed Launch"
+        title="Appalachian Seed-A-Pult"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Appalachian Seed Launch
+        Appalachian Seed-A-Pult
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
           Game Development, Mon River Games Global Game Jam 2023
