@@ -1,14 +1,12 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar/Navbar";
 import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "../../Components/Card/Card";
-import './GameProjects.css';
 import '../../Components/App.css';
 import '../../Components/Card/Card.css'
 import { Grid } from "@mui/material"
 import Footer from '../../Components/Footer/Footer.js';
 import siteTheme from '../../SiteTheme';
 import { ThemeProvider } from "@mui/material/styles";
-
 
 function GameProjects() {
   return (

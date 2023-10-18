@@ -14,15 +14,15 @@ function WVQuest() {
       <NavbarComponent />
       <h1 className="base-header">WV Quest - State Musuem Capstone Project</h1>
       <div className="about-content">
-      <Grid container direction="row" justifyContent="left" className='about-grid'>
-      <Grid item className='about-item'>
-        <img className='about-item' src={WVQuestRegistration} alt='Registraition Screen' width='404px' height='795px'></img>
+      <Grid container direction="row" justifyContent="center" className='about-grid'>
+      <Grid item className='image-item'>
+        <img src={WVQuestRegistration} alt='Registraition Screen' width='404px' height='795px'></img>
       </Grid>
-      <Grid item className='about-item'>
-        <img className='about-item' src={WVQuestCamera} alt='Camera Screen' width='404px' height='795px'></img>
+      <Grid item className='image-item'>
+        <img src={WVQuestCamera} alt='Camera Screen' width='404px' height='795px'></img>
       </Grid>
-        <Grid item className='grid-item'>
-          <p className="grid-item">WV Quest is a interactive app that was created in collaboration with the West 
+        <Grid item className='info-item'>
+          <p>WV Quest is a interactive app that was created in collaboration with the West 
           Virginia State Musuem in Charleston, WV. The app allows visitors of the museum, 
           either individually or as part of a group,  to scan QR codes placed throughout the museum at particular 
           exhibits that will allow them to play minigames based on the exhibit, increasing their score 

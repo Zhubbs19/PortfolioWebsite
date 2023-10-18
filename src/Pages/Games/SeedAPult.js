@@ -18,8 +18,8 @@ function SeedAPult() {
           {/* <Grid item className='grid-item'>
             <VideoEmbed videoURL="https://drive.google.com/uc?id=1Bk-RdEVw2AvhL1ETO0B1dZNKIeOdyaZE"></VideoEmbed>
           </Grid> */}
-          <Grid item className='grid-item'>
-            Appalachian Seed-A-Pult is a 2D WebGL seed-launching game where you are tasked with launching a seed to the correct location where it is fertile and can grow. 
+          <Grid item className='info-item'>
+            <p>Appalachian Seed-A-Pult is a 2D WebGL seed-launching game where you are tasked with launching a seed to the correct location where it is fertile and can grow. 
             This game was created in the Unity Game Engine through Mon River Games&apos; 
             participation in the 2023 Global Game Jam, with 4 members participating over 2 days.
               <h3 className="subheader"> Throughout the Game&apos;s development, I implemented:</h3>
@@ -28,7 +28,7 @@ function SeedAPult() {
               <li className='feature-list'>Win and Fail Screens</li>
               <li className='feature-list'>Tweaks to seed launch physics</li>
               <li className='feature-list'>Audio and Asset imports</li>
-              <h3 className="subheader"><a href="https://gdimwvu.itch.io/appalachian-seed-a-pult">Itch.io Page</a></h3>
+              <h3 className="subheader"><a href="https://gdimwvu.itch.io/appalachian-seed-a-pult">Itch.io Page</a></h3></p>
           </Grid>
         </Grid>
       </div>
