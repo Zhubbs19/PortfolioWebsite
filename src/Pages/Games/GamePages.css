@@ -1,18 +1,17 @@
-.about-content {
-  max-width: 96%;
-  min-width: 90%;
-  display: flex;
-  font-size: 6rem;
-}
-  
-.feature-list {
-  padding: 1%;
+.list {
+  border-color: #212529;
+  border-bottom: 6px outset #212529;
+  padding-top: 0.5rem;
   display: flexbox;
+}
+.feature-list {
+  padding: 1rem;
 }
   
 .subheader {
   font-weight: bold;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1.5rem;
   color: black;
   display: flexbox;
@@ -20,22 +19,11 @@
   
 .about-grid {
   font-size: 2rem;
-  display: flex;
-  max-width: 98%;
-  min-width: 10%;
+  display: flexbox;
+  padding: 2rem;
 }
 
 .info-item {
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 1.5rem;
-  max-width: 96%;
-  min-width: 10%;
-  display: flex;
-}
-
-.image-item {
-  padding: 1.25rem;
-  max-width: 100%;
-  min-width: 25%;
-  display: flex;
 }
