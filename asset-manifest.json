@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a03c2db7.css",
-    "main.js": "/static/js/main.f301ccbb.js",
+    "main.css": "/static/css/main.2061efdd.css",
+    "main.js": "/static/js/main.17c07aec.js",
     "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a39e3d39736e8c521b61.png",
     "static/media/PortfolioCropped.jpg": "/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
     "static/media/GDC.JPG": "/static/media/GDC.b34fb74c8a1ecd20d8f3.JPG",
@@ -14,11 +14,11 @@
     "static/media/RegistraitionWVQuest.PNG": "/static/media/RegistraitionWVQuest.428bb4ef47a16e697572.PNG",
     "static/media/endlessjump.png": "/static/media/endlessjump.51a152ab0dbdfed23db2.png",
     "index.html": "/index.html",
-    "main.a03c2db7.css.map": "/static/css/main.a03c2db7.css.map",
-    "main.f301ccbb.js.map": "/static/js/main.f301ccbb.js.map"
+    "main.2061efdd.css.map": "/static/css/main.2061efdd.css.map",
+    "main.17c07aec.js.map": "/static/js/main.17c07aec.js.map"
   },
   "entrypoints": [
-    "static/css/main.a03c2db7.css",
-    "static/js/main.f301ccbb.js"
+    "static/css/main.2061efdd.css",
+    "static/js/main.17c07aec.js"
   ]
 }
