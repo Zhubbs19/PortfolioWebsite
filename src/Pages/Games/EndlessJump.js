@@ -5,7 +5,7 @@ import '../../Components/App.css';
 import Footer from '../../Components/Footer/Footer.js';
 import { Grid } from "@mui/material"
 
-function WVQuest() {
+function EndlessJump() {
   return (
     document.title = "Zach Hubbard | Endless Jump",
     <div className="Global">
@@ -27,4 +27,4 @@ function WVQuest() {
   );
 }
 
-export default WVQuest;
+export default EndlessJump;

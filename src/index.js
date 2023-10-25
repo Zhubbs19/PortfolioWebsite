@@ -11,6 +11,7 @@ import DawnOfAlina from './Pages/Games/DawnOfAlina';
 import SeedAPult from './Pages/Games/SeedAPult';
 import EndlessJump from './Pages/Games/EndlessJump';
 import HighBytesOS from './Pages/Course Projects/HighBytesOS';
+import BlenderProjects from './Pages/Games/BlenderProjects';
 import { createHashRouter } from 'react-router-dom';
 
 const router = createHashRouter([
@@ -49,6 +50,10 @@ const router = createHashRouter([
   {
     path: "HighBytesOS",
     element: <HighBytesOS/>,
+  },
+  {
+    path: "BlenderProjects",
+    element: <BlenderProjects/>,
   },
   {
     path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true", 

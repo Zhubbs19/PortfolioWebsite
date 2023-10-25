@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar/Navbar.js';
 import Footer from './Footer/Footer.js';
-import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard } from "./Card/Card";
+import ApplachianSeedCard, { BlenderProjectsCard, WVQuestCard } from "./Card/Card";
 import { Grid } from "@mui/material"
 import PortfolioImg from '../Images/PortfolioCropped.jpg';
 import GDCImg from '../Images/GDC.JPG';
@@ -25,7 +25,7 @@ function App() {
               <WVQuestCard />
             </Grid>
             <Grid item className='Card'>
-              <DawnOfAlinaCard />
+              <BlenderProjectsCard />
             </Grid>
           </Grid>
         </div>

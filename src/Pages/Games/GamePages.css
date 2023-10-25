@@ -20,10 +20,15 @@
 .about-grid {
   font-size: 2rem;
   display: flexbox;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .info-item {
   padding: 1rem;
   font-size: 1.5rem;
+}
+
+.video {
+  width: 853px; 
+  height: 480px;
 }

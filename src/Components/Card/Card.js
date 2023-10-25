@@ -12,6 +12,7 @@ import WVQuestImg from '../../Images/WVQuest.PNG';
 import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
 import EndlessJumpImg from '../../Images/endlessjump.png';
 import HighBytesOSImg from '../../Images/HighBytes.png';
+import DonutImg from '../../Images/Donut.jpg';
 
 //#region Appalachian Seed Launch
 export default function ApplachianSeedCard() {
@@ -163,6 +164,32 @@ export function CS470MenuCard() {
       </CardContent>
       <CardActions>
         <Button className='button' size="large" variant='contained' href='#EndlessJump'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+
+//#region Blender 3D Models
+export function BlenderProjectsCard() {
+  return (
+    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 430 }}
+        component="img"
+        image={DonutImg}
+        title="Blender Donut"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+        Blender Projects
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+          Blender 3D Modeling Projects
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='#BlenderProjects'>Learn More</Button>
       </CardActions>
     </Card>
   );
