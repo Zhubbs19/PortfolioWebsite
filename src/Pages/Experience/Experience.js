@@ -14,73 +14,73 @@ function Experience() {
       <h1 className="base-header">Experience</h1>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
-            <p style={{ fontWeight: 'bold' }}>Mon River Games</p>
-            <p>Morgantown, WV</p>
-            <p>Member, Developer</p>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className="name" style={{ fontWeight: 'bold' }}>Mon River Games</p>
+            <p className="name">Morgantown, WV</p>
+            <p className="name">Member, Developer</p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='info'>Member/developer for a Non-Profit 501(c)(3) Voluntary Organization/game development studio
               using C# and the Unity game engine, creating both 2D and 3D games.</p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>May 2022 - Present</p>
           </Grid>
         </Grid>
       </div>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
-            <p style={{ fontWeight: 'bold' }}>Senior Capstone Project - WV State Museum App - West Virginia University</p>
-            <p>Morgantown, WV</p>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className="name" style={{ fontWeight: 'bold' }}>Senior Capstone Project - WV State Museum App - West Virginia University</p>
+            <p className="name">Morgantown, WV</p>
             <p>Developer</p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='info'>Lead a team to develop an interactive educational app for visitors of the WV State Museum
               using the Unity game engine, C# and a Firebase Realtime database.
               Responsible for implementing user account creation and leaderboard system.</p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>August 2022 - May 2023</p>
           </Grid>
         </Grid>
       </div>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
-            <p style={{ fontWeight: 'bold' }}>LCSEE Learning Center, West Virginia University</p>
-            <p>Morgantown, WV</p>
-            <p>Tutor</p>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className="name" style={{ fontWeight: 'bold' }}>LCSEE Learning Center, West Virginia University</p>
+            <p className="name" >Morgantown, WV</p>
+            <p className="name" >Tutor</p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='info'>Tutored students in 100 to 400-level computer science courses, such as
               Intro to Computer Science, Intro to Data Structures, Software Engineering, and Operating
               Systems courses. </p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>September 2022 - May 2023</p>
           </Grid>
         </Grid>
       </div>
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item' style={{ fontSize: '1.25rem', width: '32%' }}>
-            <p style={{ fontWeight: 'bold' }}>Cleveland State University</p>
-            <p>Cleveland, OH</p>
-            <p>Undergraduate Researcher - Rehabilitation Engineering</p>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className="name" style={{ fontWeight: 'bold' }}>Cleveland State University</p>
+            <p className="name" >Cleveland, OH</p>
+            <p className="name">Undergraduate Researcher - Rehabilitation Engineering</p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='info'>Created new and worked with existing MATLAB scripts to analyze and graph motion-capture data for post-stroke individuals participating in motion-based balance tasks as part of a summer internship and research project.
               Presented my work at the Midwest American Society of Biomechanics Conference in Cleveland, OH in September 2021. </p>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>May 2021 - August 2021</p>
           </Grid>
         </Grid>
       </div>
       <div className="experience-skills">
-        <Grid container direction="Row" justifyContent="left" className='experience-grid' >
-          <Grid item className='grid-item'>
+        <Grid container direction="row" className='experience-grid' >
+          <Grid item className='grid-item' xs={12} sm={6} >
             <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', paddingBottom: '2%' }}>Relevant Courses</h3>
             <li className='bullet-list'><strong>MDIA 472: Advanced Game Design</strong> -
               Developed 2D and 3D Games as a member of a nonprofit games development studio.</li>
@@ -93,7 +93,7 @@ function Experience() {
             <li className='bullet-list'><strong>CS 470: Intro to Computer Graphics</strong> - Used Python, Pygame,
               Tkinter and OpenGL to create simple computer graphics applications.</li>
           </Grid>
-          <Grid item className='grid-item'>
+          <Grid item className='grid-item' xs={12} sm={6}>
             <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Education</h3>
             <li className='bullet-list'><strong>West Virginia University, Morgantown, WV</strong></li>
             <li className='bullet-list'><strong>Bachelor of Science in Computer Science, Minor in Philosophy</strong></li>

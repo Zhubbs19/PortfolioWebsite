@@ -1,34 +1,58 @@
 .list {
   border-color: #212529;
   border-bottom: 6px outset #212529;
-  padding-top: 0.5rem;
   display: flexbox;
 }
 .feature-list {
-  padding: 1rem;
+  display: flexbox;
+  font-weight: bold;
 }
   
 .subheader {
+  padding: 1rem;
   font-weight: bold;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   font-size: 1.5rem;
   color: black;
   display: flexbox;
+  justify-content: center;
 }
-  
+
+.about-content {
+  font-size: 1.5rem;
+  display: flexbox;
+  padding: 2rem;
+  align-items: center;
+  justify-content:"center";
+}
+
 .about-grid {
   font-size: 2rem;
   display: flexbox;
-  padding: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-item {
-  padding: 1rem;
   font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.video {
-  width: 853px; 
-  height: 480px;
+.media-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.responsive-iframe {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }

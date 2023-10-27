@@ -9,14 +9,16 @@ import PortfolioImg from '../Images/PortfolioCropped.jpg';
 import GDCImg from '../Images/GDC.JPG';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
+import Box from '@mui/material/Box';
 
 function App() {
   return (
     document.title = "Zach Hubbard | Home",
     <ThemeProvider theme={siteTheme}>
-      <div className="Global">
+      
+      <Box sx={{flexGrow: 1}} className="Global">
         <Navbar />
-        <div className="CardsGrid">
+        <Box sx={{flexGrow: 1}} className="CardsGrid">
           <Grid container direction="row" justifyContent="center">
             <Grid item className='Card'>
               <ApplachianSeedCard />
@@ -28,27 +30,27 @@ function App() {
               <BlenderProjectsCard />
             </Grid>
           </Grid>
-        </div>
+        </Box>
         <h1 className="base-header">About Me</h1>
-        <div className="about-content">
-          <Grid container direction="row" justifyContent="center" className='about-grid'>
-            <Grid item className='about-item'>
-              <img className='about-item' src={PortfolioImg} alt='Zach Hubbard' width='365px' height='334px'></img>
+        <Box className="about-content">
+          <Grid container spacing={1}>
+            <Grid item className='media-item' xs={12} sm={4}>
+              <img src={PortfolioImg} alt='Zach Hubbard' width='400px' height='366px'></img>
             </Grid>
-            <Grid item className='about-item'>
-              <img className='about-item' src={GDCImg} alt='Zach Hubbard' width='365px' height='334px'></img>
+            <Grid item className='media-item' xs={12} sm={4}>
+              <img src={GDCImg} alt='Zach Hubbard' width='400px' height='366px'></img>
             </Grid>
-            <Grid item className='about-item'>
-              <p className="about-item">Hello, my name is Zach Hubbard, and I have a huge passion
+            <Grid item className='info-item' xs={12} sm={4}>
+              <p> Hello, my name is Zach Hubbard, and I have a huge passion
                 for software and web development, computer science, and video games.
                 I primarily focus on the programming side of game and software development.
                 I enjoy creating, problem-solving, learning new things, and challenging myself.</p>
-              <h3 style={{ fontWeight: 'bold' }} className='about-item'>Email: Zhubbs19@gmail.com </h3>
+              <h3 style={{ fontWeight: 'bold' }} >Email: Zhubbs19@gmail.com </h3>
             </Grid>
           </Grid>
-        </div>
+        </Box>
         <Footer />
-      </div>
+      </Box>
     </ThemeProvider>
   );
 }

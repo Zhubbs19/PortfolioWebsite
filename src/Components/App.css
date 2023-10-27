@@ -1,8 +1,6 @@
 .Global{
   background: #d3d3d3;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   font-family: "Roboto", sans-serif;
 }
 
@@ -16,20 +14,11 @@
   text-align: center;
 }
 
-.grid-item {
-  min-width: 40%;
-  max-width: 57%;
-  padding: 1em;
-  padding-bottom: 0em;
-  font-size: 18px;
-  display: flexbox;
-}
-
 .base-header {
   margin-top: 1rem;
   font-weight: bold;
-  padding: 1.25%;
-  font-size: fit-content;
+  padding: 1.75rem;
+  font-size: 2rem;
   color: white;
   background: #212529;
   display: flex;
@@ -40,13 +29,10 @@
   margin-right: .5rem;
 }
 
-.about-item {
-  padding: 1rem;
-  font-size: 1.5rem;
-  max-width: 1000px;
+.media-item {
+  text-align: center;
 }
 
-.bullet-list {
-  padding: 2%;
-  font-size: 1.25rem;
+.info-item {
+  font-size: 1.5rem;
 }

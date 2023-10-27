@@ -1,7 +1,6 @@
   .experience-job {
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-left: fit-content;
     border-color: #212529;
     border-bottom: 8px outset #212529;
     border-radius: 16px;
@@ -12,10 +11,28 @@
     font-size: 2rem;
   }
 
+  .name {
+    font-size: 1.5rem;
+    
+  }
+
   .info {
     font-size: 1.5rem;
   }
 
   .date {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .grid-item {
+    padding: 1em;
+    padding-bottom: 0em;
+    font-size: 16px;
+    display: flexbox;
+  }
+
+  .bullet-list {
+    padding: 2%;
+    font-size: 1.25rem;
   }
