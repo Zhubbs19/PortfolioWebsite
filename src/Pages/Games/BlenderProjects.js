@@ -27,7 +27,10 @@ export default function BlenderProjects() {
           </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={6} lg={4}>
             <h3 className='subheader' style={{justifyContent: "left"}}>Blender Donut Animation</h3>
-            <p className="text">This rotating Blender Donut render and animation was created using YouTube creator Blender Guru&apos;s popular Blender Beginner Tutorial Series. The randomly colored sprinkles were rendered using Blender&apos;s Geometry Nodes feature. </p>
+            <p className="text">This rotating Blender Donut render and animation was created using YouTube creator Blender Guru&apos;s popular Blender Beginner Tutorial Series. 
+            The randomly colored sprinkles were rendered using Blender&apos;s Geometry Nodes feature<br></br></p>
+            <a style={{fontWeight:"bold"}} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku">Tutorial Playlist</a>
+            <p></p>
             <h3 className='subheader' style={{justifyContent: "left"}}>Milk and Cookies Render</h3>
             <p className="text">I created this render after completing the Blender Donut tutorial to better apply what I had learned from the beginner tutorial in order to create my own render. </p>
 
