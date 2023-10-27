@@ -15,9 +15,9 @@ function DawnOfAlina() {
     <NavbarComponent />
     <h1 className="base-header">Dawn of Alina</h1>
     <div className="about-content">
-      <Grid container direction="row" justifyContent="center" className='about-grid' spacing={4}>
+      <Grid container direction="row" justifyContent="center" className='about-grid'>
         <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={6}>
-        <iframe className="image" src={DawnOfAlinaImg} alt='Dawn of Alina' width='742px' height='419px'></iframe>
+        <iframe className="image" src={DawnOfAlinaImg} alt='Dawn of Alina' width='500px' height='282px'></iframe>
         </Grid>
         <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
         <p> Dawn of Alina is a 3D action-adventure game, with the main character Alina tasked with ridding her world of the 

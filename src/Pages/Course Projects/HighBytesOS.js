@@ -15,7 +15,7 @@ function HighBytesOS() {
       <div className="about-content">
       <Grid container spacing={6} direction="row" justifyContent="left" className='about-grid'>
       <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={6}>
-        <img className='image' src={HighBytesOSImg} alt='High-Bytes OS' width='600px' height='800px'></img>
+        <img className='image' src={HighBytesOSImg} alt='High-Bytes OS' width='500px' height='889px'></img>
       </Grid>
         <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
           <p>High-Bytes OS was a simple C-based Operating System created as part of a group project for an operating systems course.  

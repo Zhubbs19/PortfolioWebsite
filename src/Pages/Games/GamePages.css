@@ -9,7 +9,6 @@
 }
   
 .subheader {
-  padding: 1rem;
   font-weight: bold;
   font-size: 1.5rem;
   color: black;
@@ -20,7 +19,7 @@
 .about-content {
   font-size: 1.5rem;
   display: flexbox;
-  padding: 2rem;
+  padding: 1.75rem;
   align-items: center;
   justify-content:"center";
 }
@@ -39,9 +38,6 @@
 }
 
 .media-item {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
   font-size: 1.25rem;
 }
 
@@ -49,10 +45,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: flexbox;
 }
 
 .image {
   text-align: center;
   align-items: center;
   justify-content: center;
+  display: flexbox;
 }
