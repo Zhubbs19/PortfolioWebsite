@@ -18,11 +18,11 @@ export default function BlenderProjects() {
       <Box sx={{flexGrow: 1}} className="about-content">
         <Grid container spacing={4}>
           <Grid item className='media-item' xs={12} sm={6} md={6} lg={4}>
-            <iframe className="responsive-iframe" src={BlenderDonutVideo} width='500px' height='889px'></iframe>
+            <video className="responsive-iframe" src={BlenderDonutVideo} controls width='500px' height='889px'></video>
             <h3 className='subheader'>Blender Donut Animation</h3>
           </Grid>
           <Grid item className='media-item' xs={12} sm={6} md={6} lg={4}>
-            <iframe className="image" src={BlenderCookies} width='500px' height='889px'></iframe>
+            <img className="image" src={BlenderCookies} width='500px' height='889px'></img>
             <h3 className='subheader'>Cookies and Milk Render</h3>
           </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={6} lg={4}>
