@@ -137,7 +137,7 @@ export function HighBytesOSCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button className='button' size="large" variant='contained' href='HighBytesOS'>Learn More</Button>
+        <Button className='button' size="large" variant='contained' href='#HighBytesOS'>Learn More</Button>
       </CardActions>
     </Card>
   );

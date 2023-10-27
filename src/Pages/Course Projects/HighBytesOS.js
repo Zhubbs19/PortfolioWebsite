@@ -8,24 +8,23 @@ import HighBytesOSImg from "../../Images/HighBytes.png";
 
 function HighBytesOS() {
   return (
-    document.title = "Zach Hubbard | WV Quest",
+    document.title = "Zach Hubbard | High-Bytes OS - CS 450 Project",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">WV Quest - State Musuem Capstone Project</h1>
+      <h1 className="base-header">High-Bytes OS - CS 450 Semester Group Project</h1>
       <div className="about-content">
-      <Grid container direction="row" justifyContent="left" className='about-grid'>
-      <Grid item className='about-item'>
-        <img className='about-item' src={HighBytesOSImg} alt='High-Bytes OS' width='600px' height='800px'></img>
+      <Grid container spacing={6} direction="row" justifyContent="left" className='about-grid'>
+      <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={6}>
+        <img className='image' src={HighBytesOSImg} alt='High-Bytes OS' width='600px' height='800px'></img>
       </Grid>
-        <Grid item className='grid-item'>
-          <p className="grid-item">High-Bytes OS was a simple C-based Operating System created as part of a group project for an operating systems course.  
-          The OS uses a command-line terminal in order to execute commands and includes functionality for the following:
+        <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
+          <p>High-Bytes OS was a simple C-based Operating System created as part of a group project for an operating systems course.  
+          The OS uses a command-line terminal in order to execute commands and includes functionality for the following:</p>
             <li className='feature-list'>Process management (Creation of Process Control Blocks using a priority- based queue)</li>
             <li className='feature-list'>Blocking, readying, and deletion of processes</li>
             <li className='feature-list'>Memory allocation and deallocation of processes</li>
             <li className='feature-list'>Setting and retrieving the date and time</li>
             <li className='feature-list'>Alarm Creation</li>                
-            </p>
         </Grid>
       </Grid>
       </div>
