@@ -33,14 +33,14 @@ function App() {
         </Box>
         <h1 className="base-header">About Me</h1>
         <Box className="about-content">
-          <Grid container spacing={1}>
-            <Grid item className='media-item' xs={12} sm={4}>
+          <Grid container spacing={4}>
+            <Grid item className='media-item'  xs={12} sm={6} md={6} lg={4} xl={4}>
               <img src={PortfolioImg} alt='Zach Hubbard' width='400px' height='366px'></img>
             </Grid>
-            <Grid item className='media-item' xs={12} sm={4}>
+            <Grid item className='media-item'  xs={12} sm={6} md={6} lg={4} xl={4}>
               <img src={GDCImg} alt='Zach Hubbard' width='400px' height='366px'></img>
             </Grid>
-            <Grid item className='info-item' xs={12} sm={4}>
+            <Grid item className='info-item'  xs={12} sm={12} md={12} lg={12} xl={4}>
               <p> Hello, my name is Zach Hubbard, and I have a huge passion
                 for software and web development, computer science, and video games.
                 I primarily focus on the programming side of game and software development.
