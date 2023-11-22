@@ -97,18 +97,19 @@ function Experience() {
             <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Education</h3>
             <li className='bullet-list'><strong>West Virginia University, Morgantown, WV</strong></li>
             <li className='bullet-list'><strong>Bachelor of Science in Computer Science, Minor in Philosophy</strong></li>
-            <li className='bullet-list'><strong>GPA: 3.34</strong></li>
+            <li className='bullet-list'><strong>GPA: 3.37</strong></li>
             <li className='bullet-list'><strong>Graduated May 2023</strong></li>
 
             <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Skills</h3>
-            <li className='bullet-list'><strong>Languages: </strong> C#, Java, C, C++, Python, Javascript, HTML, CSS</li>
+            <li className='bullet-list'><strong>Languages: </strong> C#, Java, C/C++, Python, Javascript, HTML, CSS</li>
             <li className='bullet-list'><strong>Operating Systems: </strong>Windows, Linux</li>
-            <li className='bullet-list'><strong>Graphics and Design: </strong>Unity, OpenGL</li>
-            <li className='bullet-list'><strong>Databases: </strong>MySQL, Firebase, Oracle Database</li>
+            <li className='bullet-list'><strong>Game Engines: </strong>Unity, Unreal Engine</li>
+            <li className='bullet-list'><strong>Graphics and Modeling: </strong>Blender, OpenGL</li>
+            <li className='bullet-list'><strong>Databases: </strong>SQL, Firebase, Oracle Database, MySQL</li>
             <li className='bullet-list'><strong>Version Control: </strong>Git, Github, BitBucket</li>
 
             <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Activites</h3>
-            <li className='bullet-list'><strong>2022-2023 Vice President - WVU Game Developers Club</strong></li>
+            <li className='bullet-list'><strong>2021-2022 Secretary, 2022-2023 Vice President - WVU Game Developers Club</strong></li>
             <li className='bullet-list'><strong>2022-2023 Treasurer - WVU X-Reality (VR/AR Club)</strong></li>
           </Grid>
         </Grid>
