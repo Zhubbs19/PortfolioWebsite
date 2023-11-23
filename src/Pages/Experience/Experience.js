@@ -15,6 +15,22 @@ function Experience() {
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={4}>
+            <p className="name" style={{ fontWeight: 'bold' }}>My Tutoring Partners</p>
+            <p className="name">Remote</p>
+            <p className="name">Tutor</p>
+          </Grid>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className='info'>Online tutor for middle and high school students currently in mathematics, helping them 
+            achieve their academic goals and attain grade-level milestones.</p>
+          </Grid>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>October 2023 - Present</p>
+          </Grid>
+        </Grid>
+      </div>
+      <div className="experience-job">
+        <Grid container direction="row" justifyContent="left" className='experience-grid' >
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className="name" style={{ fontWeight: 'bold' }}>Mon River Games</p>
             <p className="name">Morgantown, WV</p>
             <p className="name">Member, Developer</p>
@@ -33,7 +49,7 @@ function Experience() {
           <Grid item className='grid-item' xs={12} sm={4}>
             <p className="name" style={{ fontWeight: 'bold' }}>Senior Capstone Project - WV State Museum App - West Virginia University</p>
             <p className="name">Morgantown, WV</p>
-            <p>Developer</p>
+            <p className="name">Developer</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
             <p className='info'>Lead a team to develop an interactive educational app for visitors of the WV State Museum

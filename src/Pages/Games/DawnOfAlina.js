@@ -20,10 +20,11 @@ function DawnOfAlina() {
         <iframe className="image" src={DawnOfAlinaImg} alt='Dawn of Alina' width='500px' height='282px'></iframe>
         </Grid>
         <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
-        <p> Dawn of Alina is a 3D action-adventure game, with the main character Alina tasked with ridding her world of the 
-        evil that inhabits it, using her magical powers. The game was created in Unity as part of Mon River Games.
+        <p> Dawn of Alina was a 3D action-adventure game prototype. The game was centered around main character Alina, who was tasked with ridding her world of the 
+        evil that inhabits it using her magical powers. The game was created in Unity as part of Mon River Games during the summer 2022 session. 
+        Development was discontinued following fall 2022 session.
             <h3 className="subheader"> Throughout the game&apos;s development, I implemented:</h3>
-            <li className='feature-list'>A working inventory with scriptable objects, item pickup mechanics, and item stacking.</li>
+            <li className='feature-list'>A working inventory using scriptable item objects, item pickup mechanics, and item stacking.</li>
             <li className='feature-list'>Inventory saving and loading system</li>
             <li className='feature-list'>Cauldron crafting system</li></p>
         </Grid>
