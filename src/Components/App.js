@@ -1,3 +1,5 @@
+
+//#region imports 
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,6 +12,7 @@ import GDCImg from '../Images/GDC.JPG';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
 import Box from '@mui/material/Box';
+//#endregion
 
 function App() {
   return (

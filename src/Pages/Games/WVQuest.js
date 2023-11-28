@@ -7,7 +7,7 @@ import { Grid } from "@mui/material"
 import WVQuestRegistration from '../../Images/RegistraitionWVQuest.PNG';
 import WVQuestCamera from '../../Images/WVQuestCameraScreen.PNG';
 
-function WVQuest() {
+function WVQuest() { // Handles the project page for WV Quest App
   return (
     document.title = "Zach Hubbard | WV Quest",
     <div className="Global">

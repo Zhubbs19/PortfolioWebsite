@@ -1,3 +1,4 @@
+//#region imports 
 import React from "react";
 import NavbarComponent from "../../Components/Navbar/Navbar";
 import {HighBytesOSCard, WVQuestCard} from "../../Components/Card/Card";
@@ -8,6 +9,7 @@ import { Grid } from "@mui/material"
 import Footer from '../../Components/Footer/Footer.js';
 import siteTheme from '../../SiteTheme';
 import { ThemeProvider } from "@mui/material/styles";
+//#endregion
 
 function CourseProjects() {
   return (

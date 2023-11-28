@@ -6,7 +6,7 @@ import Navbar from '../../Components/Navbar/Navbar.js';
 import Footer from '../../Components/Footer/Footer.js';
 import { Grid } from "@mui/material"
 
-function Experience() {
+function Experience() { /* Handles Experience Page */
   return (
     document.title = "Zach Hubbard | Home",
     <div className="Global">

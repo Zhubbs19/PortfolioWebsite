@@ -1,4 +1,6 @@
-.Global{
+/* Formatting for Homepage */
+
+.Global { /* Global handles formatting for all pages */ 
   background: #d3d3d3;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;

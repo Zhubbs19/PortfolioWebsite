@@ -1,3 +1,4 @@
+//#region imports
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -13,6 +14,7 @@ import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
 import EndlessJumpImg from '../../Images/endlessjump.png';
 import HighBytesOSImg from '../../Images/HighBytes.png';
 import DonutImg from '../../Images/Donut.jpg';
+//#endregion
 
 //#region Appalachian Seed Launch
 export default function ApplachianSeedCard() {

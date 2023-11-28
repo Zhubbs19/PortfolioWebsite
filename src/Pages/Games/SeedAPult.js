@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
 import './GamePages.css';
 
-function SeedAPult() {
+function SeedAPult() { // Handles the project page for Appalachian Seed-A-Pult
   return (
-    document.title = "Zach Hubbard | Seed-A-Pult",
+    document.title = "Zach Hubbard | Seed-A-Pult", 
     <div className="Global">
       <NavbarComponent />
       <h1 className="base-header">Appalachian Seed-A-Pult</h1>

@@ -1,3 +1,4 @@
+//#region imports
 import React from 'react';
 import './index.css';
 import App from './Components/App';
@@ -13,7 +14,9 @@ import EndlessJump from './Pages/Games/EndlessJump';
 import HighBytesOS from './Pages/Course Projects/HighBytesOS';
 import BlenderProjects from './Pages/Games/BlenderProjects';
 import { createHashRouter } from 'react-router-dom';
+//#endregion
 
+/* Handles website routing */ 
 const router = createHashRouter([
   {
     path: "/",
