@@ -4,7 +4,12 @@
     },
 
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-        },
-        "eslint.validate": ["javascript"]
+        "source.fixAll.eslint": "explicit"
+    },
+        "eslint.validate": [
+            "javascript"
+        ],
+        "cSpell.words": [
+            "endregion"
+        ]
 }

@@ -31,7 +31,7 @@ export default function ApplachianSeedCard() {
         Appalachian Seed-A-Pult
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Game Development, Mon River Games Global Game Jam 2023
+        Unity Programmer, Mon River Games Global Game Jam 2023
         </Typography>
       </CardContent>
       <CardActions>
@@ -57,7 +57,7 @@ export function WVQuestCard() {
           WV Quest
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Game Development, WV State Musuem Capstone Project
+          Unity Programmer, WV State Musuem Capstone Project
         </Typography>
       </CardContent>
       <CardActions>
@@ -83,7 +83,7 @@ export function DawnOfAlinaCard() {
           Dawn of Alina
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-        Mon River Games Summer 2022 and Fall 2023 Sessions
+        Mon River Games Summer 2022 and Fall 2023 Sessions, Unity Engine
         </Typography>
       </CardContent>
       <CardActions>
@@ -109,7 +109,7 @@ export function EndlessJumpCard() {
           Endless Jump
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Mon River Games, Advanced Game Design Course
+          Advanced Game Design Course, Unity Engine
         </Typography>
       </CardContent>
       <CardActions>

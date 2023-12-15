@@ -25,12 +25,10 @@ function WVQuest() { // Handles the project page for WV Quest App
             <p> WV Quest is a interactive educational app created in collaboration with the West
                 Virginia State Musuem, West Virginia University, and Mon River Games.</p>
                 <p>The app allows visitors of the museum, either individually or as part of a group, to scan QR codes within the museum at particular
-                exhibits, prompting the user with a minigame based on the exhibit. Completing the minigame increases the user&apos;s score.</p>
+                exhibits, prompting the user with a minigame based on the exhibit</p>
                 <p>This project was developed in Unity and uses a Firebase realtime database
                 to store user data. The project was worked on in a seven-person group
-                as part of my West Virginia University Senior Capstone project. 
-                A previous iteration of the app was created in 2021-2022 and development was continued by my group in 2022-2023.</p>
-                I am continuing to mentor the current 2023-2024 capstone group with Mon River Games as they continue development of the app.
+                as part of my West Virginia University Senior Capstone project. </p>
                 <h3 className="subheader"> Throughout the game&apos;s development, I implemented:</h3>
                 <li className='feature-list'>Unity and Firebase Integration</li>
                 <li className='feature-list'>User/Group Registration and Login</li>
