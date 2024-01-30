@@ -15,9 +15,9 @@ function Experience() { /* Handles Experience Page */
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className="name" style={{ fontWeight: 'bold' }}>My Tutoring Partners</p>
+            <p className="name" style={{ fontWeight: 'bold', fontStyle:'italic'}}>My Tutoring Partners</p>
             <p className="name">Remote</p>
-            <p className="name">Tutor</p>
+            <p className="name">Online Tutor</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
             <p className='info'>Online tutor for middle and high school students currently in mathematics, helping them 
@@ -31,7 +31,7 @@ function Experience() { /* Handles Experience Page */
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className="name" style={{ fontWeight: 'bold' }}>Mon River Games</p>
+            <p className="name" style={{ fontWeight: 'bold', fontStyle:'italic'}}>Mon River Games</p>
             <p className="name">Morgantown, WV</p>
             <p className="name">Member, Developer</p>
           </Grid>
@@ -47,7 +47,7 @@ function Experience() { /* Handles Experience Page */
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className="name" style={{ fontWeight: 'bold' }}>Senior Capstone Project - WV State Museum App - West Virginia University</p>
+            <p className="name" style={{ fontWeight: 'bold', fontStyle:'italic'}}>Senior Capstone Project - WV State Museum App - West Virginia University</p>
             <p className="name">Morgantown, WV</p>
             <p className="name">Developer</p>
           </Grid>
@@ -64,7 +64,7 @@ function Experience() { /* Handles Experience Page */
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className="name" style={{ fontWeight: 'bold' }}>LCSEE Learning Center, West Virginia University</p>
+            <p className="name" style={{ fontWeight: 'bold', fontStyle:'italic'}}>LCSEE Learning Center, West Virginia University</p>
             <p className="name" >Morgantown, WV</p>
             <p className="name" >Tutor</p>
           </Grid>
@@ -81,7 +81,7 @@ function Experience() { /* Handles Experience Page */
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className="name" style={{ fontWeight: 'bold' }}>Cleveland State University</p>
+            <p className="name" style={{ fontWeight: 'bold', fontStyle:'italic'}}>Cleveland State University</p>
             <p className="name" >Cleveland, OH</p>
             <p className="name">Undergraduate Researcher - Rehabilitation Engineering</p>
           </Grid>
