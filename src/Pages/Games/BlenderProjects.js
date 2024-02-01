@@ -29,7 +29,7 @@ export default function BlenderProjects() {
             <h3 className='subheader' style={{justifyContent: "left"}}>Blender Donut Animation</h3>
             <p className="text">This rotating Blender Donut render and animation was created using YouTube creator Blender Guru&apos;s popular Blender Beginner Tutorial Series. 
             The randomly colored sprinkles were rendered using Blender&apos;s Geometry Nodes feature.<br></br></p>
-            <a style={{fontWeight:"bold"}} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku">Tutorial Playlist</a>
+            <a style={{fontWeight:"bold"}} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku">Blender Beginner Tutorial Playlist by Blender Guru</a>
             <p></p>
             <h3 className='subheader' style={{justifyContent: "left"}}>Milk and Cookies Render</h3>
             <p className="text">I created this render after completing the Blender Donut tutorial to better apply what I had learned from the beginner tutorial in order to create my own render. </p>

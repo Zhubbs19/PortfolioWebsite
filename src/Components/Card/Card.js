@@ -14,6 +14,8 @@ import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
 import EndlessJumpImg from '../../Images/endlessjump.png';
 import HighBytesOSImg from '../../Images/HighBytes.png';
 import DonutImg from '../../Images/Donut.jpg';
+import SodaCanImg from '../../Images/SodaCan.png';
+import CartSmashImg from '../../Images/RampCrash2.png';
 //#endregion
 
 //#region Appalachian Seed Launch
@@ -192,6 +194,57 @@ export function BlenderProjectsCard() {
       </CardContent>
       <CardActions>
         <Button className='button' size="large" variant='contained' href='#BlenderProjects'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+
+//#region Photoshop Card
+export function PhotoshopProjectsCard() {
+  return (
+    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 430 }}
+        component="img"
+        image={SodaCanImg}
+        title="Soda Can Mockup Image"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+        Photoshop Projects
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+          Photoshop Projects
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='#PhotoshopProjects'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+//#region Photoshop Card
+export function CartSmashCard() {
+  return (
+    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 430 }}
+        component="img"
+        image={CartSmashImg}
+        title="Cart Smash"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+        Cart Smash
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+        2024 Global Game Jam, Unity Engine
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='#CartSmash'>Learn More</Button>
       </CardActions>
     </Card>
   );

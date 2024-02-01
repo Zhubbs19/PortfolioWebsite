@@ -14,6 +14,8 @@ import EndlessJump from './Pages/Games/EndlessJump';
 import HighBytesOS from './Pages/Course Projects/HighBytesOS';
 import BlenderProjects from './Pages/Games/BlenderProjects';
 import { createHashRouter } from 'react-router-dom';
+import PhotoshopProjects from './Pages/Games/PhotoshopProjects';
+import CartSmash from './Pages/Games/CartSmash';
 //#endregion
 
 /* Handles website routing */ 
@@ -57,6 +59,14 @@ const router = createHashRouter([
   {
     path: "BlenderProjects",
     element: <BlenderProjects/>,
+  },
+  {
+    path: "PhotoshopProjects",
+    element: <PhotoshopProjects/>,
+  },
+  {
+    path: "CartSmash",
+    element: <CartSmash/>,
   },
   {
     path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true", 
