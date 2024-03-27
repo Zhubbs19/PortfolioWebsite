@@ -8,6 +8,7 @@
 .feature-list {
   display: flexbox;
   font-weight: bold;
+  list-style-type: decimal;
 }
   
 .attribution-list {
@@ -20,7 +21,7 @@
   font-size: 1.5rem;
   color: black;
   display: flexbox;
-  justify-content: center;
+  justify-content: left;
 }
 
 .attribution-subheader {
@@ -54,6 +55,7 @@
 
 .media-item {
   font-size: 1.25rem;
+  padding-left: 3.5rem;
 }
 
 .responsive-iframe {
@@ -75,4 +77,21 @@
   font-size: 1.5rem;
   align-items: center;
   justify-content: center;
+}
+
+.sublist {
+  margin-left: 3em;
+  list-style-type: disc;
+  font-weight: 100;
+}
+
+.feature {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: .25rem;
+  
+}
+
+.feature-list {
+  padding-left: 3rem;
 }

@@ -28,13 +28,13 @@ function WVQuest() { // Handles the project page for WV Quest App
                 exhibits, prompting the user with a minigame based on the exhibit</p>
                 <p>This project was developed in Unity and uses a Firebase realtime database
                 to store user data. The project was worked on in a seven-person group
-                as part of my West Virginia University Senior Capstone project. </p>
-                <h3 className="subheader"> Throughout the game&apos;s development, I implemented:</h3>
-                <li className='feature-list'>Unity and Firebase Integration</li>
-                <li className='feature-list'>User/Group Registration and Login</li>
-                <li className='feature-list'>Creation of a Switchboard Minigame Prototype</li>
-                <li className='feature-list'>Leaderboard System</li>
-                <li className='feature-list'>Reimplementation of QR scanning system.</li>
+                as part of my West Virginia University Senior Capstone project.</p>
+                <h3 className="subheader"> Throughout continuing the app&apos;s development, I implemented:</h3>
+                <li className='feature'>Unity and Firebase Integration</li>
+                <li className='feature'>User/Group Registration and Login</li>
+                <li className='feature'>Creation of a Switchboard Minigame Prototype</li>
+                <li className='feature'>Leaderboard System</li>
+                <li className='feature'>UpdatedQR scanning system.</li>
           </Grid>
           </Grid>
       </div>
