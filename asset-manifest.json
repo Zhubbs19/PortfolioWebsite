@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8b26de0.css",
-    "main.js": "/static/js/main.af1f5361.js",
+    "main.css": "/static/css/main.5371f9c2.css",
+    "main.js": "/static/js/main.70eea568.js",
     "static/media/BlenderDonut.mp4": "/static/media/BlenderDonut.e0c44640b692764a0fd5.mp4",
     "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a39e3d39736e8c521b61.png",
     "static/media/PortfolioCropped.jpg": "/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
     "static/media/Cookies2.png": "/static/media/Cookies2.af4623a0ac42f28d4cf8.png",
     "static/media/SodaCan.png": "/static/media/SodaCan.e9066b39ab7dcf718477.png",
+    "static/media/logo.svg": "/static/media/logo.2c5b91b6faf2071b2a78066574fb3740.svg",
     "static/media/RampCrash2.png": "/static/media/RampCrash2.5c1a7fb322590e5fe53b.png",
     "static/media/Donut.jpg": "/static/media/Donut.df1ac986a6a28a1db0af.jpg",
     "static/media/GDC.JPG": "/static/media/GDC.b34fb74c8a1ecd20d8f3.JPG",
@@ -19,11 +20,11 @@
     "static/media/RegistraitionWVQuest.PNG": "/static/media/RegistraitionWVQuest.428bb4ef47a16e697572.PNG",
     "static/media/endlessjump.png": "/static/media/endlessjump.51a152ab0dbdfed23db2.png",
     "index.html": "/index.html",
-    "main.c8b26de0.css.map": "/static/css/main.c8b26de0.css.map",
-    "main.af1f5361.js.map": "/static/js/main.af1f5361.js.map"
+    "main.5371f9c2.css.map": "/static/css/main.5371f9c2.css.map",
+    "main.70eea568.js.map": "/static/js/main.70eea568.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8b26de0.css",
-    "static/js/main.af1f5361.js"
+    "static/css/main.5371f9c2.css",
+    "static/js/main.70eea568.js"
   ]
 }
