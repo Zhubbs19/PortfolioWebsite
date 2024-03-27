@@ -7,7 +7,7 @@ import logoImg from '../../Images/Logos/logo.svg'
 function NavbarComponent() {
   return (
     <Navbar collaspeOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navbar">
-      <img className="NavbarBrand" src={logoImg} width="64" height="64"></img>
+      <a href="/"><img className="NavbarBrand" href="/" src={logoImg} width="64" height="64"></img></a>
       <text className="NavbarTitle">
         <Nav.Link className='link' href="/">Zach Hubbard</Nav.Link></text>
         <Navbar.Toggle classNamearia-controls="basic-navbar-nav" />
