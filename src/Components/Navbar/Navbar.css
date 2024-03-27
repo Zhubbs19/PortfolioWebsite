@@ -11,6 +11,10 @@
     src: url("../../RobotoCondensed-Regular.ttf") format("tff");
   }
 
+.NavbarBrand {
+    margin-left: 2rem;
+}
+
 .link {
     text-decoration: none;
     color: white;

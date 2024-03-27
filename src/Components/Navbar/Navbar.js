@@ -2,11 +2,14 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css';
+import logoImg from '../../Images/Logos/logo.svg'
 
 function NavbarComponent() {
   return (
     <Navbar collaspeOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navbar">
-      <text className="NavbarTitle"><Nav.Link className='link' href="/">Zach Hubbard</Nav.Link></text>
+      <img className="NavbarBrand" src={logoImg} width="64" height="64"></img>
+      <text className="NavbarTitle">
+        <Nav.Link className='link' href="/">Zach Hubbard</Nav.Link></text>
         <Navbar.Toggle classNamearia-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navbar-dropdown'>
           <Nav className='mr-auto'>
