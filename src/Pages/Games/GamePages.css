@@ -32,6 +32,14 @@
   justify-content: center;
 }
 
+.attribution-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  display: flexbox;
+  justify-content: center;
+}
+
 .about-content {
   font-size: 1.5rem;
   display: flexbox;
