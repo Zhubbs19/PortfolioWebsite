@@ -9,7 +9,6 @@ import Experience from './Pages/Experience/Experience';
 import WVQuest from './Pages/Games/WVQuest';
 import DawnOfAlina from './Pages/Games/DawnOfAlina';
 import SeedAPult from './Pages/Games/SeedAPult';
-import EndlessJump from './Pages/Games/EndlessJump';
 import HighBytesOS from './Pages/Course Projects/HighBytesOS';
 import BlenderProjects from './Pages/Games/BlenderProjects';
 import { createHashRouter } from 'react-router-dom';
@@ -46,10 +45,6 @@ const router = createHashRouter([
   {
     path: "SeedAPult",
     element: <SeedAPult />,
-  },
-  {
-    path: "EndlessJump",
-    element: <EndlessJump />,
   },
   {
     path: "HighBytesOS",

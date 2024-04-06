@@ -5,8 +5,8 @@ import './GamePages.css';
 import '../../Components/App.css';
 import Footer from '../../Components/Footer/Footer.js';
 import { Grid } from "@mui/material"
-import WVQuestRegistration from '../../Images/RegistraitionWVQuest.PNG';
-import WVQuestCamera from '../../Images/WVQuestCameraScreen.PNG';
+import WVQuestRegistration from '../../Images/Project_Images/RegistrationWVQuest.PNG';
+import WVQuestCamera from '../../Images/Project_Images/WVQuestCameraScreen.PNG';
 //#endregion imports 
 
 function WVQuest() { // Handles the project page for WV Quest App

@@ -11,14 +11,13 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './Card.css'
 
-import AppalachianSeedLaunchImg from '../../Images/AppalachianSeedLaunch.png';
-import WVQuestImg from '../../Images/WVQuest.PNG';
-import DawnOfAlinaImg from '../../Images/DawnOfAlina.JPG';
-import EndlessJumpImg from '../../Images/endlessjump.png';
-import HighBytesOSImg from '../../Images/HighBytes.png';
-import DonutImg from '../../Images/Donut.jpg';
-import SodaCanImg from '../../Images/SodaCan.png';
-import CartSmashImg from '../../Images/RampCrash2.png';
+import AppalachianSeedLaunchImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
+import WVQuestImg from '../../Images/Project_Images/WVQuest.PNG';
+import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlina.JPG';
+import HighBytesOSImg from '../../Images/Project_Images/HighBytes.png';
+import DonutImg from '../../Images/Project_Images/Donut.jpg';
+import SodaCanImg from '../../Images/Project_Images/SodaCan.png';
+import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
 //#endregion
 
 //#region Appalachian Seed Launch
@@ -93,32 +92,6 @@ export function DawnOfAlinaCard() {
       </CardContent>
       <CardActions>
         <Button className='button' size="large" variant='contained' href='#DawnOfAlina'>Learn More</Button>
-      </CardActions>
-    </Card>
-  );
-}
-//#endregion
-
-//#region Endless Jump
-export function EndlessJumpCard() {
-  return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 400 }}
-        component="img"
-        image={EndlessJumpImg}
-        title="Endless Jump"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Endless Jump
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-          MDIA 472 Advanced Game Design Course, Unity Engine
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#EndlessJump'>Learn More</Button>
       </CardActions>
     </Card>
   );

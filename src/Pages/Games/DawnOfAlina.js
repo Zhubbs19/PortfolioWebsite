@@ -7,7 +7,7 @@ import './GamePages.css';
 import { Grid } from "@mui/material"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
-import DawnOfAlinaImg from '../../Images/DawnOfAlinaLarge.JPG';
+import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlinaLarge.JPG';
 //#endregion imports 
 
 function DawnOfAlina() {

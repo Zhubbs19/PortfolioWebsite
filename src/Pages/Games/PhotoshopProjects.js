@@ -6,7 +6,7 @@ import '../../Components/App.css';
 import Footer from '../../Components/Footer/Footer.js';
 import { Grid } from "@mui/material"
 import Box from '@mui/material/Box';
-import SodaCanImg from '../../Images/SodaCan.png';
+import SodaCanImg from '../../Images/Project_Images/SodaCan.png';
 //#endregion imports 
 
 export default function PhotoshopProjects() {

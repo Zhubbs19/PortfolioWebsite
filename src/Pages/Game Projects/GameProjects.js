@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar/Navbar";
-import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard, BlenderProjectsCard, PhotoshopProjectsCard, CartSmashCard, EndlessJumpCard } from "../../Components/Card/Card";
+import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard, BlenderProjectsCard, PhotoshopProjectsCard, CartSmashCard} from "../../Components/Card/Card";
 import '../../Components/App.css';
 import '../../Components/Card/Card.css'
 import { Grid } from "@mui/material"
@@ -35,9 +35,6 @@ function GameProjects() {
             </Grid>
             <Grid item className='Card'>
               <DawnOfAlinaCard />
-            </Grid>
-            <Grid item className='Card'>
-              <EndlessJumpCard />
             </Grid>
           </Grid>
         </div>

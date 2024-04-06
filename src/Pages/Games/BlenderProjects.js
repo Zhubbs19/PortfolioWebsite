@@ -3,10 +3,10 @@ import NavbarComponent from "../../Components/Navbar/Navbar";
 import './GamePages.css';
 import '../../Components/App.css';
 import Footer from '../../Components/Footer/Footer.js';
-import BlenderDonutVideo from '../../Images/BlenderDonut.mp4'
+import BlenderDonutVideo from '../../Images/Project_Videos/BlenderDonut.mp4'
 import { Grid } from "@mui/material"
 import Box from '@mui/material/Box';
-import BlenderCookies from '../../Images/Cookies2.png';
+import BlenderCookies from '../../Images/Project_Images/Cookies2.png';
 
 // Code for my Blender Projects page
 export default function BlenderProjects() {

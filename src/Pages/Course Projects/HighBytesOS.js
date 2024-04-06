@@ -5,7 +5,7 @@ import './CourseProjects.css';
 import '../../Components/App.css';
 import Footer from '../../Components/Footer/Footer.js';
 import { Grid } from "@mui/material"
-import HighBytesOSImg from "../../Images/HighBytes.png";
+import HighBytesOSImg from "../../Images/Project_Images/HighBytes.png";
 //#endregion
 
 function HighBytesOS() {

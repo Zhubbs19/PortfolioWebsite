@@ -6,8 +6,8 @@ import Navbar from './Navbar/Navbar.js';
 import Footer from './Footer/Footer.js';
 import ApplachianSeedCard, { BlenderProjectsCard, WVQuestCard } from "./Card/Card";
 import { Grid } from "@mui/material"
-import PortfolioImg from '../Images/PortfolioCropped.jpg';
-import GDCImg from '../Images/GDC.JPG';
+import PortfolioImg from '../Images/Homepage/PortfolioCropped.jpg';
+import GDCImg from '../Images/Homepage/GDC.JPG';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
 import Box from '@mui/material/Box';
