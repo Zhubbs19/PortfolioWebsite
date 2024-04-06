@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cdbeae2d.css",
-    "main.js": "/static/js/main.858db6b7.js",
+    "main.css": "/static/css/main.77e910b1.css",
+    "main.js": "/static/js/main.20c85a30.js",
     "static/media/BlenderDonut.mp4": "/static/media/BlenderDonut.e0c44640b692764a0fd5.mp4",
     "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a39e3d39736e8c521b61.png",
     "static/media/PortfolioCropped.jpg": "/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
@@ -19,11 +19,11 @@
     "static/media/DawnOfAlina.JPG": "/static/media/DawnOfAlina.a3c0c4d6d114f0f2e02c.JPG",
     "static/media/RegistrationWVQuest.PNG": "/static/media/RegistrationWVQuest.428bb4ef47a16e697572.PNG",
     "index.html": "/index.html",
-    "main.cdbeae2d.css.map": "/static/css/main.cdbeae2d.css.map",
-    "main.858db6b7.js.map": "/static/js/main.858db6b7.js.map"
+    "main.77e910b1.css.map": "/static/css/main.77e910b1.css.map",
+    "main.20c85a30.js.map": "/static/js/main.20c85a30.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdbeae2d.css",
-    "static/js/main.858db6b7.js"
+    "static/css/main.77e910b1.css",
+    "static/js/main.20c85a30.js"
   ]
 }
