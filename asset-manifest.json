@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.33f76ab7.css",
-    "main.js": "/static/js/main.c67b48a5.js",
+    "main.css": "/static/css/main.cdbeae2d.css",
+    "main.js": "/static/js/main.858db6b7.js",
     "static/media/BlenderDonut.mp4": "/static/media/BlenderDonut.e0c44640b692764a0fd5.mp4",
     "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a39e3d39736e8c521b61.png",
     "static/media/PortfolioCropped.jpg": "/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
     "static/media/Cookies2.png": "/static/media/Cookies2.af4623a0ac42f28d4cf8.png",
     "static/media/SodaCan.png": "/static/media/SodaCan.e9066b39ab7dcf718477.png",
-    "static/media/logo.svg": "/static/media/logo.f8a5670992f9d36d8d05ddcfdede19dd.svg",
+    "static/media/SiteLogo.svg": "/static/media/SiteLogo.f8a5670992f9d36d8d05ddcfdede19dd.svg",
     "static/media/RampCrash2.png": "/static/media/RampCrash2.5c1a7fb322590e5fe53b.png",
     "static/media/Donut.jpg": "/static/media/Donut.df1ac986a6a28a1db0af.jpg",
     "static/media/GDC.JPG": "/static/media/GDC.b34fb74c8a1ecd20d8f3.JPG",
@@ -17,14 +17,13 @@
     "static/media/DawnOfAlinaLarge.JPG": "/static/media/DawnOfAlinaLarge.0affe8e8295c354f68ab.JPG",
     "static/media/WVQuestCameraScreen.PNG": "/static/media/WVQuestCameraScreen.d46cf2047bf6f1718237.PNG",
     "static/media/DawnOfAlina.JPG": "/static/media/DawnOfAlina.a3c0c4d6d114f0f2e02c.JPG",
-    "static/media/RegistraitionWVQuest.PNG": "/static/media/RegistraitionWVQuest.428bb4ef47a16e697572.PNG",
-    "static/media/endlessjump.png": "/static/media/endlessjump.51a152ab0dbdfed23db2.png",
+    "static/media/RegistrationWVQuest.PNG": "/static/media/RegistrationWVQuest.428bb4ef47a16e697572.PNG",
     "index.html": "/index.html",
-    "main.33f76ab7.css.map": "/static/css/main.33f76ab7.css.map",
-    "main.c67b48a5.js.map": "/static/js/main.c67b48a5.js.map"
+    "main.cdbeae2d.css.map": "/static/css/main.cdbeae2d.css.map",
+    "main.858db6b7.js.map": "/static/js/main.858db6b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.33f76ab7.css",
-    "static/js/main.c67b48a5.js"
+    "static/css/main.cdbeae2d.css",
+    "static/js/main.858db6b7.js"
   ]
 }
