@@ -1,16 +1,16 @@
 /* CSS Formatting for all Game Project Pages */
-
 .list {
   border-color: #212529;
   border-bottom: 6px outset #212529;
   display: flexbox;
 }
+
 .feature-list {
   display: flexbox;
   font-weight: bold;
   list-style-type: decimal;
 }
-  
+
 .attribution-list {
   display: flexbox;
   font-size: 1.25rem;
@@ -45,7 +45,7 @@
   display: flexbox;
   padding: 1rem;
   align-items: center;
-  justify-content:"center";
+  justify-content: "center";
 }
 
 .about-grid {
@@ -97,7 +97,6 @@
   padding-top: .75rem;
   padding-bottom: .75rem;
   padding-left: .25rem;
-  
 }
 
 .feature-list {
