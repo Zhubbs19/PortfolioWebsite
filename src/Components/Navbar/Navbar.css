@@ -9,7 +9,7 @@
 @font-face {
     font-family: "Roboto", sans-serif;
     src: url("../../RobotoCondensed-Regular.ttf") format("tff");
-  }
+}
 
 .NavbarBrand {
     margin-left: 2rem;
@@ -41,4 +41,3 @@
     font-weight: bold;
     padding-left: 2%;
 }
-

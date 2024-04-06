@@ -1,3 +1,6 @@
+// Card.js - Holds the info for all cards on my site.
+// Material UI used for this all card-related function as well as for the buttons on the cards.
+
 //#region imports
 import * as React from 'react';
 import Card from '@mui/material/Card';
@@ -21,7 +24,7 @@ import CartSmashImg from '../../Images/RampCrash2.png';
 //#region Appalachian Seed Launch
 export default function ApplachianSeedCard() {
   return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 400 }}
         component="img"
@@ -30,10 +33,10 @@ export default function ApplachianSeedCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-        Appalachian Seed-A-Pult
+          Appalachian Seed-A-Pult
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-        Unity Programmer, Mon River Games Global Game Jam 2023
+          Unity Programmer, Mon River Games Global Game Jam 2023
         </Typography>
       </CardContent>
       <CardActions>
@@ -47,7 +50,7 @@ export default function ApplachianSeedCard() {
 //#region WV Quest
 export function WVQuestCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 400 }}
         component="img"
@@ -73,7 +76,7 @@ export function WVQuestCard() {
 //#region Dawn of Alina
 export function DawnOfAlinaCard() {
   return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 400 }}
         component="img"
@@ -85,7 +88,7 @@ export function DawnOfAlinaCard() {
           Dawn of Alina
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-        Mon River Games Summer 2022 and Fall 2023 Sessions, Unity Engine
+          Mon River Games Summer 2022 and Fall 2023 Sessions, Unity Engine
         </Typography>
       </CardContent>
       <CardActions>
@@ -99,7 +102,7 @@ export function DawnOfAlinaCard() {
 //#region Endless Jump
 export function EndlessJumpCard() {
   return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 400 }}
         component="img"
@@ -111,7 +114,7 @@ export function EndlessJumpCard() {
           Endless Jump
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Advanced Game Design Course, Unity Engine
+          MDIA 472 Advanced Game Design Course, Unity Engine
         </Typography>
       </CardContent>
       <CardActions>
@@ -125,7 +128,7 @@ export function EndlessJumpCard() {
 //#region High-Bytes OS
 export function HighBytesOSCard() {
   return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 400 }}
         component="img"
@@ -148,36 +151,10 @@ export function HighBytesOSCard() {
 }
 //#endregion
 
-//#region High-Bytes OS
-export function CS470MenuCard() {
-  return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 400 }}
-        component="img"
-        image={EndlessJumpImg}
-        title="Endless Jump"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-        Python Tinkter Menu
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-          CS 470 Menu Project written in Python and Tkinter
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#EndlessJump'>Learn More</Button>
-      </CardActions>
-    </Card>
-  );
-}
-//#endregion
-
 //#region Blender 3D Models
 export function BlenderProjectsCard() {
   return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 430 }}
         component="img"
@@ -186,7 +163,7 @@ export function BlenderProjectsCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-        Blender Projects
+          Blender Projects
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
           Blender 3D Modeling Projects
@@ -203,7 +180,7 @@ export function BlenderProjectsCard() {
 //#region Photoshop Card
 export function PhotoshopProjectsCard() {
   return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 430 }}
         component="img"
@@ -212,7 +189,7 @@ export function PhotoshopProjectsCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-        Photoshop Projects
+          Photoshop Projects
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
           Photoshop Projects
@@ -225,10 +202,10 @@ export function PhotoshopProjectsCard() {
   );
 }
 //#endregion
-//#region Photoshop Card
+//#region Cart Smash Card
 export function CartSmashCard() {
   return (
-    <Card className='Card' sx={{minWidth: 400, minHeight: 500}}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
       <CardMedia className='CardMedia'
         sx={{ height: 430 }}
         component="img"
@@ -237,10 +214,10 @@ export function CartSmashCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-        Cart Smash
+          Cart Smash
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-        2024 Global Game Jam, Unity Engine
+          2024 Global Game Jam, Unity Engine
         </Typography>
       </CardContent>
       <CardActions>

@@ -1,15 +1,19 @@
+/* Card.css
+CSS formatting for all card components */
+
+/* Site uses Roboto font family from Google Fonts*/
 @font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url("../../RobotoCondensed-Regular.ttf") format("tff");
-  }
+  font-family: 'Roboto', sans-serif;
+  src: url("../../RobotoCondensed-Regular.ttf") format("tff");
+}
 
 .Card {
-    padding: 1rem;
-    max-width: 500px;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-   }
+  padding: 1rem;
+  max-width: 500px;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
 
-   .button {
-    text-shadow: 2px 2px 4px #000000;
-   }
+.button {
+  text-shadow: 2px 2px 4px #000000;
+}
