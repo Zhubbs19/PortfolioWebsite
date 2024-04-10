@@ -20,4 +20,6 @@ UI and Art Asset Attributions
 - WVQuest.png -  UI Designed by Jackson Sigler and implemented into Unity project by capstone member Tessla Muir
 - RegistrationWVQuest.png -  UI Designed by Jackson Sigler and implemented into Unity project by capstone member Tessla Muir
 - AppalachianSeedLaunch.png - Background Image created by Heather Cole for the 2023 Global Game Jam
-- RampCrash.png - Image for Cart Smash - 2024 Global Game Jam Submission, attributions found on the project page.
+- RampCrash.png - 2024 Global Game Jam Submission, image taken in Unity by group member David Haley.
+- GDC.jpg – Image of myself at the 2022 Game Developer’s conference.
+
