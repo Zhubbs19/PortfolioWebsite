@@ -23,10 +23,12 @@ export default function PhotoshopProjects() {
           </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={6} lg={4}>
             <h3 className='subheader' style={{ justifyContent: "left" }}>Soda Can Mockup Project</h3>
-            <p className="text">Soda Can Mockup was created as a first project for teaching myself Adobe Photoshop.<br></br></p>
+            <p className="text">This Soda Can Mockup was created as a first project for teaching myself Adobe Photoshop. I was inspired by tutorials and articles like these for the project:</p>
+            <p><a style={{ fontWeight: "bold" }} href="https://www.youtube.com/watch?v=xX2DA6__w04">Create Soda Can Mock-up in Photoshop</a> by Design Den on YouTube</p>
+            <p><a style={{ fontWeight: "bold" }} href="https://design.tutsplus.com/articles/50-great-photoshop-tutorials-for-clever-beginners--psd-785">100+ Great Photoshop Tutorials for Clever Beginners | Envato Tuts+</a> by Danny Outlaw</p>
             <h3 className="attribution-subheader" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "1rem" }}>Credits and Attribution: </h3>
             <li className='attribution-list'><a href="https://www.pexels.com/photo/silver-can-in-white-background-8066771/">silver-can-in-white-background-8066771 by Mediamodifier</a> From Pexels using Creative Commons License</li>
-            <p></p>
+            
           </Grid>
         </Grid>
       </Box>

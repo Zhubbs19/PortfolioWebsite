@@ -28,7 +28,11 @@ function SeedAPult() { // Handles the project page for Appalachian Seed-A-Pult
             <li className='feature'>Win and Fail Screens</li>
             <li className='feature'>Tweaks to seed launch physics</li>
             <li className='feature'>Audio and Asset imports</li>
-            <iframe src="https://itch.io/embed/1911063" width="552" height="167"><a href="https://gdimwvu.itch.io/appalachian-seed-a-pult">Appalachian Seed-A-Pult by GDIM</a></iframe>
+            <h3 className="subheader ">All asset attributions can be found on the game’s itch.io page or game jam page linked below.</h3>
+            <a style={{ fontWeight: "bold" }} href="https://globalgamejam.org/games/2024/cart-smash-2">Appalachian Seed-A-Pult - Global Game Jam Submission</a>
+            <h3 className="attribution-header" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "1rem" }}>2023 Global Game Jam Participants: </h3>
+            <li className='feature'>Heather Cole (art and asset creation), Zachary Hubbard (programming), Tessla Muir (programming), Joshua Robinson (programming support and audio asset sourcing), and Ryan Lee Eicheldinger (helped with game ideation).</li>
+            <iframe style={{paddingTop: "1rem" }}  src="https://itch.io/embed/1911063" width="552" height="167"><a href="https://gdimwvu.itch.io/appalachian-seed-a-pult">Appalachian Seed-A-Pult by GDIM</a></iframe>
           </Grid>
         </Grid>
       </div>
