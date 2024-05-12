@@ -13,7 +13,7 @@ function SeedAPult() { // Handles the project page for Appalachian Seed-A-Pult
     document.title = "Zach Hubbard | Seed-A-Pult",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Appalachian Seed-A-Pult</h1>
+      <h1 className="base-header">Appalachian Seed-A-Pult - 2023 Global Game Jam Submission</h1>
       <div className="about-content">
         <Grid container spacing={6} direction="row" className='about-grid'>
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={6}>
@@ -21,7 +21,7 @@ function SeedAPult() { // Handles the project page for Appalachian Seed-A-Pult
           </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
             <p>Appalachian Seed-A-Pult is a 2D WebGL seed-launching game where you are tasked with catapulting a seed to the correct type of soil where it is fertile and is able to grow.
-              This game was created in the Unity Game Engine through Mon River Games&apos; participation in the 2023 Global Game Jam.</p>
+              This game was created in the Unity Game Engine through Mon River Games&apos; participation in the 2023 Global Game Jam, where the theme was &quot;Roots&quot;</p>
             <h3 className="subheader"> Throughout the Game&apos;s development, I implemented:</h3>
             <li className='feature'>Collision detection for seeds colliding on fertile/infertile ground
               and triggering plant growth</li>

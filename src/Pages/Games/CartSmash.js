@@ -14,7 +14,7 @@ function CartSmash() { // Handles the project page for Cart Smash
     document.title = "Zach Hubbard | Cart Smash",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Cart Smash</h1>
+      <h1 className="base-header">Cart Smash - 2024 Global Game Jam Submission</h1>
       <div className="about-content">
         <Grid container spacing={6} direction="row" className='about-grid'>
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={6} xl={6}>
@@ -23,7 +23,7 @@ function CartSmash() { // Handles the project page for Cart Smash
           <Grid item className='CartSmashInfo' xs={12} sm={12} md={12} lg={12} xl={6}>
             <p> Cart Smash is a fun, simple 3D physics game that involves launching a shopping cart off a ramp while trying to keep all your items within the cart.
               This game was created in the Unity Engine through participation in the 2024 Global Game Jam, where this years&apos; theme was &quot;make me laugh&quot;.</p>
-            <a style={{ fontWeight: "bold" }} href="https://globalgamejam.org/games/2024/cart-smash-2">Cart Smash - 2023 Global Game Jam Submission</a>
+            <a style={{ fontWeight: "bold" }} href="https://globalgamejam.org/games/2024/cart-smash-2">Cart Smash - 2024 Global Game Jam Submission</a>
             <h3 className="subheader" style={{ fontWeight: "bold" }}>2024 Global Game Jam Group Participants</h3>
             <p>Zachary Hubbard (programming), Tom Heckman (programming), and David Haley (music, audio, and 3D asset creation).</p>
             <h3 className="attribution-subheader" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "2rem" }}>Credits and Attribution: </h3>

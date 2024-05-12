@@ -14,7 +14,7 @@ export default function PhotoshopProjects() {
     document.title = "Zach Hubbard | Blender Projects",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Photoshop Projects</h1>
+      <h1 className="base-header">Photoshop Project - Soda Can Mockup</h1>
       <Box sx={{ flexGrow: 1 }} className="about-content">
         <Grid container spacing={5}>
           <Grid item className='media-item' xs={12} sm={6} md={6} lg={7}>
@@ -22,7 +22,6 @@ export default function PhotoshopProjects() {
             <h3 className='subheader'>Soda Can Mockup</h3>
           </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={6} lg={4}>
-            <h3 className='subheader' style={{ justifyContent: "left" }}>Soda Can Mockup Project</h3>
             <p className="text">This Soda Can Mockup was created as a first project for teaching myself Adobe Photoshop. I was inspired by tutorials and articles like these for the project:</p>
             <p><a style={{ fontWeight: "bold" }} href="https://www.youtube.com/watch?v=xX2DA6__w04">Create Soda Can Mock-up in Photoshop</a> by Design Den on YouTube</p>
             <p><a style={{ fontWeight: "bold" }} href="https://design.tutsplus.com/articles/50-great-photoshop-tutorials-for-clever-beginners--psd-785">100+ Great Photoshop Tutorials for Clever Beginners | Envato Tuts+</a> by Danny Outlaw</p>

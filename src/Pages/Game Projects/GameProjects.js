@@ -43,5 +43,4 @@ function GameProjects() {
     </ThemeProvider>
   );
 }
-
 export default GameProjects;

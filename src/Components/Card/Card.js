@@ -10,7 +10,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './Card.css'
-
 import AppalachianSeedLaunchImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
 import WVQuestImg from '../../Images/Project_Images/WVQuest.PNG';
 import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlina.JPG';
@@ -23,9 +22,9 @@ import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
 //#region Appalachian Seed Launch
 export default function ApplachianSeedCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
-        sx={{ height: 400 }}
+        sx={{ height: 470 }}
         component="img"
         image={AppalachianSeedLaunchImg}
         title="Appalachian Seed-A-Pult"
@@ -35,7 +34,7 @@ export default function ApplachianSeedCard() {
           Appalachian Seed-A-Pult
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Unity Programmer, Mon River Games Global Game Jam 2023
+        2023 Global Game Jam, Unity Engine        
         </Typography>
       </CardContent>
       <CardActions>
@@ -49,9 +48,9 @@ export default function ApplachianSeedCard() {
 //#region WV Quest
 export function WVQuestCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
-        sx={{ height: 400 }}
+        sx={{ height: 470 }}
         component="img"
         image={WVQuestImg}
         title="WV Quest"
@@ -61,7 +60,7 @@ export function WVQuestCard() {
           WV Quest
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Unity Programmer, WV State Musuem Capstone Project
+          WV State Musuem Capstone Project
         </Typography>
       </CardContent>
       <CardActions>
@@ -75,9 +74,9 @@ export function WVQuestCard() {
 //#region Dawn of Alina
 export function DawnOfAlinaCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
-        sx={{ height: 400 }}
+        sx={{ height: 470 }}
         component="img"
         image={DawnOfAlinaImg}
         title="Dawn of Alina"
@@ -87,7 +86,7 @@ export function DawnOfAlinaCard() {
           Dawn of Alina
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Mon River Games Summer 2022 and Fall 2023 Sessions, Unity Engine
+          Mon River Games Prototype, Unity Engine
         </Typography>
       </CardContent>
       <CardActions>
@@ -101,19 +100,19 @@ export function DawnOfAlinaCard() {
 //#region High-Bytes OS
 export function HighBytesOSCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
-        sx={{ height: 400 }}
+        sx={{ height: 470 }}
         component="img"
         image={HighBytesOSImg}
-        title="Endless Jump"
+        title="HighBytesOS"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
           High-Bytes OS
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          CS 450 - Operating Systems Sturctures Group Project
+        Operating Systems Sturctures Group Project
         </Typography>
       </CardContent>
       <CardActions>
@@ -127,9 +126,9 @@ export function HighBytesOSCard() {
 //#region Blender 3D Models
 export function BlenderProjectsCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
-        sx={{ height: 430 }}
+        sx={{ height: 470 }}
         component="img"
         image={DonutImg}
         title="Blender Donut"
@@ -139,7 +138,7 @@ export function BlenderProjectsCard() {
           Blender Projects
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Blender 3D Modeling Projects
+          Blender 3D Modeling Tutorial Project
         </Typography>
       </CardContent>
       <CardActions>
@@ -153,19 +152,20 @@ export function BlenderProjectsCard() {
 //#region Photoshop Card
 export function PhotoshopProjectsCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
-        sx={{ height: 430 }}
+        sx={{ height: 470 }}
         component="img"
         image={SodaCanImg}
+        href='#PhotoshopProjects'
         title="Soda Can Mockup Image"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Photoshop Projects
+        Soda Can Mockup Poster
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
-          Photoshop Projects
+        Adobe Photoshop Project
         </Typography>
       </CardContent>
       <CardActions>
@@ -178,11 +178,12 @@ export function PhotoshopProjectsCard() {
 //#region Cart Smash Card
 export function CartSmashCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500 }}>
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
-        sx={{ height: 430 }}
+        sx={{ height: 470 }}
         component="img"
         image={CartSmashImg}
+        href='#CartSmash'
         title="Cart Smash"
       />
       <CardContent>
