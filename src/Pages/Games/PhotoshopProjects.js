@@ -28,6 +28,8 @@ export default function PhotoshopProjects() {
             <p><a style={{ fontWeight: "bold" }} href="https://design.tutsplus.com/articles/50-great-photoshop-tutorials-for-clever-beginners--psd-785">100+ Great Photoshop Tutorials for Clever Beginners | Envato Tuts+</a> by Danny Outlaw</p>
             <h3 className="attribution-subheader" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "1rem" }}>Credits and Attribution: </h3>
             <li className='attribution-list'><a href="https://www.pexels.com/photo/silver-can-in-white-background-8066771/">silver-can-in-white-background-8066771 by Mediamodifier</a> From Pexels using Creative Commons License</li>
+            <li className='attribution-list'><a href="https://www.pexels.com/photo/water-bubbles-2853937/">Water Bubbles Photo by Sebastian Sørensen</a> From Pexels using Creative Commons License </li>
+            
             
           </Grid>
         </Grid>
