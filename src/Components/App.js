@@ -45,9 +45,9 @@ function App() {
             </Grid>
             <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={4}>
               <p> Hello, my name is Zach Hubbard, and I have a huge passion
-                for software and web development, computer science, and video games.
-                I primarily focus on the programming side of game and software development.
-                I enjoy creating, problem-solving, learning new things, and challenging myself.</p>
+                for game and software development, computer science, and video games.
+                I primarily focus on the programming side of game and software development, and 
+                enjoy creating, problem-solving, learning new things, and challenging myself.</p>
               <h3 style={{ fontWeight: 'bold' }} >Email: Zhubbs19@gmail.com </h3>
             </Grid>
           </Grid>
