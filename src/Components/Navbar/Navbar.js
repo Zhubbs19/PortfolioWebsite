@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css';
-import logoImg from '../../Images/Logos/SiteLogo.svg';
+import logoImg from '../../Images/Logos/SiteLogoNew.svg';
 
 /*
   Navbar.js - Contains the narbar component present on the top of all my pages for navigation.
