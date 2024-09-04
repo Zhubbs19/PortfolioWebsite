@@ -23,7 +23,7 @@ function NavbarComponent() {
           <Nav.Link className='link' href="/#experience">Experience</Nav.Link>
           <Nav.Link className='link' href="https://drive.google.com/file/d/1OCzhkLCWfZ5nWLExsAy0WAApGkR03BHa/view?usp=sharing">Resume</Nav.Link>
           <Nav.Link className='link' href="https://www.linkedin.com/in/zachary-hubbard-39645b204/">LinkedIn</Nav.Link>
-          <Nav.Link className='link' href="https://www.youtube.com/@ZHubbard">YouTube</Nav.Link>
+          <Nav.Link className='link' href="https://www.youtube.com/@ZHubbard3">YouTube</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
