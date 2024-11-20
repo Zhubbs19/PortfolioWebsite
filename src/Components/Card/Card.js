@@ -17,10 +17,37 @@ import HighBytesOSImg from '../../Images/Project_Images/HighBytes.png';
 import DonutImg from '../../Images/Project_Images/Donut.jpg';
 import SodaCanImg from '../../Images/Project_Images/SodaCan.png';
 import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
+import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
+//#endregion
+
+//#region Epic Door
+export default function EpicDoorCard() {
+  return (
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 470 }}
+        component="img"
+        image={EpicDoorImg}
+        title="Epic Door"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+          GAME 710 - Epic Door Project
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+        Unreal Engine 5.4       
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='#EpicDoor'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
 //#endregion
 
 //#region Appalachian Seed Launch
-export default function ApplachianSeedCard() {
+export function ApplachianSeedCard() {
   return (
     <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'

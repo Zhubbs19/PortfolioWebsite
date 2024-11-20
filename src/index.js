@@ -14,6 +14,7 @@ import BlenderProjects from './Pages/Games/BlenderProjects';
 import { createHashRouter } from 'react-router-dom';
 import PhotoshopProjects from './Pages/Games/PhotoshopProjects';
 import CartSmash from './Pages/Games/CartSmash';
+import EpicDoor from './Pages/Games/EpicDoor';
 //#endregion
 
 /* Handles website routing so multiple pages can be linked to on the site */
@@ -61,6 +62,10 @@ const router = createHashRouter([
   {
     path: "CartSmash",
     element: <CartSmash />,
+  },
+  {
+    path: "EpicDoor",
+    element: <EpicDoor />,
   },
   { // Resume Google Drive link: 
     path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true",

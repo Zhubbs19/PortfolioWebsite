@@ -4,7 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar/Navbar.js';
 import Footer from './Footer/Footer.js';
-import ApplachianSeedCard, { BlenderProjectsCard, WVQuestCard } from "./Card/Card";
+import EpicDoorCard, { ApplachianSeedCard, WVQuestCard } from "./Card/Card";
 import { Grid } from "@mui/material"
 import PortfolioImg from '../Images/Homepage/PortfolioCropped.jpg';
 import GDCImg from '../Images/Homepage/GDC.JPG';
@@ -24,13 +24,13 @@ function App() {
         <Box sx={{ flexGrow: 1 }} className="CardsGrid">
           <Grid container direction="row" justifyContent="center">
             <Grid item className='Card'>
-              <ApplachianSeedCard />
+              <EpicDoorCard />
             </Grid>
             <Grid item className='Card'>
               <WVQuestCard />
             </Grid>
             <Grid item className='Card'>
-              <BlenderProjectsCard />
+              <ApplachianSeedCard />
             </Grid>
           </Grid>
         </Box>

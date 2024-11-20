@@ -17,16 +17,32 @@ function Experience() { /* Handles Experience Page */
       <div className="experience-job">
         <Grid container direction="row" justifyContent="left" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={4}>
+            <p className="name" style={{ fontWeight: 'bold', fontStyle: 'italic' }}>Hatch Coding</p>
+            <p className="name">Remote</p>
+            <p className="name" style={{ fontWeight: 'bold' }}>Online Coding Coach</p>
+          </Grid>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className='info'>•	Online programming coach/tutor for middle through high school students, 
+            helping students improve their programming skills through JavaScript, Python, and the Unity game engine.</p>
+          </Grid>
+          <Grid item className='grid-item' xs={12} sm={4}>
+            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>July 2024 - Present</p>
+          </Grid>
+        </Grid>
+      </div>
+      <div className="experience-job">
+        <Grid container direction="row" justifyContent="left" className='experience-grid' >
+          <Grid item className='grid-item' xs={12} sm={4}>
             <p className="name" style={{ fontWeight: 'bold', fontStyle: 'italic' }}>My Tutoring Partners</p>
             <p className="name">Remote</p>
             <p className="name" style={{ fontWeight: 'bold' }}>Online Tutor</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className='info'>Online tutor for middle and high school students currently in mathematics, helping them
+            <p className='info'>Online tutor for middle school through college students in mathematics, reading, and writing, helping them
               achieve their academic goals and attain grade-level milestones.</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>October 2023 - Present</p>
+            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>October 2023 - May 2024</p>
           </Grid>
         </Grid>
       </div>
@@ -122,8 +138,8 @@ function Experience() { /* Handles Experience Page */
             <li className='bullet-list'><strong>Languages: </strong> C#, Java, C/C++, Python, Javascript, HTML, CSS</li>
             <li className='bullet-list'><strong>Operating Systems: </strong>Windows, Linux</li>
             <li className='bullet-list'><strong>Game Engines: </strong>Unity, Unreal Engine</li>
-            <li className='bullet-list'><strong>Graphics and Modeling: </strong>Blender, OpenGL</li>
-            <li className='bullet-list'><strong>Databases: </strong>SQL, Firebase, Oracle Database, MySQL</li>
+            <li className='bullet-list'><strong>Graphics and Modeling: </strong>Maya, Blender, OpenGL</li>
+            <li className='bullet-list'><strong>Databases: </strong>Firebase, Oracle Database, MySQL</li>
             <li className='bullet-list'><strong>Version Control: </strong>Git, Github, BitBucket</li>
 
             <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Activites</h3>

@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar/Navbar";
-import ApplachianSeedCard, { DawnOfAlinaCard, WVQuestCard, BlenderProjectsCard, PhotoshopProjectsCard, CartSmashCard} from "../../Components/Card/Card";
+import EpicDoorCard, { DawnOfAlinaCard, WVQuestCard, BlenderProjectsCard, PhotoshopProjectsCard, CartSmashCard, ApplachianSeedCard} from "../../Components/Card/Card";
 import '../../Components/App.css';
 import '../../Components/Card/Card.css'
 import { Grid } from "@mui/material"
@@ -18,6 +18,9 @@ function GameProjects() {
         <h1 className="base-header">Game and Personal Projects</h1>
         <div className="CardsGrid">
           <Grid container direction="row" justifyContent="center">
+          <Grid item className='Card'>
+              <EpicDoorCard />
+            </Grid>
             <Grid item className='Card'>
               <WVQuestCard />
             </Grid>

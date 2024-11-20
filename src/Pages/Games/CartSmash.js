@@ -26,7 +26,7 @@ function CartSmash() { // Handles the project page for Cart Smash
             <a style={{ fontWeight: "bold" }} href="https://globalgamejam.org/games/2024/cart-smash-2">Cart Smash - 2024 Global Game Jam Submission</a>
             <h3 className="subheader" style={{ fontWeight: "bold" }}>2024 Global Game Jam Group Participants</h3>
             <p>Zachary Hubbard (programming), Tom Heckman (programming), and David Haley (music, audio, and 3D asset creation).</p>
-            <h3 className="attribution-subheader" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "2rem" }}>Credits and Attribution: </h3>
+            <h3 className="attribution-subheader" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "2rem" }}>Credits and Attributions: </h3>
             <li className='attribution-list'><a href="https://www.freepik.com/3d-model/shopping-cart-001_3553">Shopping Cart 001 3D Model by freepik</a> using Freepik free license</li>
             <li className='attribution-list'><a href="https://www.freepik.com/free-vector/abstract-perspective-graph-pattern-grid-vector-design_51706871.htm#query=grid&position=19&from_view=search&track=sph&uuid=6ba28faa-0978-4a4f-880e-c04fafec8a7a">Free vector abstract perspective graph pattern grid vector design by freepik</a></li>
             <li className='attribution-list'><a href="https://www.vecteezy.com/vector-art/7718306-black-and-white-checkered-flag-background">Checkered Flag Vectors by Vecteezy</a> using Vecteezy free license</li>

@@ -17,7 +17,7 @@ function SeedAPult() { // Handles the project page for Appalachian Seed-A-Pult
       <div className="about-content">
         <Grid container spacing={6} direction="row" className='about-grid'>
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={6}>
-            <iframe src="https://drive.google.com/uc?id=126AtST8CIzQISODfxTkthe8DrFR7xvrU" width="800px" height="600px" sandbox></iframe>
+          <iframe width="800" height="600" src="https://www.youtube.com/embed/uF1FGmbfRDQ" title="Appalachian Seed-A-Pult Demo - Global Game Jam 2023" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
             <p>Appalachian Seed-A-Pult is a 2D WebGL seed-launching game where you are tasked with catapulting a seed to the correct type of soil where it is fertile and is able to grow.
