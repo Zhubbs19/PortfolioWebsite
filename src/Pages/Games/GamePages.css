@@ -51,8 +51,6 @@
 .about-grid {
   font-size: 2rem;
   display: flexbox;
-  align-items: center;
-  justify-content: center;
 }
 
 .info-item {

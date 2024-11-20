@@ -21,8 +21,8 @@ function EpicDoor() { // Handles the project page for Epic Door
             <iframe width="800" height="600" src="https://www.youtube.com/embed/mhS2s4bzIAk" title="GAME 710 Epic Door Project" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe src={EpicDoorImg} width="800px" height="600px" sandbox></iframe>
           </Grid>
-          <Grid item className='CartSmashInfo' xs={12} sm={12} md={12} lg={12} xl={6}>
-            <p style={{ justifyContent: "left"}}>Door Opening Model and Cinematic created in Unreal Engine 5 for my GAME 710 - Game Art: Engine Pipelines and Practices course.</p>
+          <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
+            <p style={{ justifyContent: "left"}}>Vault-style door opening cinematic created in Unreal Engine 5 for my GAME 710 - Game Art: Engine Pipelines and Practices course.</p>
             <h3 className="attribution-subheader" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "2rem" }}>Credits and Attributions: </h3>
             <li className='attribution-list'><a href="https://substance3d.adobe.com/community-assets/assets/14fb5acfc679523f45d5b223eee64b45b5341ecd">Stone Wall by Ben Rosendahl from Adobe Substance 3D Community Assets</a></li>
             <li className='attribution-list'><a href="https://substance3d.adobe.com/community-assets/assets/d7b1d54e2ea126228b3e3357b43d26b19833d7ff">Stone Floor Tiles by Shivam Shakya from Adobe Substance 3D Community Assets</a></li>
