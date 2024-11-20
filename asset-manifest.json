@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.77e910b1.css",
-    "main.js": "/static/js/main.bb9f5ef4.js",
+    "main.js": "/static/js/main.d9e10aa6.js",
     "static/media/BlenderDonut.mp4": "/static/media/BlenderDonut.e0c44640b692764a0fd5.mp4",
     "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a39e3d39736e8c521b61.png",
     "static/media/PortfolioCropped.jpg": "/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
     "static/media/Cookies2.png": "/static/media/Cookies2.af4623a0ac42f28d4cf8.png",
     "static/media/SodaCan.png": "/static/media/SodaCan.e9066b39ab7dcf718477.png",
+    "static/media/EpicDoor.png": "/static/media/EpicDoor.5444ccdf69cb877518d5.png",
     "static/media/SiteLogoNew.svg": "/static/media/SiteLogoNew.9598fedff51e5a7b28ba0892ff01007f.svg",
     "static/media/RampCrash2.png": "/static/media/RampCrash2.5c1a7fb322590e5fe53b.png",
     "static/media/Donut.jpg": "/static/media/Donut.df1ac986a6a28a1db0af.jpg",
@@ -20,10 +21,10 @@
     "static/media/RegistrationWVQuest.PNG": "/static/media/RegistrationWVQuest.428bb4ef47a16e697572.PNG",
     "index.html": "/index.html",
     "main.77e910b1.css.map": "/static/css/main.77e910b1.css.map",
-    "main.bb9f5ef4.js.map": "/static/js/main.bb9f5ef4.js.map"
+    "main.d9e10aa6.js.map": "/static/js/main.d9e10aa6.js.map"
   },
   "entrypoints": [
     "static/css/main.77e910b1.css",
-    "static/js/main.bb9f5ef4.js"
+    "static/js/main.d9e10aa6.js"
   ]
 }
