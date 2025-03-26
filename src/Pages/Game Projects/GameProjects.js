@@ -1,13 +1,12 @@
 import React from "react";
 import NavbarComponent from "../../Components/Navbar/Navbar";
-import EpicDoorCard, { DawnOfAlinaCard, WVQuestCard, BlenderProjectsCard, PhotoshopProjectsCard, CartSmashCard, ApplachianSeedCard} from "../../Components/Card/Card";
+import EscapeRoomCard, {EpicDoorCard,  DawnOfAlinaCard, WVQuestCard, BlenderProjectsCard, PhotoshopProjectsCard, CartSmashCard, ApplachianSeedCard, WeatheredHomeCard} from "../../Components/Card/Card";
 import '../../Components/App.css';
 import '../../Components/Card/Card.css'
 import { Grid } from "@mui/material"
 import Footer from '../../Components/Footer/Footer.js';
 import siteTheme from '../../SiteTheme';
 import { ThemeProvider } from "@mui/material/styles";
-
 // Landing page for all of my game and personal Project cards.
 function GameProjects() {
   return (
@@ -19,6 +18,12 @@ function GameProjects() {
         <div className="CardsGrid">
           <Grid container direction="row" justifyContent="center">
           <Grid item className='Card'>
+              <WeatheredHomeCard />
+            </Grid>
+            <Grid item className='Card'>
+              <EscapeRoomCard />
+            </Grid>
+            <Grid item className='Card'>
               <EpicDoorCard />
             </Grid>
             <Grid item className='Card'>

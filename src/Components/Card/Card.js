@@ -20,8 +20,34 @@ import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
 import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
 //#endregion
 
+//#region Escape Room
+export default function EscapeRoomCard() {
+  return (
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 470 }}
+        component="img"
+        image={EpicDoorImg}
+        title="Escape Room"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+          GAME 712 - Escape Room Project
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+        Unreal Engine 5.5     
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='#EscapeRoom'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+
 //#region Epic Door
-export default function EpicDoorCard() {
+export function EpicDoorCard() {
   return (
     <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
       <CardMedia className='CardMedia'
@@ -40,6 +66,32 @@ export default function EpicDoorCard() {
       </CardContent>
       <CardActions>
         <Button className='button' size="large" variant='contained' href='#EpicDoor'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
+
+//#region Epic Door
+export function WeatheredHomeCard() {
+  return (
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 470 }}
+        component="img"
+        image={EpicDoorImg}
+        title="A Weathered Home"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+          A Weathered Home
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+        Game 714 Project - Unreal Engine 5.4       
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='#WeatheredHome'>Learn More</Button>
       </CardActions>
     </Card>
   );
