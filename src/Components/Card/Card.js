@@ -13,11 +13,11 @@ import './Card.css'
 import AppalachianSeedLaunchImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
 import WVQuestImg from '../../Images/Project_Images/WVQuest.PNG';
 import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlina.JPG';
-import HighBytesOSImg from '../../Images/Project_Images/HighBytes.png';
 import DonutImg from '../../Images/Project_Images/Donut.jpg';
 import SodaCanImg from '../../Images/Project_Images/SodaCan.png';
 import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
 import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
+import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
 //#endregion
 
 //#region Escape Room
@@ -27,12 +27,12 @@ export default function EscapeRoomCard() {
       <CardMedia className='CardMedia'
         sx={{ height: 470 }}
         component="img"
-        image={EpicDoorImg}
+        image={EscapeRoomImg}
         title="Escape Room"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          GAME 712 - Escape Room Project
+          Depths of the Temple
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
         Unreal Engine 5.5     
@@ -58,7 +58,7 @@ export function EpicDoorCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          GAME 710 - Epic Door Project
+          Epic Door Project
         </Typography>
         <Typography variant="body" color="black" fontSize="20px">
         Unreal Engine 5.4       
@@ -66,32 +66,6 @@ export function EpicDoorCard() {
       </CardContent>
       <CardActions>
         <Button className='button' size="large" variant='contained' href='#EpicDoor'>Learn More</Button>
-      </CardActions>
-    </Card>
-  );
-}
-//#endregion
-
-//#region Epic Door
-export function WeatheredHomeCard() {
-  return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={EpicDoorImg}
-        title="A Weathered Home"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          A Weathered Home
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-        Game 714 Project - Unreal Engine 5.4       
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#WeatheredHome'>Learn More</Button>
       </CardActions>
     </Card>
   );
@@ -170,32 +144,6 @@ export function DawnOfAlinaCard() {
       </CardContent>
       <CardActions>
         <Button className='button' size="large" variant='contained' href='#DawnOfAlina'>Learn More</Button>
-      </CardActions>
-    </Card>
-  );
-}
-//#endregion
-
-//#region High-Bytes OS
-export function HighBytesOSCard() {
-  return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={HighBytesOSImg}
-        title="HighBytesOS"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          High-Bytes OS
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-        Operating Systems Sturctures Group Project
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#HighBytesOS'>Learn More</Button>
       </CardActions>
     </Card>
   );

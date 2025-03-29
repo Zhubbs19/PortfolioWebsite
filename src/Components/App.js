@@ -24,13 +24,13 @@ function App() {
         <Box sx={{ flexGrow: 1 }} className="CardsGrid">
           <Grid container direction="row" justifyContent="center">
             <Grid item className='Card'>
+              <EscapeRoomCard />
+            </Grid>
+            <Grid item className='Card'>
               <EpicDoorCard />
             </Grid>
             <Grid item className='Card'>
               <WVQuestCard />
-            </Grid>
-            <Grid item className='Card'>
-              <EscapeRoomCard />
             </Grid>
           </Grid>
         </Box>
@@ -44,11 +44,11 @@ function App() {
               <img src={GDCImg} alt='Zach Hubbard' width='400px' height='366px'></img>
             </Grid>
             <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={4}>
-              <p> Hello, my name is Zach Hubbard, and I have a huge passion
+              <p style={{padding: "1rem" }}> Hello, my name is Zach Hubbard, and I have a huge passion
                 for game and software development, computer science, and video games.
                 I primarily focus on the programming side of game and software development, and 
                 enjoy creating, problem-solving, learning new things, and challenging myself.</p>
-              <h3 style={{ fontWeight: 'bold' }} >Email: Zhubbs19@gmail.com </h3>
+              <h3 style={{padding:"1rem", fontWeight: 'bold' }} >Email: Zhubbs19@gmail.com </h3>
             </Grid>
           </Grid>
         </Box>

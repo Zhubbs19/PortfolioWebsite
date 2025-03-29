@@ -22,7 +22,7 @@ function Experience() { /* Handles Experience Page */
             <p className="name" style={{ fontWeight: 'bold' }}>Online Coding Coach</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className='info'>•	Online programming coach/tutor for middle through high school students, 
+            <p className='info'>Online programming coach/tutor for middle through high school students, 
             helping students improve their programming skills through JavaScript, Python, and the Unity game engine.</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
@@ -38,11 +38,11 @@ function Experience() { /* Handles Experience Page */
             <p className="name" style={{ fontWeight: 'bold' }}>Online Tutor</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className='info'>Online tutor for middle school through college students in mathematics, reading, and writing, helping them
+            <p className='info'>Seasonal online tutor for middle school through college students in mathematics, reading, and writing, helping them
               achieve their academic goals and attain grade-level milestones.</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>October 2023 - May 2024</p>
+            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>October 2023 - Present</p>
           </Grid>
         </Grid>
       </div>
@@ -115,7 +115,7 @@ function Experience() { /* Handles Experience Page */
       <div className="experience-skills">
         <Grid container direction="row" className='experience-grid' >
           <Grid item className='grid-item' xs={12} sm={6} >
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', paddingBottom: '2%' }}>Relevant Courses</h3>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '1.5rem', paddingBottom: '2%' }}>Relevant Courses</h3>
             <li className='bullet-list'><strong>MDIA 472: Advanced Game Design</strong> -
               Developed 2D and 3D Games as a member of a nonprofit games development studio.</li>
             <li className='bullet-list'><strong>CS 210: File and Data Structures</strong> - Development of Java database that can create, store,
@@ -128,13 +128,19 @@ function Experience() { /* Handles Experience Page */
               Tkinter and OpenGL to create simple computer graphics applications.</li>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={6}>
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Education</h3>
-            <li className='bullet-list'><strong>West Virginia University, Morgantown, WV</strong></li>
+          <div className='education'>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '1.5rem', paddingBottom: '1%'}}>Education</h3>
+            <strong className='subheader' style={{ padding: '1%' }}>Savannah College of Art and Design (SCAD), Savannah GA</strong>
+            <li className='bullet-list'><strong>Master of Fine Arts, Interactive Design and Game Development</strong></li>
+            <li className='bullet-list'><strong>Expected Graduation June 2026</strong></li>
+          </div>
+          <div className='education'>
+            <strong className='subheader'>West Virginia University, Morgantown, WV</strong>
             <li className='bullet-list'><strong>Bachelor of Science in Computer Science, Minor in Philosophy</strong></li>
             <li className='bullet-list'><strong>GPA: 3.37</strong></li>
             <li className='bullet-list'><strong>Graduated May 2023</strong></li>
-
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Skills</h3>
+          </div>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '1.5rem', padding: '2%' }}>Skills</h3>
             <li className='bullet-list'><strong>Languages: </strong> C#, Java, C/C++, Python, Javascript, HTML, CSS</li>
             <li className='bullet-list'><strong>Operating Systems: </strong>Windows, Linux</li>
             <li className='bullet-list'><strong>Game Engines: </strong>Unity, Unreal Engine</li>
@@ -142,7 +148,7 @@ function Experience() { /* Handles Experience Page */
             <li className='bullet-list'><strong>Databases: </strong>Firebase, Oracle Database, MySQL</li>
             <li className='bullet-list'><strong>Version Control: </strong>Git, Github, BitBucket</li>
 
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '2rem', padding: '2%' }}>Activites</h3>
+            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '1.5rem', padding: '2%' }}>Activites</h3>
             <li className='bullet-list'><strong>2021-2022 Secretary, 2022-2023 Vice President - WVU Game Developers Club</strong></li>
             <li className='bullet-list'><strong>2022-2023 Treasurer - WVU X-Reality (VR/AR Club)</strong></li>
           </Grid>

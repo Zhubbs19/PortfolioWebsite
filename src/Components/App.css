@@ -3,7 +3,6 @@
 .Global {
   /* Global handles formatting for all pages */
   background: #d3d3d3;
-  min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }
 
@@ -34,6 +33,7 @@
 
 .media-item {
   text-align: center;
+  padding: 1rem;
 }
 
 .info-item {

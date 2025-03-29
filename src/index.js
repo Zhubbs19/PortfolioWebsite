@@ -3,20 +3,17 @@ import React from 'react';
 import App from './Components/App';
 import { createRoot } from 'react-dom';
 import { RouterProvider } from 'react-router';
-import CourseProjects from './Pages/Course Projects/CourseProjects';
 import GameProjects from './Pages/Game Projects/GameProjects';
 import Experience from './Pages/Experience/Experience';
 import WVQuest from './Pages/Games/WVQuest';
 import DawnOfAlina from './Pages/Games/DawnOfAlina';
 import SeedAPult from './Pages/Games/SeedAPult';
-import HighBytesOS from './Pages/Course Projects/HighBytesOS';
 import BlenderProjects from './Pages/Games/BlenderProjects';
 import { createHashRouter } from 'react-router-dom';
 import PhotoshopProjects from './Pages/Games/PhotoshopProjects';
 import CartSmash from './Pages/Games/CartSmash';
 import EpicDoor from './Pages/Games/EpicDoor';
 import EscapeRoom from './Pages/Games/EscapeRoom';
-import WeatheredHome from './Pages/Games/WeatheredHome';
 //#endregion
 
 /* Handles website routing so multiple pages can be linked to on the site */
@@ -24,10 +21,6 @@ const router = createHashRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path: "course-projects",
-    element: <CourseProjects />,
   },
   {
     path: "game-projects",
@@ -50,10 +43,6 @@ const router = createHashRouter([
     element: <SeedAPult />,
   },
   {
-    path: "HighBytesOS",
-    element: <HighBytesOS />,
-  },
-  {
     path: "BlenderProjects",
     element: <BlenderProjects />,
   },
@@ -72,10 +61,6 @@ const router = createHashRouter([
   {
     path: "EscapeRoom",
     element: <EscapeRoom />,
-  },
-  {
-    path: "WeatheredHome",
-    element: <WeatheredHome />,
   },
   { // Resume Google Drive link: 
     path: "https://docs.google.com/document/d/1H1XwJ3p6x9V9Zm2vF0q4r6uQJXy5Yb1j/edit?usp=sharing&ouid=116077486025085684967&rtpof=true&sd=true",

@@ -41,22 +41,26 @@
 }
 
 .about-content {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   display: flexbox;
-  padding: 1rem;
-  align-items: center;
-  justify-content: "center";
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: left;
+  padding-left: 1.5rem;
 }
 
 .about-grid {
   font-size: 2rem;
   display: flexbox;
+  flex-wrap: wrap;
 }
 
 .info-item {
   font-size: 1.5rem;
   align-items: center;
   justify-content: center;
+  max-inline-size: 100%;
+  display: block;
 }
 
 .media-item {
@@ -68,14 +72,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  display: flexbox;
+  display: block;
+  max-inline-size: 100%;
 }
 
-.image {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display: flexbox;
+img {
+  max-inline-size: 100%;
+  display: block;
 }
 
 .CartSmashInfo {
@@ -99,4 +102,10 @@
 
 .feature-list {
   padding-left: 3rem;
+}
+
+.wrapper {
+  display: grid;
+  flex-wrap: wrap;
+  padding-left: 1rem;
 }

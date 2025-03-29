@@ -27,6 +27,13 @@
     display: flexbox;
   }
   .bullet-list {
-    padding: 2%;
+    padding: 1%;
     font-size: 1.25rem;
+  }
+  .education {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-color: #212529;
+    border-bottom: 8px outset #212529;
+    border-radius: 10px;
   }
