@@ -13,7 +13,7 @@
 
 .attribution-list {
   display: flexbox;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .subheader {
@@ -22,11 +22,12 @@
   color: black;
   display: flexbox;
   justify-content: left;
+  text-align: left;
 }
 
 .attribution-subheader {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: black;
   display: flexbox;
   justify-content: center;

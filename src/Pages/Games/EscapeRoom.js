@@ -19,8 +19,7 @@ function EscapeRoom() { // Handles the project page for Epic Door
       <h1 className="base-header">Depths of the Temple - GAME 712 - Gameplay Scripting Project</h1>
       <div className="about-content">
         <Grid container spacing={2} direction="row" className='about-grid'>
-          <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={6}>
-            <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Demo Video</h3>
+          <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={5.75}>
             <iframe className="responsive-iframe" width="800" height="600" src="https://www.youtube.com/embed/CMI6qtlBUSI" title="GAME 712: Gameplay Scripting - Depths of the Temple Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Collapsing Platform Blueprint</h3>
             <img src={CollapsingPlatformImg} width="800px" height="350px" sandbox></img>
