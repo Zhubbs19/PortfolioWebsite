@@ -13,7 +13,7 @@ import TorchPickupImg from '../../Images/Project_Images/TorchPickup.png';
 
 function EscapeRoom() { // Handles the project page for Epic Door
   return (
-    document.title = "Zach Hubbard | Escape Room",
+    document.title = "Zach Hubbard | Depths of the Temple Project",
     <div className="Global">
       <NavbarComponent />
       <h1 className="base-header">Depths of the Temple - GAME 712 - Gameplay Scripting Project</h1>
