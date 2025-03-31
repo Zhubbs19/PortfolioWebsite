@@ -82,6 +82,14 @@ img {
   display: block;
 }
 
+.image {
+justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  max-inline-size: 100%;
+}
+
 .CartSmashInfo {
   padding-bottom: 3rem;
   font-size: 1.5rem;
@@ -109,4 +117,12 @@ img {
   display: grid;
   flex-wrap: wrap;
   padding-left: 1rem;
+}
+
+.image-item {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-inline-size: 100%;
 }

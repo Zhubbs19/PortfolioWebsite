@@ -9,6 +9,7 @@ import './GamePages.css';
 import CollapsingPlatformImg from '../../Images/Project_Images/CollapsingPlatform_BP.png';
 import RotatingPillarImg from '../../Images/Project_Images/RotatingPillar.png';
 import TorchPickupImg from '../../Images/Project_Images/TorchPickup.png';
+import PillarPuzzleImg from '../../Images/Project_Images/PillarWinConditions.png';
 //#endregion imports 
 
 function EscapeRoom() { // Handles the project page for Epic Door
@@ -16,28 +17,31 @@ function EscapeRoom() { // Handles the project page for Epic Door
     document.title = "Zach Hubbard | Depths of the Temple Project",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Depths of the Temple - GAME 712 - Gameplay Scripting Project</h1>
+      <h1 className="base-header">Depths of the Temple - Gameplay Scripting</h1>
       <div className="about-content">
         <Grid container spacing={2} direction="row" className='about-grid'>
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={5.75}>
-            <iframe className="responsive-iframe" width="800" height="600" src="https://www.youtube.com/embed/CMI6qtlBUSI" title="GAME 712: Gameplay Scripting - Depths of the Temple Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe className="responsive-iframe" width="900" height="687" src="https://www.youtube.com/embed/CMI6qtlBUSI" title="GAME 712: Gameplay Scripting - Depths of the Temple Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Collapsing Platform Blueprint</h3>
-            <img src={CollapsingPlatformImg} width="800px" height="350px" sandbox></img>
+            <img src={CollapsingPlatformImg} width="960px" height="420px" sandbox></img>
             </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
             <p className='about-content' style={{ justifyContent: "left", padding: "1rem" }}>A solo project I completed as part of my my GAME 712 - Gameplay Scripting course. 
-              The project was created in Unreal Engine 5. The project consists of a player traversing a level comprised of several mechanics, 
-              including collapsing platforms, a rotating pillar puzzle, and a pickupable torch. Each individual mechanic was created using blueprint actors. below are images of some of the scripts created for the project.</p>
+              The project was created in Unreal Engine 5. The project consists of a first-person player trying to escape a temple which is comprised of several unique 
+              puzzles and mechanics, including including collapsing platforms, a rotating pillar puzzle, and a pickupable torch. 
+              Each individual mechanic was created using blueprint actors. below are images of some of the blueprints created for the project.</p>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Rotating Pillar Blueprint</h3>
-            <img src={RotatingPillarImg} width="800px" height="450px" sandbox></img>
+            <img src={RotatingPillarImg} width="960px" height="420px" sandbox></img>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Torch Pickup Blueprint</h3>
-            <img src={TorchPickupImg} width="800px" height="350px" sandbox></img>
+            <img src={TorchPickupImg} width="960px" height="420px" sandbox></img>
+            <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Pillar Puzzle Win Conditions Blueprint</h3>
+            <img src={PillarPuzzleImg} width="960px" height="420px" sandbox></img>
           </Grid>
         </Grid>
         <h3 className="attribution-header" style={{ justifyContent: "left", paddingTop: "1rem" }}>Credits and Attributions: </h3>
         <div className="info-item" style={{ justifyContent: "left", padding: "1rem" }}>
-            <h3 className="attribution-subheader">Sounds: </h3>
           <div className="attribution-list">
+            <li className='attribution-list'>My Epic Door project was used as a part of this project, and all its credits and attributions can be found on its project page.</li>
             <li className='attribution-list'>Treasure Chest Open by steprock from Freesound.org - https://freesound.org/people/steprock/sounds/771164/</li>
             <li className='attribution-list'>moving stone platform.wav by patchytherat from Freesound.org - https://freesound.org/people/patchytherat/sounds/530988/</li>
             <li className='attribution-list'>audio by samuelreeder from Freesound.org - https://freesound.org/people/samuelreeder/sounds/734048/</li>
