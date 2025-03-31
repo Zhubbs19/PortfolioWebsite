@@ -27,9 +27,9 @@ function EscapeRoom() { // Handles the project page for Epic Door
             </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
             <p className='about-content' style={{ justifyContent: "left", padding: "1rem" }}>A solo project I completed as part of my my GAME 712 - Gameplay Scripting course. 
-              The project was created in Unreal Engine 5. The project consists of a first-person player trying to escape a temple which is comprised of several unique 
+              The project was created in Unreal Engine 5, and consists of a first-person player trying to escape a temple which is comprised of several unique 
               puzzles and mechanics, including including collapsing platforms, a rotating pillar puzzle, and a pickupable torch. 
-              Each individual mechanic was created using blueprint actors. below are images of some of the blueprints created for the project.</p>
+              Each individual mechanic was created using blueprint actors. Below are screenshots of some of the blueprints created for the project.</p>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Rotating Pillar Blueprint</h3>
             <img src={RotatingPillarImg} width="960px" height="420px" sandbox></img>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Torch Pickup Blueprint</h3>
