@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b0cad07e.css",
-    "main.js": "/static/js/main.2dacc54e.js",
+    "main.js": "/static/js/main.76dab1fb.js",
     "static/media/BlenderDonut.mp4": "/static/media/BlenderDonut.e0c44640b692764a0fd5.mp4",
     "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a39e3d39736e8c521b61.png",
     "static/media/EscapeRoom.png": "/static/media/EscapeRoom.1eb8e26cfb1f18a78ef0.png",
@@ -13,22 +13,25 @@
     "static/media/RampCrash2.png": "/static/media/RampCrash2.5c1a7fb322590e5fe53b.png",
     "static/media/Donut.jpg": "/static/media/Donut.df1ac986a6a28a1db0af.jpg",
     "static/media/RotatingPillar.png": "/static/media/RotatingPillar.d9784eedf7546ae19c2a.png",
-    "static/media/TorchPickup.png": "/static/media/TorchPickup.89bf0c592a4737440cf6.png",
     "static/media/GDC.JPG": "/static/media/GDC.b34fb74c8a1ecd20d8f3.JPG",
     "static/media/PillarWinConditions.png": "/static/media/PillarWinConditions.95a6f7e91bd5f7bf21fb.png",
     "static/media/RobotoCondensed-Regular.ttf": "/static/media/RobotoCondensed-Regular.fc3d2f2e3a203d0037c1.ttf",
+    "static/media/ForestFire.png": "/static/media/ForestFire.8eb797474076af956064.png",
+    "static/media/RepairTotals.png": "/static/media/RepairTotals.9d56143ff8204edd14ac.png",
     "static/media/CollapsingPlatform_BP.png": "/static/media/CollapsingPlatform_BP.2466710e77edc512cb27.png",
+    "static/media/PillarInteractive.png": "/static/media/PillarInteractive.b6f781e9711d9964d24b.png",
     "static/media/WVQuest.PNG": "/static/media/WVQuest.1fc7c34c6c6425214951.PNG",
+    "static/media/CollapsingTreasureFloor.png": "/static/media/CollapsingTreasureFloor.74fecb6c80660207290a.png",
     "static/media/DawnOfAlinaLarge.JPG": "/static/media/DawnOfAlinaLarge.0affe8e8295c354f68ab.JPG",
     "static/media/WVQuestCameraScreen.PNG": "/static/media/WVQuestCameraScreen.d46cf2047bf6f1718237.PNG",
     "static/media/DawnOfAlina.JPG": "/static/media/DawnOfAlina.a3c0c4d6d114f0f2e02c.JPG",
     "static/media/RegistrationWVQuest.PNG": "/static/media/RegistrationWVQuest.428bb4ef47a16e697572.PNG",
     "index.html": "/index.html",
     "main.b0cad07e.css.map": "/static/css/main.b0cad07e.css.map",
-    "main.2dacc54e.js.map": "/static/js/main.2dacc54e.js.map"
+    "main.76dab1fb.js.map": "/static/js/main.76dab1fb.js.map"
   },
   "entrypoints": [
     "static/css/main.b0cad07e.css",
-    "static/js/main.2dacc54e.js"
+    "static/js/main.76dab1fb.js"
   ]
 }
