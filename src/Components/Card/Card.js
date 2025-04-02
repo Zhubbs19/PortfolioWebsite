@@ -45,6 +45,31 @@ export default function EscapeRoomCard() {
   );
 }
 //#endregion
+//#region Escape Room
+export function WeatheredHomeCard() {
+  return (
+    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
+      <CardMedia className='CardMedia'
+        sx={{ height: 470 }}
+        component="img"
+        image={EscapeRoomImg}
+        title="Escape Room"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
+        A Weathered Home        
+        </Typography>
+        <Typography variant="body" color="black" fontSize="20px">
+        Unreal Engine 5.5     
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button className='button' size="large" variant='contained' href='#WeatheredHome'>Learn More</Button>
+      </CardActions>
+    </Card>
+  );
+}
+//#endregion
 
 //#region Epic Door
 export function EpicDoorCard() {

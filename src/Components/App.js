@@ -4,7 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar/Navbar.js';
 import Footer from './Footer/Footer.js';
-import EscapeRoomCard, { EpicDoorCard, WVQuestCard } from "./Card/Card";
+import EscapeRoomCard, { WeatheredHomeCard, EpicDoorCard } from "./Card/Card";
 import { Grid } from "@mui/material"
 import PortfolioImg from '../Images/Homepage/PortfolioCropped.jpg';
 import GDCImg from '../Images/Homepage/GDC.JPG';
@@ -30,7 +30,7 @@ function App() {
               <EpicDoorCard />
             </Grid>
             <Grid item className='Card'>
-              <WVQuestCard />
+              <WeatheredHomeCard />
             </Grid>
           </Grid>
         </Box>

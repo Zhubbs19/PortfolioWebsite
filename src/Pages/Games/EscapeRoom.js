@@ -8,8 +8,10 @@ import '../../Components/App.css';
 import './GamePages.css';
 import CollapsingPlatformImg from '../../Images/Project_Images/CollapsingPlatform_BP.png';
 import RotatingPillarImg from '../../Images/Project_Images/RotatingPillar.png';
-import TorchPickupImg from '../../Images/Project_Images/TorchPickup.png';
 import PillarPuzzleImg from '../../Images/Project_Images/PillarWinConditions.png';
+import PillarImg from '../../Images/Project_Images/PillarInteractive.png';
+import CollapsingFloorImg from '../../Images/Project_Images/CollapsingTreasureFloor.png';
+
 //#endregion imports 
 
 function EscapeRoom() { // Handles the project page for Epic Door
@@ -24,18 +26,20 @@ function EscapeRoom() { // Handles the project page for Epic Door
             <iframe className="responsive-iframe" width="900" height="687" src="https://www.youtube.com/embed/CMI6qtlBUSI" title="GAME 712: Gameplay Scripting - Depths of the Temple Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Collapsing Platform Blueprint</h3>
             <img src={CollapsingPlatformImg} width="960px" height="420px" sandbox></img>
+            <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Collapsing Floor Interaction Diagram</h3>
+            <img src={CollapsingFloorImg} width="900px" height="800px" sandbox></img>
             </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
-            <p className='about-content' style={{ justifyContent: "left", padding: "1rem" }}>A solo project I completed as part of my my GAME 712 - Gameplay Scripting course. 
+            <p className='about-content' style={{ justifyContent: "left", padding: "1rem" }}>A solo project I completed as part of my GAME 712 - Gameplay Scripting course. 
               The project was created in Unreal Engine 5, and consists of a first-person player trying to escape a temple which is comprised of several unique 
-              puzzles and mechanics, including including collapsing platforms, a rotating pillar puzzle, and a pickupable torch. 
-              Each individual mechanic was created using blueprint actors. Below are screenshots of some of the blueprints created for the project.</p>
+              puzzles and mechanics, including a rotating pillar puzzle, a pickupable torch, and collapsing platforms. 
+              Each individual mechanic was created using blueprints. Below are screenshots of some of the blueprints created for the project.</p>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Rotating Pillar Blueprint</h3>
             <img src={RotatingPillarImg} width="960px" height="420px" sandbox></img>
-            <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Torch Pickup Blueprint</h3>
-            <img src={TorchPickupImg} width="960px" height="420px" sandbox></img>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Pillar Puzzle Win Conditions Blueprint</h3>
             <img src={PillarPuzzleImg} width="960px" height="420px" sandbox></img>
+            <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Rotating Pillar Interaction Diagram</h3>
+            <img src={PillarImg} width="900px" height="800px" sandbox></img>
           </Grid>
         </Grid>
         <h3 className="attribution-header" style={{ justifyContent: "left", paddingTop: "1rem" }}>Credits and Attributions: </h3>
