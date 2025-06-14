@@ -18,6 +18,7 @@ import SodaCanImg from '../../Images/Project_Images/SodaCan.png';
 import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
 import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
 import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
+import WeatheredHomeImg from '../../Images/Project_Images/WeatheredHome2.png';
 //#endregion
 
 //#region Escape Room
@@ -52,8 +53,8 @@ export function WeatheredHomeCard() {
       <CardMedia className='CardMedia'
         sx={{ height: 470 }}
         component="img"
-        image={EscapeRoomImg}
-        title="Escape Room"
+        image={WeatheredHomeImg}
+        title="A Weathered Home"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">

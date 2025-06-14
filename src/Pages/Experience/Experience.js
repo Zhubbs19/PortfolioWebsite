@@ -42,7 +42,7 @@ function Experience() { /* Handles Experience Page */
               achieve their academic goals and attain grade-level milestones.</p>
           </Grid>
           <Grid item className='grid-item' xs={12} sm={4}>
-            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>October 2023 - Present</p>
+            <p className='date' style={{ fontWeight: 'bold', textDecoration: 'underline' }}>October 2023 - May 2024</p>
           </Grid>
         </Grid>
       </div>
@@ -114,28 +114,16 @@ function Experience() { /* Handles Experience Page */
       </div>
       <div className="experience-skills">
         <Grid container direction="row" className='experience-grid' >
-          <Grid item className='grid-item' xs={12} sm={6} >
-            <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '1.5rem', paddingBottom: '2%' }}>Relevant Courses</h3>
-            <li className='bullet-list'><strong>MDIA 472: Advanced Game Design</strong> -
-              Developed 2D and 3D Games as a member of a nonprofit games development studio.</li>
-            <li className='bullet-list'><strong>CS 210: File and Data Structures</strong> - Development of Java database that can create, store,
-              and print tables and can interpret SQL queries.</li>
-            <li className='bullet-list'><strong>CS 440: Database Design and Theory</strong> - Developed an interactive database application using SQL and Oracle Database
-              for the queries and tables, alongside Python and Tkinter for the application UI.</li>
-            <li className='bullet-list'><strong>CS 450: Operating Systems Structures</strong> - Worked in a team to implement functionality to a C operating system, such as a
-              command-line terminal, process/memory management, and interrupt-driven IO.</li>
-            <li className='bullet-list'><strong>CS 470: Intro to Computer Graphics</strong> - Used Python, Pygame,
-              Tkinter and OpenGL to create simple computer graphics applications.</li>
-          </Grid>
-          <Grid item className='grid-item' xs={12} sm={6}>
+          <Grid item className='grid-item' xs={12} sm={12}>
           <div className='education'>
             <h3 style={{ fontWeight: 'bold', textDecoration: 'underline', fontSize: '1.5rem', paddingBottom: '1%'}}>Education</h3>
             <strong className='subheader' style={{ padding: '1%' }}>Savannah College of Art and Design (SCAD), Savannah GA</strong>
             <li className='bullet-list'><strong>Master of Fine Arts, Interactive Design and Game Development</strong></li>
+                  <li className='bullet-list'><strong>GPA: 3.85</strong></li>
             <li className='bullet-list'><strong>Expected Graduation June 2026</strong></li>
           </div>
           <div className='education'>
-            <strong className='subheader'>West Virginia University, Morgantown, WV</strong>
+            <strong className='subheader' style={{ padding: '1%' }}>West Virginia University, Morgantown, WV</strong>
             <li className='bullet-list'><strong>Bachelor of Science in Computer Science, Minor in Philosophy</strong></li>
             <li className='bullet-list'><strong>GPA: 3.37</strong></li>
             <li className='bullet-list'><strong>Graduated May 2023</strong></li>

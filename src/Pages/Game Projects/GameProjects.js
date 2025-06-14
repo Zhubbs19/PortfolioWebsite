@@ -30,16 +30,16 @@ function GameProjects() {
               <ApplachianSeedCard />
             </Grid>
             <Grid item className='Card'>
-              <BlenderProjectsCard />
-            </Grid>
-            <Grid item className='Card'>
-              <PhotoshopProjectsCard />
-            </Grid>
-            <Grid item className='Card'>
               <CartSmashCard />
             </Grid>
             <Grid item className='Card'>
               <DawnOfAlinaCard />
+            </Grid>
+             <Grid item className='Card'>
+              <BlenderProjectsCard />
+            </Grid>
+            <Grid item className='Card'>
+              <PhotoshopProjectsCard />
             </Grid>
           </Grid>
         </div>
