@@ -4,7 +4,6 @@ import App from './Components/App';
 import { createRoot } from 'react-dom';
 import { RouterProvider } from 'react-router';
 import GameProjects from './Pages/Game Projects/GameProjects';
-import Experience from './Pages/Experience/Experience';
 import WVQuest from './Pages/Games/WVQuest';
 import DawnOfAlina from './Pages/Games/DawnOfAlina';
 import SeedAPult from './Pages/Games/SeedAPult';
@@ -26,10 +25,6 @@ const router = createHashRouter([
   {
     path: "game-projects",
     element: <GameProjects />,
-  },
-  {
-    path: "Experience",
-    element: <Experience />,
   },
   {
     path: "WVQuest",

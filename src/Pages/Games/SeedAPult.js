@@ -13,7 +13,7 @@ function SeedAPult() { // Handles the project page for Appalachian Seed-A-Pult
     document.title = "Zach Hubbard | Seed-A-Pult",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Appalachian Seed-A-Pult - 2023 Global Game Jam Submission</h1>
+      <h1 className="base-header">Appalachian Seed-A-Pult - 2023 Global Game Jam</h1>
       <div className="about-content">
         <Grid container spacing={6} direction="row" className='about-grid'>
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={6}>

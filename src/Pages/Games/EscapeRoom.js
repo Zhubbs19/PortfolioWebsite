@@ -19,7 +19,7 @@ function EscapeRoom() { // Handles the project page for Epic Door
     document.title = "Zach Hubbard | Depths of the Temple Project",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Depths of the Temple - Gameplay Scripting</h1>
+      <h1 className="base-header">Depths of the Temple</h1>
       <div className="about-content">
         <Grid container spacing={2} direction="row" className='about-grid'>
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={5.75}>

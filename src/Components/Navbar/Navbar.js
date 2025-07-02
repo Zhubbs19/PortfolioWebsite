@@ -19,7 +19,6 @@ function NavbarComponent() {
         <Nav className='mr-auto'>
           <Nav.Link className='link' href="/">Home</Nav.Link>
           <Nav.Link className='link' href="/#game-projects">Projects</Nav.Link>
-          <Nav.Link className='link' href="/#experience">Experience</Nav.Link>
           <Nav.Link className='link' href="https://drive.google.com/file/d/1OCzhkLCWfZ5nWLExsAy0WAApGkR03BHa/view?usp=sharing">Resume</Nav.Link>
           <Nav.Link className='link' href="https://www.linkedin.com/in/zachary-hubbard-39645b204/">LinkedIn</Nav.Link>
         </Nav>

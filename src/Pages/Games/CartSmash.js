@@ -14,7 +14,7 @@ function CartSmash() { // Handles the project page for Cart Smash
     document.title = "Zach Hubbard | Cart Smash",
     <div className="Global">
       <NavbarComponent />
-      <h1 className="base-header">Cart Smash - 2024 Global Game Jam Submission</h1>
+      <h1 className="base-header">Cart Smash - 2024 Global Game Jam</h1>
       <div className="about-content">
         <Grid container spacing={6} direction="row" className='about-grid'>
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={6} xl={6}>
