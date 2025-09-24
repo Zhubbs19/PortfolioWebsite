@@ -22,7 +22,7 @@ function EscapeRoom() { // Handles the project page for Epic Door
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={5.75}>
             <iframe className="responsive-iframe" width="900" height="687" src="https://www.youtube.com/embed/CMI6qtlBUSI?start=10" title="GAME 712: Gameplay Scripting - Depths of the Temple Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Collapsing Platform Blueprint</h3>
-            <iframe src="https://blueprintue.com/render/kwkesuix/" scrolling="no" allowfullscreen width="960px" height="420px" sandbox></iframe>            
+            <iframe src="https://blueprintue.com/render/kwkesuix/" allowfullscreen="true" width="940px" height="400px" sandbox></iframe>            
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Collapsing Floor Interaction Diagram</h3>
             <img src={CollapsingFloorImg} width="900px" height="800px" sandbox></img>
             </Grid>
@@ -32,9 +32,9 @@ function EscapeRoom() { // Handles the project page for Epic Door
               puzzles and mechanics, including a rotating pillar puzzle, a pickupable torch, and collapsing platforms. 
               Each individual mechanic was created using blueprints. Below are screenshots of some of the blueprints created for the project.</p>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Rotating Pillar Blueprint</h3>
-            <iframe src="https://blueprintue.com/render/uic_ki68/" scrolling="no" allowfullscreen width="960px" height="420px" sandbox></iframe>
+            <iframe src="https://blueprintue.com/render/uic_ki68/" allowfullscreen="true" width="940px" height="400px" sandbox></iframe>
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Pillar Puzzle Win Conditions Blueprint</h3>
-            <iframe src="https://blueprintue.com/render/oru14ihc/" scrolling="no" allowfullscreen width="960px" height="420px" sandbox></iframe>            <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Rotating Pillar Interaction Diagram</h3>
+            <iframe src="https://blueprintue.com/render/oru14ihc/" allowfullscreen="true" width="940px" height="400px" sandbox></iframe>            <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Rotating Pillar Interaction Diagram</h3>
             <img src={PillarImg} width="900px" height="800px" sandbox></img>
           </Grid>
         </Grid>
