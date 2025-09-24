@@ -22,9 +22,9 @@ function AWeatheredHome() { // Handles the project page for Epic Door
           <Grid item className='media-item' xs={12} sm={12} md={12} lg={12} xl={5.75}>
           <iframe width="800" height="480" src="https://www.youtube.com/embed/33XtXKlbD4c" title="A Weathered Home - Gameplay Slice Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      
           <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Forest Fire Weather Event - Blueprint Event Graph</h3>
-            <img src={ForestFire} width="960px" height="420px" sandbox></img>
+            <iframe src="https://blueprintue.com/render/h401jhuc/" scrolling="no" allowfullscreen width="960px" height="420px" sandbox></iframe>            
             <h3 className="subheader" style={{ justifyContent: "left", padding: "1rem" }}>Get Repair Totals Blueprint Function</h3>
-            <img src={RepairTotalsImg} width="900px" height="400px" sandbox></img>
+            <iframe src="https://blueprintue.com/render/8-ztj4qp/" scrolling="no" allowfullscreen width="960px" height="420px" sandbox></iframe>            
           </Grid>
           <Grid item className='info-item' xs={12} sm={12} md={12} lg={12} xl={6}>
             <p className='about-content' style={{ justifyContent: "left", padding: "1rem" }}>A group project and game proof of concept completed as part of 
