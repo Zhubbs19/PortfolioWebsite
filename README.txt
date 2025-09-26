@@ -1,5 +1,8 @@
 - This is the source code for my portfolio website - zachhubbard.com
 
+AI Attributions
+- Used Claude AI for site and CSS formatting
+
 Code Attributions
 - It was created using React.js, JavaScript, HTML, and CSS.
 
