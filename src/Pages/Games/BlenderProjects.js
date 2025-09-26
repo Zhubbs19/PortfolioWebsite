@@ -1,70 +1,45 @@
 import React from "react";
-import { Grid, Container } from "@mui/material";
-import { ThemeProvider } from "@mui/material/styles";
-import PageWrapper from "../../Components/PageWrapper/PageWrapper";
-import siteTheme from '../../SiteTheme';
+import NavbarComponent from "../../Components/Navbar/Navbar";
 import './GamePages.css';
 import '../../Components/App.css';
-import BlenderDonutVideo from '../../Images/Project_Videos/BlenderDonut.mp4';
+import Footer from '../../Components/Footer/Footer.js';
+import BlenderDonutVideo from '../../Images/Project_Videos/BlenderDonut.mp4'
+import { Grid } from "@mui/material"
+import Box from '@mui/material/Box';
 import BlenderCookies from '../../Images/Project_Images/Cookies2.png';
 
-function BlenderProjects() {
+// Code for my Blender Projects page
+export default function BlenderProjects() {
   return (
-    <ThemeProvider theme={siteTheme}>
-      <PageWrapper title="Zach Hubbard | Blender Projects">
-        <h1 className="base-header">Blender Projects</h1>
-
-        <Container maxWidth="xl" className="about-content">
-          <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6}>
-              <div className="media-item">
-                <video 
-                  className="responsive-iframe" 
-                  src={BlenderDonutVideo} 
-                  controls 
-                />
-                <h3 className='subheader'>Blender Donut Animation</h3>
-              </div>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <div className="media-item">
-                <img 
-                  className="responsive-image" 
-                  src={BlenderCookies} 
-                  alt="Cookies and Milk Render"
-                />
-                <h3 className='subheader'>Cookies and Milk Render</h3>
-              </div>
-            </Grid>
+    document.title = "Zach Hubbard | Blender Projects",
+    <div className="Global">
+      <NavbarComponent />
+      <h1 className="base-header">Blender Projects</h1>
+      <Box sx={{ flexGrow: 1 }} className="about-content">
+        <Grid container spacing={4}>
+          <Grid item className='media-item' xs={12} sm={6} md={6} lg={4}>
+            <video className="responsive-iframe" src={BlenderDonutVideo} controls width='500px' height='889px'></video>
+            <h3 className='subheader'>Blender Donut Animation</h3>
           </Grid>
-
-          <Grid container spacing={4} sx={{ mt: 2 }}>
-            <Grid item xs={12}>
-              <div className='info-item'>
-                <h3 className='subheader'>Blender Donut Animation</h3>
-                <p className="text">
-                  This rotating Blender Donut render and animation was created using YouTube creator Blender Guru's popular Blender Beginner Tutorial Series.
-                  The randomly colored sprinkles were rendered using Blender's Geometry Nodes feature.
-                </p>
-                <a style={{ fontWeight: "bold" }} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku">Blender 3.0 Beginner Tutorial Playlist by Blender Guru</a>
-                
-                <h3 className='subheader' style={{ paddingTop: "2rem" }}>Milk and Cookies Render</h3>
-                <p className="text">I created this render after completing the Blender Donut tutorial to better apply what I had learned from the beginner tutorial in order to create my own render.</p>
-              </div>
-            </Grid>
+          <Grid item className='media-item' xs={12} sm={6} md={6} lg={4}>
+            <img className="image" src={BlenderCookies} width='500px' height='889px'></img>
+            <h3 className='subheader'>Cookies and Milk Render</h3>
           </Grid>
-
-          <Grid container spacing={2} sx={{ mt: 4 }}>
-            <Grid item xs={12}>
-              <h3 className="attribution-header">Attributions</h3>
-              <p>Learned about simulating fluid physics to create the physics for the milk in my glass through reading this article on CG Cookie by Wes Burke:</p>
-              <a style={{ fontWeight: "bold" }} href="https://cgcookie.com/posts/let-s-make-coffee-blender-fluid-sim-mantaflow-tutorial-for-beginners">Let's Make Coffee: Blender Fluid Simulation (Mantaflow) Tutorial For Beginners by Wes Burke</a>
-            </Grid>
+          <Grid item className='info-item' xs={12} sm={12} md={6} lg={4}>
+            <h3 className='subheader' style={{ justifyContent: "left" }}>Blender Donut Animation</h3>
+            <p className="text">This rotating Blender Donut render and animation was created using YouTube creator Blender Guru&apos;s popular Blender Beginner Tutorial Series.
+              The randomly colored sprinkles were rendered using Blender&apos;s Geometry Nodes feature.<br></br></p>
+            <a style={{ fontWeight: "bold" }} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku">Blender 3.0 Beginner Tutorial Playlist by Blender Guru</a>
+            <p></p>
+            <h3 className='subheader' style={{ justifyContent: "left" }}>Milk and Cookies Render</h3>
+            <p className="text">I created this render after completing the Blender Donut tutorial to better apply what I had learned from the beginner tutorial in order to create my own render.</p>
+            <h3 className="subheader" style={{ justifyContent: "left", paddingBottom: "0.5rem", paddingTop: "2rem" }}>Attributions:</h3>
+            <p>Learned about simulating fluid physics to create the physics for the milk in my glass through reading this article on CG Cookie by Wes Burke: </p>
+            <a style={{ fontWeight: "bold" }} href="https://cgcookie.com/posts/let-s-make-coffee-blender-fluid-sim-mantaflow-tutorial-for-beginners">Let&apos;s Make Coffee: Blender Fluid Simulation (Mantaflow) Tutorial For Beginners by Wes Burke</a> 
           </Grid>
-        </Container>
-      </PageWrapper>
-    </ThemeProvider>
+        </Grid>
+      </Box>
+      <Footer />
+    </div>
   );
 }
-
-export default BlenderProjects;

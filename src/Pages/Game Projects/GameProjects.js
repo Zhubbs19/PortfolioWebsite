@@ -1,53 +1,51 @@
 import React from "react";
-import EscapeRoomCard, {
-  EpicDoorCard, DawnOfAlinaCard, WVQuestCard,
-  BlenderProjectsCard, PhotoshopProjectsCard,
-  CartSmashCard, ApplachianSeedCard, WeatheredHomeCard
-} from "../../Components/Card/Card";
+import NavbarComponent from "../../Components/Navbar/Navbar";
+import EscapeRoomCard, {EpicDoorCard,  DawnOfAlinaCard, WVQuestCard, BlenderProjectsCard, PhotoshopProjectsCard, CartSmashCard, ApplachianSeedCard, WeatheredHomeCard} from "../../Components/Card/Card";
 import '../../Components/App.css';
-import '../../Components/Card/Card.css';
-import { Grid, Container } from "@mui/material";
+import '../../Components/Card/Card.css'
+import { Grid } from "@mui/material"
+import Footer from '../../Components/Footer/Footer.js';
 import siteTheme from '../../SiteTheme';
 import { ThemeProvider } from "@mui/material/styles";
-import PageWrapper from "../../Components/PageWrapper/PageWrapper";
-
+// Landing page for all of my game and personal Project cards.
 function GameProjects() {
   return (
+    document.title = "Zach Hubbard | Game and Personal Projects",
     <ThemeProvider theme={siteTheme}>
-      <PageWrapper title="Zach Hubbard | Game and Personal Projects">
+      <div className="Global">
+        <NavbarComponent />
         <h1 className="base-header">Game and Personal Projects</h1>
-
-        <Container maxWidth="xl" sx={{ px: { xs: 2, sm: 3, md: 4 }, py: 4 }}>
-          <Grid container spacing={4} direction="row" justifyContent="center" alignItems="stretch">
-            <Grid item xs={12} sm={6} md={4}>
+        <div className="CardsGrid">
+          <Grid container direction="row" justifyContent="center">
+            <Grid item className='Card'>
               <WeatheredHomeCard />
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item className='Card'>
               <EscapeRoomCard />
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item className='Card'>
               <EpicDoorCard />
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item className='Card'>
               <WVQuestCard />
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item className='Card'>
               <ApplachianSeedCard />
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item className='Card'>
               <CartSmashCard />
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item className='Card'>
               <DawnOfAlinaCard />
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+             <Grid item className='Card'>
               <BlenderProjectsCard />
             </Grid>
           </Grid>
-        </Container>
-      </PageWrapper>
+        </div>
+        <Footer />
+      </div>
     </ThemeProvider>
   );
 }
-
 export default GameProjects;
