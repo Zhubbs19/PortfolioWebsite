@@ -1,15 +1,12 @@
-/* Modern Game Pages Design with Cohesive Color Scheme */
+/* Game Pages - Matching Your Screenshot Colors */
 
 :root {
-  --primary-color: #6366f1;
-  --secondary-color: #8b5cf6;
-  --accent-color: #ec4899;
-  --text-dark: #1e293b;
-  --text-medium: #475569;
-  --text-light: #64748b;
-  --bg-accent: #f1f5f9;
-  --border-color: #e2e8f0;
-  --primary-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --primary-blue: #3d5afe;
+  --text-dark: #2c3e50;
+  --text-secondary: #5a6c7d;
+  --bg-card: #ffffff;
+  --bg-light: #f5f5f5;
+  --border-color: #ddd;
 }
 
 .subheader {
@@ -17,7 +14,7 @@
   font-size: clamp(1.5rem, 3vw, 2rem);
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
-  color: var(--primary-color);
+  color: var(--text-dark);
   position: relative;
   padding-left: 1.5rem;
 }
@@ -30,7 +27,7 @@
   transform: translateY(-50%);
   width: 5px;
   height: 70%;
-  background: var(--primary-gradient);
+  background: var(--primary-blue);
   border-radius: 3px;
 }
 
@@ -41,31 +38,19 @@
   margin-bottom: 1.5rem;
   padding: 1.5rem;
   color: var(--text-dark);
-  border-top: 3px solid var(--primary-color);
-  background: var(--bg-accent);
-  border-radius: 12px;
-  position: relative;
-}
-
-.attribution-header::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 1.5rem;
-  right: 1.5rem;
-  height: 2px;
-  background: var(--primary-gradient);
-  opacity: 0.3;
+  border-top: 3px solid var(--primary-blue);
+  background: var(--bg-light);
+  border-radius: 8px;
 }
 
 .attribution-subheader {
   font-weight: 700;
   font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-  color: var(--primary-color);
+  color: var(--text-dark);
   margin-top: 2rem;
   margin-bottom: 1rem;
   padding-left: 1rem;
-  border-left: 4px solid var(--primary-color);
+  border-left: 4px solid var(--primary-blue);
 }
 
 .attribution-list {
@@ -76,43 +61,29 @@
   font-size: clamp(1rem, 2vw, 1.15rem);
   line-height: 1.8;
   position: relative;
-  color: var(--text-medium);
+  color: var(--text-secondary);
 }
 
 .attribution-list::before {
   content: '▸';
   position: absolute;
   left: 0;
-  color: var(--primary-color);
+  color: var(--primary-blue);
   font-weight: bold;
   font-size: 1.1em;
 }
 
 .attribution-list a {
-  color: var(--primary-color);
+  color: var(--primary-blue);
   text-decoration: none;
   transition: all 0.3s ease;
   position: relative;
   font-weight: 500;
 }
 
-.attribution-list a::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: var(--primary-gradient);
-  transition: width 0.3s ease;
-}
-
 .attribution-list a:hover {
-  color: var(--secondary-color);
-}
-
-.attribution-list a:hover::after {
-  width: 100%;
+  color: #2979ff;
+  text-decoration: underline;
 }
 
 /* Feature list styling */
@@ -127,23 +98,24 @@
   padding-left: 2rem;
   margin-bottom: 1rem;
   line-height: 1.8;
-  color: var(--text-medium);
+  color: var(--text-secondary);
 }
 
 .feature::before {
   content: '✓';
   position: absolute;
   left: 0;
-  color: var(--primary-color);
+  color: var(--primary-blue);
   font-weight: bold;
   font-size: 1.2em;
-  background: var(--bg-accent);
+  background: var(--bg-light);
   width: 24px;
   height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  border: 2px solid var(--primary-blue);
 }
 
 .sublist {
@@ -151,14 +123,14 @@
   padding-left: 2.5rem;
   margin-bottom: 0.75rem;
   font-size: 0.95em;
-  color: var(--text-light);
+  color: var(--text-secondary);
 }
 
 .sublist::before {
   content: '→';
   position: absolute;
   left: 0.75rem;
-  color: var(--secondary-color);
+  color: var(--primary-blue);
 }
 
 /* Media containers */
@@ -175,35 +147,31 @@
   width: 100%;
   max-width: 100%;
   height: auto;
-  border-radius: 16px;
-  box-shadow: 
-    0 10px 40px rgba(99, 102, 241, 0.15),
-    0 0 0 1px rgba(99, 102, 241, 0.1);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
 }
 
 .media-item iframe:hover,
 .media-item img:hover {
-  transform: translateY(-8px);
-  box-shadow: 
-    0 20px 60px rgba(99, 102, 241, 0.25),
-    0 0 0 1px rgba(99, 102, 241, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .responsive-iframe {
   width: 100%;
   aspect-ratio: 16/9;
   border: none;
-  border-radius: 16px;
+  border-radius: 8px;
   min-height: 300px;
-  background: var(--bg-accent);
+  background: #f5f5f5;
 }
 
 .responsive-image {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .about-grid {
@@ -217,107 +185,23 @@
 .info-item p {
   margin-bottom: 1.5rem;
   line-height: 1.9;
-  color: var(--text-medium);
+  color: var(--text-secondary);
   font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
-/* Blueprint viewer styling */
-.media-item iframe[src*="blueprintue"] {
-  border: 2px solid rgba(99, 102, 241, 0.2);
-  background: white;
-}
-
 /* Mobile responsiveness */
-@media (max-width: 1200px) {
-  .attribution-list {
-    padding-left: 1.5rem;
-  }
-  
-  .subheader {
-    padding-left: 1.25rem;
-  }
-}
-
 @media (max-width: 768px) {
   .subheader {
     padding: 0.5rem 0 0.5rem 1rem;
     margin-top: 1.5rem;
-    font-size: 1.5rem;
   }
   
   .attribution-header {
     padding: 1rem;
     margin-top: 2.5rem;
-    border-radius: 8px;
-  }
-  
-  .attribution-subheader {
-    padding-left: 0.75rem;
-    margin-top: 1.5rem;
-  }
-  
-  .attribution-list {
-    padding-left: 1.25rem;
-    font-size: 0.95rem;
-  }
-  
-  .responsive-iframe {
-    aspect-ratio: 16/9;
-    min-height: 200px;
   }
   
   .media-item {
     padding: 0.75rem;
-  }
-  
-  .info-item {
-    padding: 0 1rem;
-  }
-
-  .feature {
-    padding-left: 1.75rem;
-  }
-
-  .feature::before {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .subheader {
-    margin-top: 1rem;
-    padding-left: 0.75rem;
-    font-size: 1.25rem;
-  }
-  
-  .subheader::before {
-    width: 4px;
-  }
-  
-  .attribution-list {
-    padding-left: 1rem;
-    font-size: 0.9rem;
-  }
-  
-  .attribution-header {
-    padding: 0.75rem;
-    font-size: 1.5rem;
-    border-radius: 8px;
-    margin-top: 2rem;
-  }
-  
-  .media-item {
-    padding: 0.5rem;
-  }
-  
-  .media-item iframe,
-  .media-item img {
-    border-radius: 12px;
-  }
-
-  .feature {
-    padding-left: 1.5rem;
-    font-size: 0.95rem;
   }
 }
