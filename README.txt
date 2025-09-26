@@ -1,10 +1,10 @@
-- This is the source code for my portfolio website - zachhubbard.com
+- This is the source code for my game and software development portfolio website - zachhubbard.com
 
-AI Attributions
-- Used Claude AI for site and CSS formatting
+AI Attributions:
+- Used Claude AI for help with site layout formmatting and CSS formatting
 
 Code Attributions
-- It was created using React.js, JavaScript, HTML, and CSS.
+- Site was created using React.js, JavaScript, HTML, and CSS.
 
 Node.js packages used for development:
 - Material UI – Used for CSS and formatting of site components, is open-source under MIT License.
