@@ -1,35 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.f44fa057.css",
-    "main.js": "/static/js/main.196a5306.js",
+    "main.css": "/static/css/main.8d3498f6.css",
+    "main.js": "/static/js/main.2bfd9c04.js",
     "static/media/BlenderDonut.mp4": "/static/media/BlenderDonut.e0c44640b692764a0fd5.mp4",
-    "static/media/WeatheredHome2.png": "/static/media/WeatheredHome2.b614853ef0b23f6676d2.png",
     "static/media/AppalachianSeedLaunch.png": "/static/media/AppalachianSeedLaunch.a39e3d39736e8c521b61.png",
     "static/media/EscapeRoom.png": "/static/media/EscapeRoom.1eb8e26cfb1f18a78ef0.png",
+    "static/media/WeatheredHome.png": "/static/media/WeatheredHome.d03c2ef30032109498fc.png",
     "static/media/PortfolioCropped.jpg": "/static/media/PortfolioCropped.ba5a2e278f7915067895.jpg",
     "static/media/Cookies2.png": "/static/media/Cookies2.af4623a0ac42f28d4cf8.png",
     "static/media/SodaCan.png": "/static/media/SodaCan.e9066b39ab7dcf718477.png",
     "static/media/EpicDoor.png": "/static/media/EpicDoor.5444ccdf69cb877518d5.png",
     "static/media/SiteLogoNew.svg": "/static/media/SiteLogoNew.5ccfed9f358131a6e03644f3454d15d8.svg",
     "static/media/RampCrash2.png": "/static/media/RampCrash2.5c1a7fb322590e5fe53b.png",
-    "static/media/Donut.jpg": "/static/media/Donut.df1ac986a6a28a1db0af.jpg",
     "static/media/GDC.JPG": "/static/media/GDC.b34fb74c8a1ecd20d8f3.JPG",
     "static/media/RobotoCondensed-Regular.ttf": "/static/media/RobotoCondensed-Regular.fc3d2f2e3a203d0037c1.ttf",
-    "static/media/ForestFire.png": "/static/media/ForestFire.8eb797474076af956064.png",
-    "static/media/RepairTotals.png": "/static/media/RepairTotals.9d56143ff8204edd14ac.png",
     "static/media/PillarInteractive.png": "/static/media/PillarInteractive.b6f781e9711d9964d24b.png",
-    "static/media/WVQuest.PNG": "/static/media/WVQuest.1fc7c34c6c6425214951.PNG",
     "static/media/CollapsingTreasureFloor.png": "/static/media/CollapsingTreasureFloor.74fecb6c80660207290a.png",
     "static/media/DawnOfAlinaLarge.JPG": "/static/media/DawnOfAlinaLarge.0affe8e8295c354f68ab.JPG",
     "static/media/WVQuestCameraScreen.PNG": "/static/media/WVQuestCameraScreen.d46cf2047bf6f1718237.PNG",
-    "static/media/DawnOfAlina.JPG": "/static/media/DawnOfAlina.a3c0c4d6d114f0f2e02c.JPG",
     "static/media/RegistrationWVQuest.PNG": "/static/media/RegistrationWVQuest.428bb4ef47a16e697572.PNG",
     "index.html": "/index.html",
-    "main.f44fa057.css.map": "/static/css/main.f44fa057.css.map",
-    "main.196a5306.js.map": "/static/js/main.196a5306.js.map"
+    "main.8d3498f6.css.map": "/static/css/main.8d3498f6.css.map",
+    "main.2bfd9c04.js.map": "/static/js/main.2bfd9c04.js.map"
   },
   "entrypoints": [
-    "static/css/main.f44fa057.css",
-    "static/js/main.196a5306.js"
+    "static/css/main.8d3498f6.css",
+    "static/js/main.2bfd9c04.js"
   ]
 }
