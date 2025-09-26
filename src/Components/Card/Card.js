@@ -1,256 +1,171 @@
-// Card.js - Holds the info for all cards on my site.
-// Material UI used for this all card-related function as well as for the buttons on the cards.
-
-//#region imports
-import * as React from 'react';
+import React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import './Card.css'
-import AppalachianSeedLaunchImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
-import WVQuestImg from '../../Images/Project_Images/WVQuest.PNG';
-import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlina.JPG';
-import DonutImg from '../../Images/Project_Images/Donut.jpg';
-import SodaCanImg from '../../Images/Project_Images/SodaCan.png';
-import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
-import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
-import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
-import WeatheredHomeImg from '../../Images/Project_Images/WeatheredHome2.png';
-//#endregion
+import { Link } from "react-router-dom";
+import './Card.css';
 
-//#region Escape Room
+// Import project images
+import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
+import BlenderDonutImg from '../../Images/Project_Images/Cookies2.png';
+import PhotoshopImg from '../../Images/Project_Images/SodaCan.png';
+import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
+import PillarImg from '../../Images/Project_Images/PillarInteractive.png';
+import WVQuestRegistration from '../../Images/Project_Images/RegistrationWVQuest.PNG';
+import WeatheredHomeImg from '../../Images/Project_Images/WeatheredHome.png';
+import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlinaLarge.JPG';
+import AppalachianSeedCardImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
+import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
+
+
+// Reusable Project Card Component - REMOVED SIZE CONSTRAINTS
+function ProjectCard({ image, title, description, link, altText }) {
+  return (
+    <Card sx={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+      <CardMedia
+        component="img"
+        height="320"
+        image={image}
+        alt={altText || title}
+      />
+      <CardContent sx={{ flexGrow: 1 }}>
+        <Typography gutterBottom variant="h5" component="h2">
+          {title}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {description}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button 
+          size="large" 
+          component={Link} 
+          to={link}
+          aria-label={`Learn more about ${title}`}
+        >
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+  );
+}
+
+// Escape Room Card (Depths of the Temple)
 export default function EscapeRoomCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={EscapeRoomImg}
-        title="Escape Room"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Depths of the Temple
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-        Unreal Engine 5.5     
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#EscapeRoom'>Learn More</Button>
-      </CardActions>
-    </Card>
+    <ProjectCard
+      image={EscapeRoomImg}
+      title="Depths of the Temple"
+      description="Unreal Engine 5.5"
+      link="/EscapeRoom"
+      altText="Depths of the Temple Escape Room Project"
+    />
   );
 }
-//#endregion
-//#region Escape Room
-export function WeatheredHomeCard() {
-  return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={WeatheredHomeImg}
-        title="A Weathered Home"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-        A Weathered Home        
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-        Unreal Engine 5.5     
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#WeatheredHome'>Learn More</Button>
-      </CardActions>
-    </Card>
-  );
-}
-//#endregion
 
-//#region Epic Door
+// Epic Door Card
 export function EpicDoorCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={EpicDoorImg}
-        title="Epic Door"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Epic Door Project
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-        Unreal Engine 5.4       
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#EpicDoor'>Learn More</Button>
-      </CardActions>
-    </Card>
+    <ProjectCard
+      image={EpicDoorImg}
+      title="Epic Door Project"
+      description="Unreal Engine 5.4"
+      link="/EpicDoor"
+      altText="Epic Door Cinematic Project"
+    />
   );
 }
-//#endregion
 
-//#region Appalachian Seed Launch
-export function ApplachianSeedCard() {
+// Weathered Home Card
+export function WeatheredHomeCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={AppalachianSeedLaunchImg}
-        title="Appalachian Seed-A-Pult"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Appalachian Seed-A-Pult
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-        2023 Global Game Jam, Unity Engine        
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#SeedAPult'>Learn More</Button>
-      </CardActions>
-    </Card>
+    <ProjectCard
+      image={WeatheredHomeImg}
+      title="A Weathered Home"
+      description="Unreal Engine 5.5"
+      link="/WeatheredHome"
+      altText="A Weathered Home Game Project"
+    />
   );
 }
-//#endregion
 
-//#region WV Quest
-export function WVQuestCard() {
-  return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={WVQuestImg}
-        title="WV Quest"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          WV Quest
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-          WV State Musuem Capstone Project
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#WVQuest'>Learn More</Button>
-      </CardActions>
-    </Card>
-  );
-}
-//#endregion
-
-//#region Dawn of Alina
+// Dawn of Alina Card
 export function DawnOfAlinaCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={DawnOfAlinaImg}
-        title="Dawn of Alina"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Dawn of Alina
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-          Mon River Games Prototype, Unity Engine
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#DawnOfAlina'>Learn More</Button>
-      </CardActions>
-    </Card>
+    <ProjectCard
+      image={DawnOfAlinaImg}
+      title="Dawn of Alina"
+      description="Unity"
+      link="/DawnOfAlina"
+      altText="Dawn of Alina Unity Game"
+    />
   );
 }
-//#endregion
 
-//#region Blender 3D Models
+// WV Quest Card
+export function WVQuestCard() {
+  return (
+    <ProjectCard
+      image={WVQuestRegistration}
+      title="WV Quest"
+      description="Unity - Capstone Project"
+      link="/WVQuest"
+      altText="WV Quest Museum App"
+    />
+  );
+}
+
+// Blender Projects Card
 export function BlenderProjectsCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={DonutImg}
-        title="Blender Donut"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Blender Projects
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-          Blender 3D Modeling Tutorial Project
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#BlenderProjects'>Learn More</Button>
-      </CardActions>
-    </Card>
+    <ProjectCard
+      image={BlenderDonutImg}
+      title="Blender Projects"
+      description="Blender 3D"
+      link="/BlenderProjects"
+      altText="Blender 3D Projects"
+    />
   );
 }
-//#endregion
 
-//#region Photoshop Card
+// Photoshop Projects Card
 export function PhotoshopProjectsCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={SodaCanImg}
-        href='#PhotoshopProjects'
-        title="Soda Can Mockup Image"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-        Soda Can Mockup Poster
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-        Adobe Photoshop Project
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#PhotoshopProjects'>Learn More</Button>
-      </CardActions>
-    </Card>
+    <ProjectCard
+      image={PhotoshopImg}
+      title="Photoshop Projects"
+      description="Adobe Photoshop"
+      link="/PhotoshopProjects"
+      altText="Photoshop Design Projects"
+    />
   );
 }
-//#endregion
-//#region Cart Smash Card
+
+// Cart Smash Card
 export function CartSmashCard() {
   return (
-    <Card className='Card' sx={{ minWidth: 400, minHeight: 500, maxHeight: 700, maxWidth:500 }}>
-      <CardMedia className='CardMedia'
-        sx={{ height: 470 }}
-        component="img"
-        image={CartSmashImg}
-        href='#CartSmash'
-        title="Cart Smash"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" fontSize="28px" fontWeight="bold">
-          Cart Smash
-        </Typography>
-        <Typography variant="body" color="black" fontSize="20px">
-          2024 Global Game Jam, Unity Engine
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button className='button' size="large" variant='contained' href='#CartSmash'>Learn More</Button>
-      </CardActions>
-    </Card>
+    <ProjectCard
+      image={CartSmashImg}
+      title="Cart Smash"
+      description="Unity - 2024 Global Game Jam"
+      link="/CartSmash"
+      altText="Cart Smash Game Jam Project"
+    />
   );
 }
-//#endregion
+
+// Appalachian Seed Card
+export function ApplachianSeedCard() {
+  return (
+    <ProjectCard
+      image={AppalachianSeedCardImg}
+      title="Appalachian Seed-A-Pult"
+      description="Unity - 2023 Global Game Jam"
+      link="/SeedAPult"
+      altText="Appalachian Seed-A-Pult Game"
+    />
+  );
+}
