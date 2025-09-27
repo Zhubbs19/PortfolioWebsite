@@ -17,7 +17,7 @@ function EscapeRoom() {
 
         <Container maxWidth="xl" className="about-content">
           <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={8}>
               <div className="media-item">
                 <iframe 
                   className="responsive-iframe" 
@@ -29,7 +29,7 @@ function EscapeRoom() {
                 />
               </div>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>
                   A solo project I completed as part of my GAME 712 - Gameplay Scripting course. 

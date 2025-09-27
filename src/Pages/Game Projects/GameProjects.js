@@ -1,8 +1,6 @@
-import React from "react";
 import EscapeRoomCard, {
   EpicDoorCard, DawnOfAlinaCard, WVQuestCard,
-  BlenderProjectsCard, PhotoshopProjectsCard,
-  CartSmashCard, ApplachianSeedCard, WeatheredHomeCard
+  BlenderProjectsCard, CartSmashCard, ApplachianSeedCard, WeatheredHomeCard
 } from "../../Components/Card/Card";
 import '../../Components/App.css';
 import '../../Components/Card/Card.css';
@@ -10,6 +8,8 @@ import { Grid, Container } from "@mui/material";
 import siteTheme from '../../SiteTheme';
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import { Link } from "react-router-dom";
+
 
 function GameProjects() {
   return (

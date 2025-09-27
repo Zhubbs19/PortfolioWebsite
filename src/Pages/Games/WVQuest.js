@@ -16,7 +16,7 @@ function WVQuest() {
 
         <Container maxWidth="xl" className="about-content">
           <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4}>
               <div className="media-item">
                 <img 
                   className="responsive-image" 

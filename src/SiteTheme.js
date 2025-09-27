@@ -1,13 +1,11 @@
-/* Site Theme - Matching Your Screenshot Colors */
-
 import { createTheme } from "@mui/material/styles";
 
 const siteTheme = createTheme({
   palette: {
     primary: {
-      main: '#3d5afe',
+      main: '#5a6c7d',
       light: '#5e7ce2',
-      dark: '#2979ff',
+      dark: '#4a5866',
       contrastText: '#ffffff',
     },
     secondary: {
@@ -89,9 +87,9 @@ const siteTheme = createTheme({
           },
         },
         contained: {
-          background: '#3d5afe',
+          background: '#5a6c7d',
           '&:hover': {
-            background: '#2979ff',
+            background: '#5a6c7d',
           },
         },
       },

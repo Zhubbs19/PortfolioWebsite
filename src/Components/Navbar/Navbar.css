@@ -6,7 +6,7 @@
     -webkit-backdrop-filter: blur(20px);
     width: 100%;
     display: flex;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif, bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
     padding: 0.75rem 1.5rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
@@ -35,7 +35,7 @@
 .link {
     text-decoration: none;
     color: white;
-    font-size: clamp(1rem, 2vw, 1.1rem);
+    font-size: clamp(1.5rem, 2vw, 1.1rem);
     padding: 0.6rem 1.2rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 12px;
@@ -80,7 +80,7 @@
 }
 
 .NavbarTitle .link {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

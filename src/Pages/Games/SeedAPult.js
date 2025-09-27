@@ -15,7 +15,7 @@ function SeedAPult() {
 
         <Container maxWidth="xl" className="about-content">
           <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={8}>
               <div className="media-item">
                 <iframe 
                   className="responsive-iframe"
@@ -27,7 +27,7 @@ function SeedAPult() {
                 />
               </div>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>
                   Appalachian Seed-A-Pult is a 2D WebGL seed-launching game where you are tasked with catapulting a seed to the correct type of soil where it is fertile and is able to grow.

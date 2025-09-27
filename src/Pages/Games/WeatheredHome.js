@@ -16,7 +16,7 @@ function AWeatheredHome() {
         <Container maxWidth="xl" className="about-content">
           {/* Video and Description Row */}
           <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={8}>
               <div className="media-item">
                 <iframe 
                   className="responsive-iframe"
@@ -29,7 +29,7 @@ function AWeatheredHome() {
               </div>
             </Grid>
             
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>
                   A group project and game proof of concept completed as part of 
@@ -66,7 +66,6 @@ function AWeatheredHome() {
             </Grid>
           </Grid>
 
-          {/* Credits Section */}
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
               <h3 className="attribution-header">Credits and Attributions</h3>

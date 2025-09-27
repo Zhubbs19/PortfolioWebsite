@@ -16,7 +16,7 @@ function CartSmash() {
 
         <Container maxWidth="xl" className="about-content">
           <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6.85}>
               <div className="media-item">
                 <iframe 
                   src={CartSmashImg1} 
@@ -25,7 +25,7 @@ function CartSmash() {
                 />
               </div>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>
                   Cart Smash is a fun, simple 3D physics game that involves launching a shopping cart off a ramp while trying to keep all your items within the cart.

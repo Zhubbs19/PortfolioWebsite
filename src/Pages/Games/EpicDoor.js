@@ -28,7 +28,7 @@ function EpicDoor() {
                 />
               </div>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>Vault-style door opening cinematic created in Unreal Engine 5 for my GAME 710 - Game Art: Engine Pipelines and Practices course.</p>
               </div>
@@ -36,7 +36,7 @@ function EpicDoor() {
           </Grid>
 
           <Grid container spacing={4} sx={{ mt: 2 }}>
-            <Grid item xs={12}>
+            <Grid item xs={12} md={6}>
               <div className="media-item">
                 <img 
                   src={EpicDoorImg} 

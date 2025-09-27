@@ -16,7 +16,7 @@ function DawnOfAlina() {
 
         <Container maxWidth="xl" className="about-content">
           <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={8}>
               <div className="media-item">
                 <img 
                   src={DawnOfAlinaImg}
@@ -25,7 +25,7 @@ function DawnOfAlina() {
                 />
               </div>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>
                   Dawn of Alina was a 3D action-adventure game prototype. The game was centered around main character Alina, who was tasked with ridding her world of the
@@ -36,12 +36,10 @@ function DawnOfAlina() {
                 <h3 className="subheader" style={{ paddingTop: "2rem" }}>Throughout the game's development, I implemented:</h3>
                 <ul className="feature-list">
                   <li className="feature">A working inventory system using item scriptable objects, containing item pickup mechanics, item stacking/removal, and item info displays.</li>
-                  <li className="sublist">Scriptable Objects are used as a container for each items' immutable data, such as name, item type, gold value, and stack limit.</li>
+                  <li className="feature">Scriptable Objects are used as a container for each items' immutable data, such as name, item type, gold value, and stack limit.</li>
                   <li className='feature'>Saving and loading system for the inventory.</li>
                   <li className='feature'>Item selling system.</li>
-                  <li className="sublist">Alina can sell items to gain gold.</li>
                   <li className='feature'>Cauldron crafting system.</li>
-                  <li className="sublist">Alina can craft potions by interacting with a cauldron.</li>
                 </ul>
                 
                 <p>

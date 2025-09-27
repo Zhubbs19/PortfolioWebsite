@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -13,7 +12,6 @@ import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
 import BlenderDonutImg from '../../Images/Project_Images/Cookies2.png';
 import PhotoshopImg from '../../Images/Project_Images/SodaCan.png';
 import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
-import PillarImg from '../../Images/Project_Images/PillarInteractive.png';
 import WVQuestRegistration from '../../Images/Project_Images/RegistrationWVQuest.PNG';
 import WeatheredHomeImg from '../../Images/Project_Images/WeatheredHome.png';
 import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlinaLarge.JPG';
@@ -26,8 +24,9 @@ function ProjectCard({ image, title, description, link, altText }) {
   return (
     <Card sx={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
       <CardMedia
-        component="img"
+        component={Link}
         height="320"
+        to={link}
         image={image}
         alt={altText || title}
       />
