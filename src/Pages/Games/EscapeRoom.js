@@ -124,6 +124,7 @@ function EscapeRoom() {
                 <li><a href="https://fab.com/s/13e80675a64e">Human Skeleton by RogerSIQ3dstore from Fab</a></li>
                 <li><a href="https://fab.com/s/b7b47f22c24c">Medieval Torch by Poligon District from Fab</a></li>
                 <li><a href="https://fab.com/s/d04d782db154">Old Metal Pot by Quixel Megascans from Fab</a></li>
+                <li><a href="https:/www.fab.com/listings/6602874e-ef24-48c9-9055-a7ac07384696">MWI Terrain and Landscape Assets from MW Landscape Auto Material on Fab Store - </a></li>
               </ul>
 
               <h4 className="attribution-subheader">Particles</h4>
