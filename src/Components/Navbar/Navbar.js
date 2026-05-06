@@ -10,15 +10,15 @@ import logoImg from '../../Images/Logos/SiteLogoNew.svg';
 */
 function NavbarComponent() {
   return (
-    <Navbar collaspeOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navbar">
-      <a href="/"><img className="NavbarBrand" href="/" src={logoImg} width="64" height="64"></img></a>
-      <text className="NavbarTitle">
-        <Nav.Link className='link' href="/">Zach Hubbard</Nav.Link></text>
-      <Navbar.Toggle classNamearia-controls="basic-navbar-nav" />
+    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navbar">
+      <a href="/"><img className="NavbarBrand" src={logoImg} width="64" height="64" alt="Site Logo" /></a>
+      <span className="NavbarTitle">
+        <Nav.Link className='link' href="/">Zach Hubbard</Nav.Link></span>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className='navbar-dropdown'>
         <Nav className='mr-auto'>
           <Nav.Link className='link' href="/">Home</Nav.Link>
-          <Nav.Link className='link' href="/#game-projects">Projects</Nav.Link>
+          <Nav.Link className='link' href="/#/game-projects">Projects</Nav.Link>
           <Nav.Link className='link' href="https://drive.google.com/file/d/1OCzhkLCWfZ5nWLExsAy0WAApGkR03BHa/view?usp=sharing">Resume</Nav.Link>
           <Nav.Link className='link' href="https://www.linkedin.com/in/zachary-hubbard-39645b204/">LinkedIn</Nav.Link>
         </Nav>
