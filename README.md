@@ -26,22 +26,6 @@ Source code for my game and software development portfolio website — zachhubba
 | Weathered Home | `#/WeatheredHome` |
 | All Game Projects | `#/GameProjects` |
 
-## Getting Started
-
-```bash
-npm install
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view locally.
-
-## Build & Deploy
-
-```bash
-npm run build   # outputs to dist/
-npm run deploy  # publishes to GitHub Pages via gh-pages
-```
-
 ---
 
 ## Code Attributions
