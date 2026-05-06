@@ -1,7 +1,7 @@
 //#region imports
 import React from 'react';
 import App from './Components/App';
-import { createRoot } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router';
 import GameProjects from './Pages/Game Projects/GameProjects';
 import WVQuest from './Pages/Games/WVQuest';
