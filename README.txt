@@ -1,7 +1,15 @@
 - This is the source code for my game and software development portfolio website - zachhubbard.com
 
 AI Attributions:
-- Used Claude AI for help with site layout formmatting and CSS formatting
+- Used Claude AI (Claude Code by Anthropic) to assist with the following:
+  - Site theme redesign: color palette, CSS custom properties, card and footer component styling
+  - Navbar redesign: glassmorphism effect, hover animations, and font consistency fixes
+  - Page transition animations: enter/exit keyframe animations on route changes
+  - Scroll-reveal animation system: IntersectionObserver-based fade-in for grid items and section headers
+  - Project page layout: restructured pages to side-by-side media/text layout using MUI Grid
+  - CSS formatting fixes: feature list bullet rendering, responsive breakpoints, media hover effects
+  - Homepage updates: replaced Quest System card with Epic Door card in featured projects grid
+  - Routing updates: removed in-progress BPQuestSystem route from site navigation
 
 Code Attributions
 - Site was created using React.js, JavaScript, HTML, and CSS.
@@ -24,5 +32,7 @@ UI and Art Asset Attributions
 - RegistrationWVQuest.png -  UI Designed by Jackson Sigler and implemented into Unity project by capstone member Tessla Muir
 - AppalachianSeedLaunch.png - Background Image created by Heather Cole for the 2023 Global Game Jam
 - RampCrash.png - 2024 Global Game Jam Submission, image taken in Unity by group member David Haley.
-- GDC.jpg – Image of myself at the 2022 Game Developer’s conference.
-
+- GDC.jpg – Image of myself at the 2022 Game Developer's conference.
+- ModelingDiorama/ images (FullUV.png, HouseUV.png, MayaDryFittingNew.png, MayaTextured.png, ModelingStepsNew.png, ModularComponentsNew.png, NextGenTextures2.png, TexturedModularComponents.png, UnrealDryFittingNew.png, UnrealNextGenTextures.png) – Screenshots of Maya and Unreal Engine modeling work created by Zach Hubbard.
+- LeaderboardDiagram.png, SwitchboardDiagram.png – System design diagrams created by Zach Hubbard.
+- SwitchboardMinigameDemo.mp4 – Gameplay footage recorded by Zach Hubbard.
