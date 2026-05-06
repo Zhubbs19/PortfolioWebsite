@@ -16,12 +16,12 @@ function CartSmash() {
 
         <Container maxWidth="xl" className="about-content">
           <Grid container spacing={4} className='about-grid'>
-            <Grid item xs={12} md={6.85}>
+            <Grid item xs={12} md={6}>
               <div className="media-item">
-                <iframe 
-                  src={CartSmashImg1} 
-                  className="responsive-iframe"
-                  title="Cart Smash Gameplay"
+                <img
+                  src={CartSmashImg1}
+                  className="responsive-image"
+                  alt="Cart Smash Gameplay"
                 />
               </div>
             </Grid>
@@ -33,7 +33,7 @@ function CartSmash() {
                 </p>
                 <a style={{ fontWeight: "bold" }} href="https://globalgamejam.org/games/2024/cart-smash-2">Cart Smash - 2024 Global Game Jam Submission</a>
                 
-                <h3 className="subheader" style={{ fontWeight: "bold" }}>2024 Global Game Jam Group Participants</h3>
+                <h3 className="subheader">2024 Global Game Jam Group Participants</h3>
                 <p>Zachary Hubbard (programming), Tom Heckman (programming), and David Haley (music, audio, and 3D asset creation).</p>
               </div>
             </Grid>
@@ -42,6 +42,7 @@ function CartSmash() {
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
               <h3 className="attribution-header">Credits and Attributions</h3>
+              <div className="info-item">
               <ul className='attribution-list'>
                 <li><a href="https://www.freepik.com/3d-model/shopping-cart-001_3553">Shopping Cart 001 3D Model by freepik</a> using Freepik free license</li>
                 <li><a href="https://www.freepik.com/free-vector/abstract-perspective-graph-pattern-grid-vector-design_51706871.htm">Free vector abstract perspective graph pattern grid by freepik</a></li>
@@ -56,6 +57,7 @@ function CartSmash() {
                 <li><a href="https://freesound.org/people/qubodup/sounds/183993/">Shopping Cart Return.flac by qubodup</a> using Creative Commons license</li>
                 <li><a href="https://freesound.org/people/Robinhood76/sounds/350609/">06576 leaving shopping cart.wav by Robinhood76</a> using Attribution NonCommercial 4.0 License</li>
               </ul>
+              </div>
             </Grid>
           </Grid>
         </Container>

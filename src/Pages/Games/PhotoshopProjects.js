@@ -39,10 +39,12 @@ function PhotoshopProjects() {
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
               <h3 className="attribution-header">Credits and Attribution</h3>
-              <ul className='attribution-list'>
-                <li><a href="https://www.pexels.com/photo/silver-can-in-white-background-8066771/">silver-can-in-white-background by Mediamodifier</a> From Pexels using Creative Commons License</li>
-                <li><a href="https://www.pexels.com/photo/water-bubbles-2853937/">Water Bubbles Photo by Sebastian Sørensen</a> From Pexels using Creative Commons License</li>
-              </ul>
+              <div className="info-item">
+                <ul className='attribution-list'>
+                  <li><a href="https://www.pexels.com/photo/silver-can-in-white-background-8066771/">silver-can-in-white-background by Mediamodifier</a> From Pexels using Creative Commons License</li>
+                  <li><a href="https://www.pexels.com/photo/water-bubbles-2853937/">Water Bubbles Photo by Sebastian Sørensen</a> From Pexels using Creative Commons License</li>
+                </ul>
+              </div>
             </Grid>
           </Grid>
         </Container>

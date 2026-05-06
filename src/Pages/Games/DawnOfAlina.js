@@ -56,10 +56,12 @@ function DawnOfAlina() {
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
               <h3 className="attribution-header">Tutorial Playlists Referenced</h3>
-              <ul className='attribution-list'>
-                <li><a href="https://youtube.com/playlist?list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7&si=e-dJQ52ikEBgA5TG">How to make an RPG in Unity by Brackeys on YouTube</a></li>
-                <li><a href="https://youtube.com/playlist?list=PLJWSdH2kAe_Ij7d7ZFR2NIW8QCJE74CyT&si=HPn-h_TqZiedZOqY">Unity3D - Inventory System w/ Scriptable Objects by Coding With Unity</a></li>
-              </ul>
+              <div className="info-item">
+                <ul className='attribution-list'>
+                  <li><a href="https://youtube.com/playlist?list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7&si=e-dJQ52ikEBgA5TG">How to make an RPG in Unity by Brackeys on YouTube</a></li>
+                  <li><a href="https://youtube.com/playlist?list=PLJWSdH2kAe_Ij7d7ZFR2NIW8QCJE74CyT&si=HPn-h_TqZiedZOqY">Unity3D - Inventory System w/ Scriptable Objects by Coding With Unity</a></li>
+                </ul>
+              </div>
             </Grid>
           </Grid>
         </Container>

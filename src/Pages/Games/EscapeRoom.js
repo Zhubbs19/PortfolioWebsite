@@ -97,6 +97,7 @@ function EscapeRoom() {
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
               <h3 className="attribution-header">Credits and Attributions</h3>
+              <div className="info-item">
               <ul className="attribution-list">
                 <li>My Epic Door project was used as a part of this project, and all its credits and attributions can be found on its project page.</li>
                 <li><a href="https://freesound.org/people/steprock/sounds/771164/">Treasure Chest Open by steprock from Freesound.org</a></li>
@@ -139,6 +140,7 @@ function EscapeRoom() {
                 <li>Intro Slide Image AI-Generated from Image Creator in Bing</li>
                 <li><a href="https://fonts.google.com/specimen/Londrina+Solid">Londrina Solid Font from Google Fonts</a></li>
               </ul>
+              </div>
             </Grid>
           </Grid>
         </Container>

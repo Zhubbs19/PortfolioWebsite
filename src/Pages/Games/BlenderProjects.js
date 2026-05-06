@@ -15,41 +15,44 @@ function BlenderProjects() {
         <h1 className="base-header">Blender Projects</h1>
 
         <Container maxWidth="xl" className="about-content">
+          {/* Blender Donut Section */}
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={6}>
               <div className="media-item">
-                <video 
-                  className="responsive-iframe" 
-                  src={BlenderDonutVideo} 
-                  controls 
+                <video
+                  className="responsive-iframe"
+                  src={BlenderDonutVideo}
+                  controls
                 />
-                <h3 className='subheader'>Blender Donut Animation</h3>
               </div>
             </Grid>
             <Grid item xs={12} md={6}>
-              <div className="media-item">
-                <img 
-                  className="responsive-image" 
-                  src={BlenderCookies} 
-                  alt="Cookies and Milk Render"
-                />
-                <h3 className='subheader'>Cookies and Milk Render</h3>
-              </div>
-            </Grid>
-          </Grid>
-
-          <Grid container spacing={4} sx={{ mt: 2 }}>
-            <Grid item xs={12}>
               <div className='info-item'>
                 <h3 className='subheader'>Blender Donut Animation</h3>
-                <p className="text">
+                <p>
                   This rotating Blender Donut render and animation was created using YouTube creator Blender Guru's popular Blender Beginner Tutorial Series.
                   The randomly colored sprinkles were rendered using Blender's Geometry Nodes feature.
                 </p>
                 <a style={{ fontWeight: "bold" }} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku">Blender 3.0 Beginner Tutorial Playlist by Blender Guru</a>
-                
-                <h3 className='subheader' style={{ paddingTop: "2rem" }}>Milk and Cookies Render</h3>
-                <p className="text">I created this render after completing the Blender Donut tutorial to better apply what I had learned from the beginner tutorial in order to create my own render.</p>
+              </div>
+            </Grid>
+          </Grid>
+
+          {/* Milk and Cookies Section */}
+          <Grid container spacing={4} className='about-grid' sx={{ mt: 2 }}>
+            <Grid item xs={12} md={6}>
+              <div className="media-item">
+                <img
+                  className="responsive-image"
+                  src={BlenderCookies}
+                  alt="Cookies and Milk Render"
+                />
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className='info-item'>
+                <h3 className='subheader'>Milk and Cookies Render</h3>
+                <p>I created this render after completing the Blender Donut tutorial to better apply what I had learned from the beginner tutorial in order to create my own render.</p>
               </div>
             </Grid>
           </Grid>
@@ -57,8 +60,13 @@ function BlenderProjects() {
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
               <h3 className="attribution-header">Attributions</h3>
-              <p>Learned about simulating fluid physics to create the physics for the milk in my glass through reading this article on CG Cookie by Wes Burke:</p>
-              <a style={{ fontWeight: "bold" }} href="https://cgcookie.com/posts/let-s-make-coffee-blender-fluid-sim-mantaflow-tutorial-for-beginners">Let's Make Coffee: Blender Fluid Simulation (Mantaflow) Tutorial For Beginners by Wes Burke</a>
+              <div className="info-item">
+                <ul className="attribution-list">
+                  <li>
+                    Learned about simulating fluid physics to create the physics for the milk in my glass through reading this article on CG Cookie by Wes Burke: <a href="https://cgcookie.com/posts/let-s-make-coffee-blender-fluid-sim-mantaflow-tutorial-for-beginners">Let's Make Coffee: Blender Fluid Simulation (Mantaflow) Tutorial For Beginners</a>
+                  </li>
+                </ul>
+              </div>
             </Grid>
           </Grid>
         </Container>
