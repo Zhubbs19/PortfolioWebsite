@@ -14,93 +14,95 @@ function ModelingDiorama() {
         <h1 className="base-header">Modeling Diorama</h1>
 
         <Container maxWidth="xl" className="about-content">
+          {/* Video and Description Row */}
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={8}>
               <div className="media-item">
-                <iframe 
+                {/* TODO: Replace with project video or screenshot */}
+                <iframe
                   className="responsive-iframe"
-                  src="https://www.youtube.com/embed/33XtXKlbD4c" 
-                  title="BP Quest System Demo" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerPolicy="strict-origin-when-cross-origin" 
+                  src="https://www.youtube.com/embed/33XtXKlbD4c"
+                  title="Modeling Diorama Demo"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                 />
               </div>
             </Grid>
-            
+
             <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>
-                  In A Weathered Home, the player must prep and repair their home for intense weather events. 
-                  The proof of concept includes 3 turns of gameplay, each with its own weather event: an earthquake, dust storm, and forest fire. 
-                  The weather damages the player's home components (Roof, Walls, Foundation, and Garden) that they must keep standing by using and 
-                  buying various repair resources at their disposal with the stamina and money they have each turn.
+                  This work was completed as part of ITGM 505 - Game Art Methods course in Fall 2024, using Maya 2024, Adobe Substance
+                  Painter, Adobe Substance Designer, and Adobe Photoshop for modeling and texturing. When completed, it was exported as
+                  a final environment in Unreal Engine 5. The project was focused on creating a modular diorama using the modeling and
+                  texturing skills gained through the quarter.
                 </p>
-                <p>The game was created in Unreal Engine 5. Autodesk Maya was used for 3D asset creation and Adobe Photoshop for 2D asset creation and UI.</p>
               </div>
             </Grid>
           </Grid>
 
-          {/* Blueprint Sections */}
+          {/* Model and UV Layouts */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
-            <Grid item xs={12} md={6}>
-              <h3 className="subheader">Forest Fire Weather Event - Blueprint Event Graph</h3>
-              <iframe 
-                src="https://blueprintue.com/render/h401jhuc/" 
-                allowFullScreen 
-                className="responsive-iframe"
-                title="Forest Fire Blueprint"
-              />
-            </Grid>
-            
-            <Grid item xs={12} md={6}>
-              <h3 className="subheader">Get Repair Totals Blueprint Function</h3>
-              <iframe 
-                src="https://blueprintue.com/render/8-ztj4qp/" 
-                allowFullScreen 
-                className="responsive-iframe"
-                title="Repair Totals Blueprint"
-              />
+            <Grid item xs={12}>
+              <h3 className="subheader">Model and UV Layouts</h3>
+              <div className='info-item'>
+                <p>
+                  Below are the models and completed UV layouts for all modular components of the home, as well as a modeled export
+                  of the full home into Unreal Engine 5.
+                </p>
+              </div>
             </Grid>
           </Grid>
 
+          {/* Texturing */}
+          <Grid container spacing={4} sx={{ mt: 2 }}>
+            <Grid item xs={12}>
+              <h3 className="subheader">Texturing</h3>
+              <div className='info-item'>
+                <p>
+                  After completing UVs, texturing of the model was completed using Adobe Photoshop, Adobe Substance Painter,
+                  and Adobe Substance Designer.
+                </p>
+              </div>
+            </Grid>
+          </Grid>
+
+          {/* Final Unreal Environment */}
+          <Grid container spacing={4} sx={{ mt: 2 }}>
+            <Grid item xs={12}>
+              <h3 className="subheader">Final Unreal Environment</h3>
+              <div className='info-item'>
+                <p>
+                  The final Unreal Environment included the completed exported house model in a hilly environment with created tree
+                  models, and leaves and grass textures.
+                </p>
+              </div>
+            </Grid>
+          </Grid>
+
+          {/* Credits and Attributions */}
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
               <h3 className="attribution-header">Credits and Attributions</h3>
-              
+
               <div className="info-item">
+                <h4 className="attribution-subheader">Source Images for Texturing</h4>
                 <ul className="attribution-list">
-                  <li>All Blueprint scripting created by Zach Hubbard</li>
-                  <li>3D House and Shop Model created by Shuhan Wei</li>
-                  <li>All UI Art, Backgrounds, and Icons created by Yoru Chen</li>
-                </ul>
-
-                <h4 className="attribution-subheader">Sounds</h4>
-                <ul className="attribution-list">
-                  <li><a href="https://freesound.org/people/AyaDrevis/sounds/677404/">Earthquake.mp3 by AvaDrevis from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/slugzilla/sounds/112296/">desertwind1FINAL.wav by slugzilla from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/yaros_nov/sounds/434026/">Fire, Campfire, Bonfire by yaros_nov from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/BurghRecords/sounds/434712/">Woodland Ambience Sound Effect by BurghRecords from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/StavSounds/sounds/701704/">ui-submit.wav by StavSounds from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/StavSounds/sounds/546078/">button-pressed.wav by StavSounds from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/StavSounds/sounds/546079/">button-selected.wav by StavSounds from Freesound.org</a></li>
-                </ul>
-
-                <h4 className="attribution-subheader">Assets</h4>
-                <ul className="attribution-list">
-                  <li><a href="https://www.fab.com/listings/d2c038a0-302b-4197-b22b-b6a1b21a703b">Low Poly Nature Pack Lite from Fab</a></li>
-                  <li><a href="https://www.fab.com/listings/52529a12-e88e-41a0-8834-b87306f20c24">FANTASTIC - Village Pack from Fab</a></li>
-                </ul>
-
-                <h4 className="attribution-subheader">Particles</h4>
-                <ul className="attribution-list">
-                  <li>Fountain particle from Unreal Engine DefaultAssets used in creation of Dust particle effect.</li>
-                  <li><a href="https://www.fab.com/listings/c5b0270a-a295-4644-a4be-42cb1e56a197">NFire_BP_04 particle effect from M5 VFX Vol2. Fire and Flames(Niagara) by M5VFX</a></li>
-                </ul>
-
-                <h4 className="attribution-subheader">Fonts</h4>
-                <ul className="attribution-list">
-                  <li><a href="https://fonts.google.com/specimen/Special+Elite">Special Elite Font by Astigmatic from Google Fonts</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/02/23/50/63/1000_F_223506315_HtvohLG5PRGzs7X5lTKUwajHAlKtrYfz.jpg">Grey asphalt roofing shingles background texture by olga pink from Adobe Stock</a></li>
+                  <li><a href="https://as1.ftcdn.net/v2/jpg/01/56/42/94/1000_F_156429480_mEyYMe2BcsKxDAgBPhLCZy5Sw689eAXH.jpg">Wooden wall. Wood orange background by Saichol from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/51/03/53/1000_F_351035312_t3WXKABWH14a2G3tRwczeJqRhErzzkHi.jpg">Texture of natural dark brown wood veneer by delobol from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/07/23/40/55/1000_F_723405528_fTJMJgxbVymlyNsL5ozzPefn5WlNZOxY.jpg">Siberian larch fluted wood terrace by Audris from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/89/01/61/1000_F_389016141_WUFdTlFgqkUholpo4ZNz5QidvVg8SvTp.jpg">Exterior natural stone veneer wall by Bruce Peter Morin from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/79/58/51/1000_F_379585138_B5fseexnGHaX7y6m9zsUqd9yND4C5Xh7.jpg">Black Corrugated metal background by torsakarin from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/04/82/05/31/1000_F_482053140_TdwcY0VyGI5ugIWAPfe0mLc4tRNg8Dbs.jpg">Dark wood background by Roman's portfolio from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/search/images?k=mahogany%20wood%20texture">Mahogany wood texture from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/tree-branch-with-green-leaf-isolated-for-object-and-retouch-design/527582012">Tree branch with green leaf by jakkapan from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/close-up-of-maple-tree-trunk-in-park-at-summer/265280827">Close up of maple tree trunk by romantiche from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/natural-gray-granite-stone-texture-background/292731351">Natural gray granite stone texture by htpix from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/green-grass-isolated-for-object-design/527581604">Green grass isolated by jakkapan from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/bouquet-of-young-green-grass-isolated-on-white-or-transparent-background-natural-raster-clipart-of-a-meadow-plant/574013571">Bouquet of young green grass by ioanna_alexa from Adobe Stock</a></li>
+                  <li>Heightmap for terrain created using World Machine software</li>
                 </ul>
               </div>
             </Grid>
