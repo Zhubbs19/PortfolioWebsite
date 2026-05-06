@@ -21,12 +21,9 @@ Source code for my game and software development portfolio website — zachhubba
 | Seed-A-Pult | `#/SeedAPult` |
 | Epic Door | `#/EpicDoor` |
 | Escape Room | `#/EscapeRoom` |
-| MC Data Types Mod | `#/MCDataTypesMod` |
-| Modeling Diorama | `#/ModelingDiorama` |
 | Blender Projects | `#/BlenderProjects` |
 | Photoshop Projects | `#/PhotoshopProjects` |
 | Weathered Home | `#/WeatheredHome` |
-| BP Quest System | `#/BPQuestSystem` |
 | All Game Projects | `#/GameProjects` |
 
 ## Getting Started
