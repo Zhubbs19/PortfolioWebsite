@@ -7,7 +7,7 @@ function FooterComponent() {
     <footer className="footer">
       <div className="footer-content">
         <p className="footer-text">
-          © 2025 by Zach Hubbard. This website was created using React.js with development support using Claude AI (Anthropic).
+          © 2026 by Zach Hubbard. This website was created using React.js with development support using Claude AI (Anthropic).
         </p>
         <div className="footer-links">
           <a 

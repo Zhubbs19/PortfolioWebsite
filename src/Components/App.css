@@ -1,5 +1,38 @@
 /* Color Palette Based on Your Screenshot */
 
+/* ── Layout: scroll context below navbar ──── */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+}
+/* ─────────────────────────────────────────── */
+
+/* ── Modern Scrollbar (scoped to content) ─── */
+.page-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.page-scroll::-webkit-scrollbar-track {
+  background: #dde0e6;
+  border-radius: 4px;
+}
+.page-scroll::-webkit-scrollbar-thumb {
+  background: #5a6c7d;
+  border-radius: 4px;
+}
+.page-scroll::-webkit-scrollbar-thumb:hover {
+  background: #3d5afe;
+}
+.page-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #5a6c7d #dde0e6;
+}
+/* ─────────────────────────────────────────── */
+
 :root {
   /* Primary Colors - Based on your blue buttons */
   --primary-color: #3d5afe;           /* Blue from buttons */
@@ -7,7 +40,7 @@
   --primary-light: #5e7ce2;
   
   /* Backgrounds */
-  --bg-main: #e8e8e8;                 /* Light gray background */
+  --bg-main: #f0f2f5;                 /* Cool light gray background */
   --bg-card: #ffffff;                 /* White cards */
   --bg-dark: #2c3e50;                 /* Dark navbar/footer */
   --bg-dark-secondary: #34495e;       /* Slightly lighter dark */
@@ -26,16 +59,82 @@
 
 .Global {
   background: var(--bg-main);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
-  min-height: 100vh;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+
+.page-scroll {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+  background: var(--bg-main);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #1a252f 0%, #2c3e50 60%, #34495e 100%);
+  color: var(--text-light);
+  padding: 5rem 2rem 4.5rem;
+  text-align: center;
   position: relative;
-  padding: 0 1rem;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 60% 40%, rgba(61, 90, 254, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-eyebrow {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  animation: slideDown 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-subtitle {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  animation: fadeInUp 0.7s ease-out 0.1s both;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.7s ease-out 0.2s both;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 3.5rem 1.5rem 3rem;
+  }
 }
 
 .base-header {
-  margin: 2rem auto 1.5rem;
+  margin: 2rem 1rem 1.5rem;
   max-width: calc(100% - 2rem);
   font-weight: 700;
   padding: 2rem;
@@ -47,20 +146,52 @@
   justify-content: center;
   position: relative;
   z-index: 1;
-  animation: slideDown 0.6s ease-out;
+  animation: slideDown 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
   transition: all 0.3s ease;
 }
 
 @keyframes slideDown {
   from {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(-18px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-content {
+  animation: pageEnter 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ── Scroll-reveal system ─────────────────── */
+.ao {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--ao-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.ao.ao-vis {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* ─────────────────────────────────────────── */
 
 .about-content {
   padding: 2.5rem;
@@ -71,13 +202,13 @@
   box-shadow: var(--shadow-md);
   position: relative;
   z-index: 1;
-  animation: fadeInUp 0.8s ease-out;
+  animation: fadeInUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(40px);
+    transform: translateY(28px);
   }
   to {
     opacity: 1;
@@ -96,16 +227,31 @@
   padding: 1rem;
 }
 
-.media-item img,
-.media-item iframe {
-  max-width: 100%;
-  height: auto;
+.img-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   transition: all 0.3s ease;
 }
 
-.media-item img:hover,
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-item iframe {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+}
+
+.img-container:hover,
 .media-item iframe:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
@@ -149,20 +295,12 @@
 
 /* Mobile responsiveness */
 @media (max-width: 1024px) {
-  .Global {
-    padding: 0 0.75rem;
-  }
-
   .about-content {
     padding: 2rem;
   }
 }
 
 @media (max-width: 768px) {
-  .Global {
-    padding: 0 0.5rem;
-  }
-
   .base-header {
     padding: 1.5rem;
     margin: 1.5rem 0.5rem;

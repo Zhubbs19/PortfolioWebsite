@@ -1,4 +1,5 @@
 import Card from '@mui/material/Card';
+import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -18,36 +19,39 @@ import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlinaLarge.JPG';
 import AppalachianSeedCardImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
 import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
 
-
-// Reusable Project Card Component - REMOVED SIZE CONSTRAINTS
 function ProjectCard({ image, title, description, link, altText }) {
   return (
     <Card sx={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
-      <CardMedia
+      <CardActionArea
         component={Link}
-        height="320"
         to={link}
-        image={image}
-        alt={altText || title}
-      />
-      <CardContent sx={{ flexGrow: 1 }}>
-        <Typography gutterBottom variant="h5" component="h2">
-          {title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {description}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button 
-          size="large" 
-          component={Link} 
-          to={link}
-          aria-label={`Learn more about ${title}`}
-        >
-          Learn More
-        </Button>
-      </CardActions>
+        sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'stretch' }}
+      >
+        <CardMedia
+          component="div"
+          sx={{ height: 320, backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          role="img"
+          aria-label={altText || title}
+        />
+        <CardContent sx={{ flexGrow: 1 }}>
+          <Typography gutterBottom variant="h5" component="h2">
+            {title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {description}
+          </Typography>
+        </CardContent>
+        <CardActions sx={{ pointerEvents: 'none' }}>
+          <Button
+            variant="contained"
+            size="large"
+            tabIndex={-1}
+            aria-hidden="true"
+          >
+            Learn More
+          </Button>
+        </CardActions>
+      </CardActionArea>
     </Card>
   );
 }
@@ -165,6 +169,42 @@ export function ApplachianSeedCard() {
       description="Unity - 2023 Global Game Jam"
       link="/SeedAPult"
       altText="Appalachian Seed-A-Pult Game"
+    />
+  );
+}
+
+export function QuestSystemCard() {
+  return (
+    <ProjectCard
+      image={AppalachianSeedCardImg}
+      title="Quest System"
+      description="Unreal Engine 5 - Blueprint"
+      link="/BPQuestSystem"
+      altText="Quest System Project"
+    />
+  );
+}
+
+export function ModelingDioramaCard() {
+  return (
+    <ProjectCard
+      image={AppalachianSeedCardImg}
+      title="Modeling Diorama"
+      description="Maya / Substance / Unreal Engine 5"
+      link="/ModelingDiorama"
+      altText="Modeling Diorama Project"
+    />
+  );
+}
+
+export function DataTypesModCard() {
+  return (
+    <ProjectCard
+      image={AppalachianSeedCardImg}
+      title="Data Types Mod"
+      description="Minecraft Java / NeoForge"
+      link="/MCDataTypesMod"
+      altText="Data Types Mod"
     />
   );
 }
