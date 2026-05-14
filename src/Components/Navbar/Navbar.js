@@ -12,8 +12,6 @@ function NavbarComponent() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navbar">
       <a href="/"><img className="NavbarBrand" src={logoImg} width="64" height="64" alt="Site Logo" /></a>
-      <span className="NavbarTitle">
-        <Nav.Link className='link' href="/">Zach Hubbard</Nav.Link></span>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className='navbar-dropdown'>
         <Nav className='mr-auto'>

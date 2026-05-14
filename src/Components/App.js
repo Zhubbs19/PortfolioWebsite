@@ -16,19 +16,9 @@ function App() {
         {/* Hero Section */}
         <Box className="hero-section">
           <Container maxWidth="md">
-            <p className="hero-eyebrow">Welcome to my portfolio</p>
             <h1 className="hero-title">Hi, I'm Zach Hubbard</h1>
             <p className="hero-subtitle">Game Developer &amp; Software Engineer</p>
             <Box className="hero-cta">
-              <Button
-                variant="contained"
-                size="large"
-                component="a"
-                href="/#/game-projects"
-                sx={{ px: 4, py: 1.5, fontSize: '1rem', borderRadius: 1.5, boxShadow: '0 4px 14px rgba(61,90,254,0.4)', '&:hover': { boxShadow: '0 6px 20px rgba(61,90,254,0.5)' } }}
-              >
-                View Projects
-              </Button>
               <Button
                 variant="outlined"
                 size="large"
@@ -67,13 +57,8 @@ function App() {
         <h1 className="base-header" style={{ marginLeft: '1rem', marginRight: '1rem' }}>About Me</h1>
 
         <Container maxWidth="xl" sx={{ px: { xs: 2, sm: 3, md: 4 } }}>
-          <Box className="about-content" sx={{ margin: '0 auto' }}>
+          <Box className="about-content" sx={{ margin: '0 auto 2rem' }}>
             <Grid container spacing={4} justifyContent="center" alignItems="center">
-              <Grid item xs={12} sm={6} md={4} className='media-item'>
-                <div className='img-container'>
-                  <img src={PortfolioImg} alt='Zach Hubbard Portfolio' />
-                </div>
-              </Grid>
               <Grid item xs={12} sm={6} md={4} className='media-item'>
                 <div className='img-container'>
                   <img src={Image2Img} alt='Zach Hubbard' style={{ objectPosition: 'top' }} />
@@ -86,9 +71,6 @@ function App() {
                   I primarily focus on the programming side of game and software development, and 
                   enjoy creating, problem-solving, learning new things, and challenging myself.
                 </p>
-                <h3 style={{ padding: "1rem", fontWeight: 'bold' }}>
-                  Email: Zhubbs19@gmail.com
-                </h3>
               </Grid>
             </Grid>
           </Box>

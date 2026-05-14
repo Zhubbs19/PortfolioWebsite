@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(npm audit *)",
+      "Bash(npm install *)",
+      "Bash(rm src/index.js)",
+      "Bash(npm run *)",
+      "Bash(grep -E \"^webpack$|^html-webpack-plugin$\")",
+      "Bash(git rm *)"
+    ]
+  }
+}

@@ -11,6 +11,10 @@
 
 # production
 /dist
+/build
+
+# claude code
+/.claude
 
 # misc
 .DS_Store
