@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EscapeRoomCard, {EpicDoorCard, WVQuestCard} from "./Card/Card";
+import EscapeRoomCard, {EpicDoorCard, WVQuestCard, StepAheadCard} from "./Card/Card";
 import { Grid, Container, Box, Button } from "@mui/material";
 import PortfolioImg from '../Images/Homepage/PortfolioCropped.jpg';
 import Image2Img from '../Images/Homepage/image2.png';
@@ -43,7 +43,7 @@ function App() {
             alignItems="stretch"
           >
             <Grid item xs={12} sm={6} md={4}>
-              <EpicDoorCard />
+              <StepAheadCard />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <WVQuestCard />

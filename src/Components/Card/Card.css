@@ -35,11 +35,6 @@
 .MuiCardMedia-root {
   height: 320px;
   object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.MuiCard-root:hover .MuiCardMedia-root {
-  transform: scale(1.05);
 }
 
 /* Card Content */

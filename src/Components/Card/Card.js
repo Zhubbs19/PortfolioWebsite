@@ -18,8 +18,9 @@ import WeatheredHomeImg from '../../Images/Project_Images/WeatheredHome.png';
 import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlinaLarge.JPG';
 import AppalachianSeedCardImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
 import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
+import StepAheadImg from '../../Images/Project_Images/StepAhead/StepAhead_Logo.png';
 
-function ProjectCard({ image, title, description, link, altText }) {
+function ProjectCard({ image, title, description, link, altText, imageFit, imageBg }) {
   return (
     <Card sx={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
       <CardActionArea
@@ -29,7 +30,14 @@ function ProjectCard({ image, title, description, link, altText }) {
       >
         <CardMedia
           component="div"
-          sx={{ height: 320, backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          sx={{
+            height: 320,
+            backgroundImage: `url(${image})`,
+            backgroundSize: imageFit || 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            backgroundColor: imageBg || 'transparent',
+          }}
           role="img"
           aria-label={altText || title}
         />
@@ -169,6 +177,20 @@ export function ApplachianSeedCard() {
       description="Unity - 2023 Global Game Jam"
       link="/SeedAPult"
       altText="Appalachian Seed-A-Pult Game"
+    />
+  );
+}
+
+export function StepAheadCard() {
+  return (
+    <ProjectCard
+      image={StepAheadImg}
+      title="StepAhead"
+      description="Community Navigation App - Flutter · Claude Code"
+      link="/StepAhead"
+      altText="StepAhead community walking navigation app"
+      imageFit="contain"
+      imageBg="#1a252f"
     />
   );
 }

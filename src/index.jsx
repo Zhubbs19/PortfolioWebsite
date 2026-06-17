@@ -14,6 +14,7 @@ import CartSmash from './Pages/Games/CartSmash';
 import EpicDoor from './Pages/Games/EpicDoor';
 import EscapeRoom from './Pages/Games/EscapeRoom';
 import WeatheredHome from './Pages/Games/WeatheredHome';
+import StepAhead from './Pages/Games/StepAhead';
 //#endregion
 
 /* Handles website routing so multiple pages can be linked to on the site */
@@ -61,6 +62,10 @@ const router = createHashRouter([
   {
     path: "WeatheredHome",
     element: <WeatheredHome />,
+  },
+  {
+    path: "StepAhead",
+    element: <StepAhead />,
   },
 ]);
 

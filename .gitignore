@@ -13,6 +13,12 @@
 /dist
 /build
 
+# public media (large files served separately)
+/public/*.mp4
+/public/*.pdf
+/public/*.jpg
+/public/*.png
+
 # claude code
 /.claude
 

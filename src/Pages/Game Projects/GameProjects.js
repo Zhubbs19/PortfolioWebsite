@@ -1,6 +1,7 @@
 import EscapeRoomCard, {
   EpicDoorCard, DawnOfAlinaCard, WVQuestCard,
   BlenderProjectsCard, CartSmashCard, ApplachianSeedCard, WeatheredHomeCard,
+  StepAheadCard,
 } from "../../Components/Card/Card";
 import '../../Components/App.css';
 import '../../Components/Card/Card.css';
@@ -18,6 +19,9 @@ function GameProjects() {
 
         <Container maxWidth="xl" sx={{ px: { xs: 2, sm: 3, md: 4 }, py: 4 }}>
           <Grid container spacing={4} direction="row" justifyContent="center" alignItems="stretch">
+            <Grid item xs={12} sm={6} md={4}>
+              <StepAheadCard />
+            </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <WeatheredHomeCard />
             </Grid>
