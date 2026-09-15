@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "React Dev Server",
+      "name": "Portfolio Dev Server",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["start"],
+      "runtimeArgs": ["run", "start"],
       "port": 3000
     }
   ]

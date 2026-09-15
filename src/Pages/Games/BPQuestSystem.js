@@ -6,11 +6,17 @@ import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
 import './GamePages.css';
+import QuestCreationFSM from '../../Images/Project_Images/QuestSystem/Quest Creation FSM Diagram.drawio.png';
+import QuestClassDiagram from '../../Images/Project_Images/QuestSystem/Quest System Class Diagram.drawio.png';
+import QuestStateDiagram from '../../Images/Project_Images/QuestSystem/Quest System State Diagram.drawio.png';
+import BPInteractableParent from '../../Images/Project_Images/QuestSystem/BP_InteractableParent.png';
+import QuestActor from '../../Images/Project_Images/QuestSystem/QuestActor.png';
+import QuestManagement from '../../Images/Project_Images/QuestSystem/QuestManagement.png';
 
 function BPQuestSystem() {
   return (
     <ThemeProvider theme={siteTheme}>
-      <PageWrapper title="Zach Hubbard | Quest Creation and Tracking System">
+      <PageWrapper title="Zach Hubbard | UE5 Blueprint Quest Creation and Tracking System">
         <h1 className="base-header">Quest Creation and Tracking System</h1>
 
         <Container maxWidth="xl" className="about-content">
@@ -18,15 +24,10 @@ function BPQuestSystem() {
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={8}>
               <div className="media-item">
-                {/* TODO: Replace with project video */}
-                <iframe
-                  className="responsive-iframe"
-                  src="https://www.youtube.com/embed/33XtXKlbD4c"
-                  title="Quest Creation and Tracking System Demo"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
+                <iframe className="responsive-iframe" src="https://www.youtube.com/embed/qWCNKJsuuOI" 
+                title="UE5 Blueprint Quest Creation and Tracking System Overview" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
             </Grid>
 
@@ -93,6 +94,77 @@ function BPQuestSystem() {
                   <li><strong>Quest States Tracking</strong> — Quest states are monitored throughout their stages of progress (not started, in-progress, completed) as the player completes them, changing the quest list in the process.</li>
                   <li><strong>Quest Prerequisite Tracking</strong> — Checks a list of prerequisite quests to make sure they have been completed to advance and begin the correct quests when available.</li>
                 </ul>
+              </div>
+            </Grid>
+          </Grid>
+
+          {/* Diagrams */}
+          <Grid container spacing={4} sx={{ mt: 2 }}>
+            <Grid item xs={12}>
+              <h3 className="subheader">Diagrams</h3>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <h4 className="attribution-subheader">Quest Creation FSM Diagram</h4>
+              <img
+                src={QuestCreationFSM}
+                alt="Quest Creation FSM Diagram"
+                className="responsive-image"
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <h4 className="attribution-subheader">Quest System State Diagram</h4>
+              <img
+                src={QuestStateDiagram}
+                alt="Quest System State Diagram"
+                className="responsive-image"
+              />
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <h4 className="attribution-subheader">Quest System Class Diagram</h4>
+              <img
+                src={QuestClassDiagram}
+                alt="Quest System Class Diagram"
+                className="responsive-image"
+              />
+            </Grid>
+          </Grid>
+
+          {/* Project Screenshots */}
+          <Grid container spacing={4} sx={{ mt: 2 }}>
+            <Grid item xs={12}>
+              <h3 className="subheader">Project Screenshots</h3>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <h4 className="attribution-subheader">BP Interactable Parent</h4>
+              <div className="media-item">
+                <img
+                  src={BPInteractableParent}
+                  alt="BP Interactable Parent Blueprint"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                />
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <h4 className="attribution-subheader">Quest Actor</h4>
+              <div className="media-item">
+                <img
+                  src={QuestActor}
+                  alt="Quest Actor Blueprint"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                />
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <h4 className="attribution-subheader">Quest Management</h4>
+              <div className="media-item">
+                <img
+                  src={QuestManagement}
+                  alt="Quest Management Blueprint"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                />
               </div>
             </Grid>
           </Grid>

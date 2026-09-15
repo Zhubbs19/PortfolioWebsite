@@ -1,8 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EscapeRoomCard, {EpicDoorCard, WVQuestCard, StepAheadCard} from "./Card/Card";
+import { BPQuestSystemCard, ReactorLevelDesignCard, StepAheadCard} from "./Card/Card";
 import { Grid, Container, Box, Button } from "@mui/material";
-import PortfolioImg from '../Images/Homepage/PortfolioCropped.jpg';
 import Image2Img from '../Images/Homepage/image2.png';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
@@ -46,10 +45,10 @@ function App() {
               <StepAheadCard />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <WVQuestCard />
+              <BPQuestSystemCard />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <EscapeRoomCard />
+              <ReactorLevelDesignCard />
             </Grid>
           </Grid>
         </Container>
@@ -66,7 +65,7 @@ function App() {
               </Grid>
               <Grid item xs={12} md={4} className='info-item'>
                 <p style={{ padding: "1rem" }}>
-                  Hello, my name is Zach Hubbard, and I have a huge passion
+                  Hello, I'm Zach Hubbard. I have a huge passion
                   for game and software development, computer science, and video games.
                   I primarily focus on the programming side of game and software development, and 
                   enjoy creating, problem-solving, learning new things, and challenging myself.
