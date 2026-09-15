@@ -18,17 +18,15 @@ function MCDataTypesMod() {
         <h1 className="base-header">Minecraft Game Modification - Data Types Mod</h1>
 
         <Container maxWidth="xl" className="about-content">
-          {/* Video and Description Row */}
+          {/* Image and Description Row */}
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={8}>
               <div className="media-item">
-                <iframe
-                  className="responsive-iframe"
-                  src="https://www.youtube.com/embed/33XtXKlbD4c"
-                  title="Minecraft Data Types Mod Demo"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
+                <img
+                  src={DataTypesCard}
+                  alt="Data Types Mod Card"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
                 />
               </div>
             </Grid>
@@ -85,16 +83,6 @@ function MCDataTypesMod() {
                 <img
                   src={BlockbenchModel}
                   alt="Blockbench Model"
-                  className="responsive-image"
-                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
-                />
-              </div>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <div className="media-item">
-                <img
-                  src={DataTypesCard}
-                  alt="Data Types Card"
                   className="responsive-image"
                   style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
                 />
