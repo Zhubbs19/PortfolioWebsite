@@ -1,8 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import EscapeRoomCard, {EpicDoorCard, WVQuestCard, StepAheadCard} from "./Card/Card";
+import { Link } from "react-router-dom";
 import { Grid, Container, Box, Button } from "@mui/material";
-import PortfolioImg from '../Images/Homepage/PortfolioCropped.jpg';
 import Image2Img from '../Images/Homepage/image2.png';
 import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
@@ -32,7 +32,7 @@ function App() {
           </Container>
         </Box>
 
-        <h1 className="base-header" style={{ marginLeft: '1rem', marginRight: '1rem' }}>Featured Projects</h1>
+        <h2 className="base-header" style={{ marginLeft: '1rem', marginRight: '1rem' }}>Featured Projects</h2>
 
         <Container maxWidth="xl" sx={{ px: { xs: 2, sm: 3, md: 4 }, py: 6 }}>
           <Grid 
@@ -52,9 +52,14 @@ function App() {
               <EscapeRoomCard />
             </Grid>
           </Grid>
+          <Box sx={{ textAlign: 'center', mt: 5 }}>
+            <Button component={Link} to="/game-projects" variant="contained" size="large" sx={{ px: 4, py: 1.5 }}>
+              View All Projects
+            </Button>
+          </Box>
         </Container>
 
-        <h1 className="base-header" style={{ marginLeft: '1rem', marginRight: '1rem' }}>About Me</h1>
+        <h2 className="base-header" style={{ marginLeft: '1rem', marginRight: '1rem' }}>About Me</h2>
 
         <Container maxWidth="xl" sx={{ px: { xs: 2, sm: 3, md: 4 } }}>
           <Box className="about-content" sx={{ margin: '0 auto 2rem' }}>

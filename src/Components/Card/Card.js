@@ -31,7 +31,6 @@ function ProjectCard({ image, title, description, link, altText, imageFit, image
         <CardMedia
           component="div"
           sx={{
-            height: 320,
             backgroundImage: `url(${image})`,
             backgroundSize: imageFit || 'cover',
             backgroundPosition: 'center',
