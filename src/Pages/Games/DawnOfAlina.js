@@ -31,9 +31,9 @@ function DawnOfAlina() {
                   Dawn of Alina was a 3D action-adventure game prototype. The game was centered around main character Alina, who was tasked with ridding her world of the
                   evil that inhabits it using her magical powers. The game was created in Unity as part of Mon River Games' summer 2022 session. Development was discontinued following the end of the Fall 2022 session.
                 </p>
-                <a style={{ fontWeight: "bold" }} href="https://www.monrivergames.com/dawnofalina">Mon River Games - Dawn of Alina Page</a>
+                <a style={{ fontWeight: "bold" }} href="https://www.monrivergames.com/dawnofalina" target="_blank" rel="noopener noreferrer">Mon River Games - Dawn of Alina Page</a>
                 
-                <h3 className="subheader" style={{ paddingTop: "2rem" }}>Throughout the game's development, I implemented:</h3>
+                <h2 className="subheader" style={{ paddingTop: "2rem" }}>Throughout the game's development, I implemented:</h2>
                 <ul className="feature-list">
                   <li className="feature">A working inventory system using item scriptable objects, containing item pickup mechanics, item stacking/removal, and item info displays.</li>
                   <li className="feature">Scriptable Objects are used as a container for each items' immutable data, such as name, item type, gold value, and stack limit.</li>
@@ -55,11 +55,11 @@ function DawnOfAlina() {
 
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">Tutorial Playlists Referenced</h3>
+              <h2 className="attribution-header">Tutorial Playlists Referenced</h2>
               <div className="info-item">
                 <ul className='attribution-list'>
-                  <li><a href="https://youtube.com/playlist?list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7&si=e-dJQ52ikEBgA5TG">How to make an RPG in Unity by Brackeys on YouTube</a></li>
-                  <li><a href="https://youtube.com/playlist?list=PLJWSdH2kAe_Ij7d7ZFR2NIW8QCJE74CyT&si=HPn-h_TqZiedZOqY">Unity3D - Inventory System w/ Scriptable Objects by Coding With Unity</a></li>
+                  <li><a href="https://youtube.com/playlist?list=PLPV2KyIb3jR4KLGCCAciWQ5qHudKtYeP7&si=e-dJQ52ikEBgA5TG" target="_blank" rel="noopener noreferrer">How to make an RPG in Unity by Brackeys on YouTube</a></li>
+                  <li><a href="https://youtube.com/playlist?list=PLJWSdH2kAe_Ij7d7ZFR2NIW8QCJE74CyT&si=HPn-h_TqZiedZOqY" target="_blank" rel="noopener noreferrer">Unity3D - Inventory System w/ Scriptable Objects by Coding With Unity</a></li>
                 </ul>
               </div>
             </Grid>

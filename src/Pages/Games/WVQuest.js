@@ -256,12 +256,12 @@ function WVQuest() {
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={4}>
               <div className="media-item">
-                <img 
+                <img loading="lazy" 
                   className="responsive-image" 
                   src={WVQuestRegistration} 
                   alt='WV Quest Registration Screen'
                 />
-                <img 
+                <img loading="lazy" 
                   className="responsive-image" 
                   src={WVQuestCamera} 
                   alt='WV Quest Camera Screen'
@@ -283,9 +283,9 @@ function WVQuest() {
                   as part of my West Virginia University Senior Capstone project from Fall 2022 to Spring 2023, 
                   continuing the project from the previous years' group.
                 </p>
-                <a style={{ fontWeight: "bold" }} href="https://www.monrivergames.com/wvquest">Mon River Games - WV Quest Page</a>
+                <a style={{ fontWeight: "bold" }} href="https://www.monrivergames.com/wvquest" target="_blank" rel="noopener noreferrer">Mon River Games - WV Quest Page</a>
                 
-                <h3 className="subheader">Throughout the app's development, I have implemented:</h3>
+                <h2 className="subheader">Throughout the app's development, I have implemented:</h2>
                 <ul className="feature-list">
                   <li className='feature'>Unity and Firebase integration</li>
                   <li className='feature'>User/Group registration and login</li>
@@ -302,13 +302,13 @@ function WVQuest() {
           {/* Switchboard Minigame Section */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Switchboard Minigame</h3>
+              <h2 className="subheader">Switchboard Minigame</h2>
             </Grid>
 
             {/* Demo video + Diagram side by side */}
             <Grid item xs={12} md={7}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Demo</h4>
+                <h3 className="attribution-subheader">Demo</h3>
                 <video controls style={{ width: '100%', borderRadius: '8px' }}>
                   <source src={SwitchboardDemo} type="video/mp4" />
                 </video>
@@ -316,8 +316,8 @@ function WVQuest() {
             </Grid>
             <Grid item xs={12} md={5}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Game Loop Diagram</h4>
-                <img
+                <h3 className="attribution-subheader">Game Loop Diagram</h3>
+                <img loading="lazy"
                   src={SwitchboardDiagram}
                   alt="Switchboard Minigame Game Loop Diagram"
                   style={{ width: '100%', maxWidth: '420px', display: 'block' }}
@@ -328,7 +328,7 @@ function WVQuest() {
             {/* SwitchboardGame.cs full width */}
             <Grid item xs={12}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Game Loop & Color Randomization — SwitchboardGame.cs</h4>
+                <h3 className="attribution-subheader">Game Loop & Color Randomization — SwitchboardGame.cs</h3>
                 <p>Manages the core game loop: initializes wire colors randomly, tracks which wires are correctly connected via lights, and ends the game when all wires match or time runs out.</p>
                 <CodeViewer code={switchboardGameCode} filename="SwitchboardGame.cs" />
               </div>
@@ -337,14 +337,14 @@ function WVQuest() {
             {/* Wire and TimerManager side by side */}
             <Grid item xs={12} md={12}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Wire Dragging & Connection — Wire.cs</h4>
+                <h3 className="attribution-subheader">Wire Dragging & Connection — Wire.cs</h3>
                 <p>Handles rendering and drag interaction for each wire, detecting color matches on drop to light up the corresponding board indicators.</p>
                 <CodeViewer code={wireCode} filename="Wire.cs" />
               </div>
             </Grid>
             <Grid item xs={12} md={12}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Timer Manager — TimerManager.cs</h4>
+                <h3 className="attribution-subheader">Timer Manager — TimerManager.cs</h3>
                 <p>Coroutine-based countdown timer that ticks once per second and exposes the remaining time to the game loop.</p>
                 <CodeViewer code={timerManagerCode} filename="TimerManager.cs" />
               </div>
@@ -354,14 +354,14 @@ function WVQuest() {
           {/* Leaderboard Section */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Firebase Leaderboard</h3>
+              <h2 className="subheader">Firebase Leaderboard</h2>
             </Grid>
 
             {/* Diagram left, code right */}
             
             <Grid item xs={12} md={12}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Leaderboard.cs</h4>
+                <h3 className="attribution-subheader">Leaderboard.cs</h3>
                 <p>Queries the Firebase realtime database for all user scores, deserializes the JSON response with Newtonsoft, sorts entries descending with LINQ, and populates the top-8 leaderboard UI.</p>
                 <CodeViewer code={leaderboardCode} filename="Leaderboard.cs" />
               </div>
@@ -370,8 +370,8 @@ function WVQuest() {
 
           <Grid item xs={12} md={12}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Leaderboard Update Diagram</h4>
-                <img
+                <h3 className="attribution-subheader">Leaderboard Update Diagram</h3>
+                <img loading="lazy"
                   src={LeaderboardDiagram}
                   alt="Leaderboard Update Diagram"
                   style={{ width: '100%', maxWidth: '760px', display: 'block' }}
@@ -382,18 +382,18 @@ function WVQuest() {
           {/* Attributions */}
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">Credits and Attributions</h3>
+              <h2 className="attribution-header">Credits and Attributions</h2>
 
               {/* Capstone Groups */}
               <div className="info-item">
-                <h4 className="attribution-subheader">Fall 2022 – Spring 2023 Capstone Group Mentors/Members</h4>
+                <h3 className="attribution-subheader">Fall 2022 – Spring 2023 Capstone Group Mentors/Members</h3>
                 <ul className="attribution-list">
                   <li>Group Mentors – Professor Heather Cole, Dr. Y. V. Ramana Reddy, and Aron Ludwinski</li>
                   <li>CSEE Capstone Group Students – Zachary Hubbard, London Bowen, Tessla Muir, David Snodgrass, Joseph Bradford, Tyler Troutman, and Amy Farson-Ciccone</li>
                   <li>MDIA 472 Capstone Collaborator – Jackson Sigler</li>
                 </ul>
 
-                <h4 className="attribution-subheader">Fall 2023 – Spring 2024 Capstone Group Mentors/Members</h4>
+                <h3 className="attribution-subheader">Fall 2023 – Spring 2024 Capstone Group Mentors/Members</h3>
                 <ul className="attribution-list">
                   <li>Group Mentors – Breanne Myers, Ted Eicher, Tom Heckman, Zachary Hubbard, and Heather Cole</li>
                   <li>CSEE Capstone Group Students – Jayanth Dhage, Masashi Takahashi, Benjamin Bradford, Harrison York, and David Clark</li>
@@ -402,55 +402,55 @@ function WVQuest() {
               </div>
 
               {/* Switchboard Minigame */}
-              <h4 className="attribution-subheader">WV Quest – Switchboard Minigame Prototype</h4>
+              <h3 className="attribution-subheader">WV Quest – Switchboard Minigame Prototype</h3>
               <div className="info-item">
-                <h4 className="attribution-subheader">Influences</h4>
+                <h3 className="attribution-subheader">Influences</h3>
                 <ul className="attribution-list">
                   <li>Inspired by the wiring task present on maps within the multiplayer video game Among Us. Also inspired by the large switchboard exhibit present at the West Virginia State Museum in Charleston, WV, which is the inspiration for the minigame.</li>
                 </ul>
 
-                <h4 className="attribution-subheader">Code Attributions</h4>
+                <h3 className="attribution-subheader">Code Attributions</h3>
                 <ul className="attribution-list">
-                  <li>Script – Wire.cs – (Lines 19–20, StartDrag() function lines 38–40) – Use of Unity's built-in LineRenderer and RectTransform as a method for rendering and dragging the wires inspired from the Unity tutorial during initial development – <a href="https://www.youtube.com/watch?v=bILijwzJrZg&list=PLbrNQtHGAmEnSptE6uGTsXR2_TF5N6wwB&index=4">How to Make Among Us in Unity #4 | Wire Task (Complete) (youtube.com)</a> by Redefine Gamedev YouTube channel. Code comments are included in the file with the proper attribution.</li>
-                  <li>Script – SwitchboardGame.cs – Initial ideation for the script inspired by watching the Unity tutorial <a href="https://www.youtube.com/watch?v=bILijwzJrZg&list=PLbrNQtHGAmEnSptE6uGTsXR2_TF5N6wwB&index=4">How to Make Among Us in Unity #4 | Wire Task (Complete) (youtube.com)</a> by Redefine Gamedev YouTube channel, but code for SwitchboardGame.cs was written by Zachary Hubbard.</li>
+                  <li>Script – Wire.cs – (Lines 19–20, StartDrag() function lines 38–40) – Use of Unity's built-in LineRenderer and RectTransform as a method for rendering and dragging the wires inspired from the Unity tutorial during initial development – <a href="https://www.youtube.com/watch?v=bILijwzJrZg&list=PLbrNQtHGAmEnSptE6uGTsXR2_TF5N6wwB&index=4" target="_blank" rel="noopener noreferrer">How to Make Among Us in Unity #4 | Wire Task (Complete) (youtube.com)</a> by Redefine Gamedev YouTube channel. Code comments are included in the file with the proper attribution.</li>
+                  <li>Script – SwitchboardGame.cs – Initial ideation for the script inspired by watching the Unity tutorial <a href="https://www.youtube.com/watch?v=bILijwzJrZg&list=PLbrNQtHGAmEnSptE6uGTsXR2_TF5N6wwB&index=4" target="_blank" rel="noopener noreferrer">How to Make Among Us in Unity #4 | Wire Task (Complete) (youtube.com)</a> by Redefine Gamedev YouTube channel, but code for SwitchboardGame.cs was written by Zachary Hubbard.</li>
                   <li>Script – TimerManager.cs – Code for this script created by Zachary Hubbard.</li>
                 </ul>
 
-                <h4 className="attribution-subheader">Game Loop Diagram Attributions</h4>
+                <h3 className="attribution-subheader">Game Loop Diagram Attributions</h3>
                 <ul className="attribution-list">
-                  <li>Switchboard Game Loop Diagram – Created by Zachary Hubbard using the <a href="https://www.drawio.com/">Draw.io</a> diagram tool.</li>
+                  <li>Switchboard Game Loop Diagram – Created by Zachary Hubbard using the <a href="https://www.drawio.com/" target="_blank" rel="noopener noreferrer">Draw.io</a> diagram tool.</li>
                 </ul>
 
-                <h4 className="attribution-subheader">UI and Art Asset Attributions</h4>
+                <h3 className="attribution-subheader">UI and Art Asset Attributions</h3>
                 <ul className="attribution-list">
                   <li>Switchboard Main Game UI Background Asset – Created by Alan Lin, a student part of West Virginia University's MDIA 472 capstone course and Mon River Games Fall 2023 session.</li>
-                  <li>Start Game Screen Background – <a href="https://www.freepik.com/free-photo/grunge-wall-texture_955569.htm">Grunge wall texture - Free Photo | Grunge wall texture (freepik.com)</a> – Image by kjpargeter on Freepik using Freepik License.</li>
+                  <li>Start Game Screen Background – <a href="https://www.freepik.com/free-photo/grunge-wall-texture_955569.htm" target="_blank" rel="noopener noreferrer">Grunge wall texture - Free Photo | Grunge wall texture (freepik.com)</a> – Image by kjpargeter on Freepik using Freepik License.</li>
                 </ul>
               </div>
 
               {/* Leaderboard */}
-              <h4 className="attribution-subheader">WV Quest – Leaderboard</h4>
+              <h3 className="attribution-subheader">WV Quest – Leaderboard</h3>
               <div className="info-item">
-                <h4 className="attribution-subheader">Influences</h4>
+                <h3 className="attribution-subheader">Influences</h3>
                 <ul className="attribution-list">
-                  <li>The idea to implement a leaderboard was inspired by games that engage users with friendly competition through some type of leaderboard, such as educational quiz apps/websites like <a href="https://kahoot.com/">Kahoot! | Learning games | Make learning awesome!</a></li>
+                  <li>The idea to implement a leaderboard was inspired by games that engage users with friendly competition through some type of leaderboard, such as educational quiz apps/websites like <a href="https://kahoot.com/" target="_blank" rel="noopener noreferrer">Kahoot! | Learning games | Make learning awesome!</a></li>
                 </ul>
 
-                <h4 className="attribution-subheader">Code Attributions</h4>
+                <h3 className="attribution-subheader">Code Attributions</h3>
                 <ul className="attribution-list">
                   <li>C# Script – Leaderboard.cs – The code for this script was created by Zachary Hubbard.</li>
                 </ul>
 
-                <h4 className="attribution-subheader">UI and Art Asset Attributions</h4>
+                <h3 className="attribution-subheader">UI and Art Asset Attributions</h3>
                 <ul className="attribution-list">
                   <li>Leaderboard UI Panel – Implementation of UI panel by Tessla Muir in the 2023 capstone group.</li>
                   <li>Leaderboard UI Design – Design of leaderboard UI created by Jackson Sigler, a member of Mon River Games and Fall 2022 MDIA Capstone Course.</li>
                   <li>Leaderboard UI Assets – UI assets for the leaderboard were used from Figma by Jackson Sigler.</li>
                 </ul>
 
-                <h4 className="attribution-subheader">Leaderboard Update Diagram Attributions</h4>
+                <h3 className="attribution-subheader">Leaderboard Update Diagram Attributions</h3>
                 <ul className="attribution-list">
-                  <li>The leaderboard update diagram was created by Zachary Hubbard using the <a href="https://www.drawio.com/">Draw.io</a> diagram tool.</li>
+                  <li>The leaderboard update diagram was created by Zachary Hubbard using the <a href="https://www.drawio.com/" target="_blank" rel="noopener noreferrer">Draw.io</a> diagram tool.</li>
                 </ul>
               </div>
             </Grid>

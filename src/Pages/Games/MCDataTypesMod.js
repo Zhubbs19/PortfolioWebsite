@@ -22,7 +22,7 @@ function MCDataTypesMod() {
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={8}>
               <div className="media-item">
-                <img
+                <img loading="lazy"
                   src={DataTypesCard}
                   alt="Data Types Mod Card"
                   className="responsive-image"
@@ -61,7 +61,7 @@ function MCDataTypesMod() {
           {/* Current Functionality */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Current Functionality</h3>
+              <h2 className="subheader">Current Functionality</h2>
               <div className='info-item'>
                 <ul className="feature-list">
                   <li className="feature">First iteration of Block/Item models and textures for each data type</li>
@@ -76,11 +76,11 @@ function MCDataTypesMod() {
           {/* Project Images */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Project Images</h3>
+              <h2 className="subheader">Project Images</h2>
             </Grid>
             <Grid item xs={12} md={6}>
               <div className="media-item">
-                <img
+                <img loading="lazy"
                   src={BlockbenchModel}
                   alt="Blockbench Model"
                   className="responsive-image"
@@ -90,7 +90,7 @@ function MCDataTypesMod() {
             </Grid>
             <Grid item xs={12} md={6}>
               <div className="media-item">
-                <img
+                <img loading="lazy"
                   src={IntegerBlockEntity}
                   alt="Integer Block Entity"
                   className="responsive-image"
@@ -100,7 +100,7 @@ function MCDataTypesMod() {
             </Grid>
             <Grid item xs={12} md={6}>
               <div className="media-item">
-                <img
+                <img loading="lazy"
                   src={IntegerPayload}
                   alt="Integer Payload"
                   className="responsive-image"
@@ -113,7 +113,7 @@ function MCDataTypesMod() {
           {/* Software and Tools */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Software and Tools</h3>
+              <h2 className="subheader">Software and Tools</h2>
               <div className='info-item'>
                 <ul className="feature-list">
                   <li className="feature">Original Game - Minecraft: Java Edition - Version 1.21+, Mojang, 2011</li>
@@ -129,7 +129,7 @@ function MCDataTypesMod() {
           {/* Credits and Attributions */}
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">Credits and Attributions</h3>
+              <h2 className="attribution-header">Credits and Attributions</h2>
 
               <div className="info-item">
                 <ul className="attribution-list">
@@ -138,10 +138,10 @@ function MCDataTypesMod() {
                   <li>Claude AI used to gain better understanding of NeoForge Mod Development Kit documentation</li>
                 </ul>
 
-                <h4 className="attribution-subheader">Tutorials and Resources</h4>
+                <h3 className="attribution-subheader">Tutorials and Resources</h3>
                 <ul className="attribution-list">
                   <li>
-                    <a href="https://www.youtube.com/playlist?list=PLKGarocXCE1G6CQOoiYdMVx-E1d9F_itF">
+                    <a href="https://www.youtube.com/playlist?list=PLKGarocXCE1G6CQOoiYdMVx-E1d9F_itF" target="_blank" rel="noopener noreferrer">
                       Used some tutorials from YouTube channel Kuapenjoe to assist in understanding and implementation of some mod components
                     </a>
                   </li>

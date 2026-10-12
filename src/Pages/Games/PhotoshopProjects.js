@@ -22,7 +22,7 @@ function PhotoshopProjects() {
                   src={SodaCanImg} 
                   alt="Soda Can Mockup"
                 />
-                <h3 className='subheader'>Soda Can Mockup</h3>
+                <h2 className='subheader'>Soda Can Mockup</h2>
               </div>
             </Grid>
             <Grid item xs={12} md={6}>
@@ -30,19 +30,19 @@ function PhotoshopProjects() {
                 <p className="text">
                   This Soda Can Mockup was created as a first project for teaching myself Adobe Photoshop. I was inspired by tutorials and articles like these for the project:
                 </p>
-                <p><a style={{ fontWeight: "bold" }} href="https://www.youtube.com/watch?v=xX2DA6__w04">Create Soda Can Mock-up in Photoshop</a> by Design Den on YouTube</p>
-                <p><a style={{ fontWeight: "bold" }} href="https://design.tutsplus.com/articles/50-great-photoshop-tutorials-for-clever-beginners--psd-785">100+ Great Photoshop Tutorials for Clever Beginners | Envato Tuts+</a> by Danny Outlaw</p>
+                <p><a style={{ fontWeight: "bold" }} href="https://www.youtube.com/watch?v=xX2DA6__w04" target="_blank" rel="noopener noreferrer">Create Soda Can Mock-up in Photoshop</a> by Design Den on YouTube</p>
+                <p><a style={{ fontWeight: "bold" }} href="https://design.tutsplus.com/articles/50-great-photoshop-tutorials-for-clever-beginners--psd-785" target="_blank" rel="noopener noreferrer">100+ Great Photoshop Tutorials for Clever Beginners | Envato Tuts+</a> by Danny Outlaw</p>
               </div>
             </Grid>
           </Grid>
 
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">Credits and Attribution</h3>
+              <h2 className="attribution-header">Credits and Attribution</h2>
               <div className="info-item">
                 <ul className='attribution-list'>
-                  <li><a href="https://www.pexels.com/photo/silver-can-in-white-background-8066771/">silver-can-in-white-background by Mediamodifier</a> From Pexels using Creative Commons License</li>
-                  <li><a href="https://www.pexels.com/photo/water-bubbles-2853937/">Water Bubbles Photo by Sebastian Sørensen</a> From Pexels using Creative Commons License</li>
+                  <li><a href="https://www.pexels.com/photo/silver-can-in-white-background-8066771/" target="_blank" rel="noopener noreferrer">silver-can-in-white-background by Mediamodifier</a> From Pexels using Creative Commons License</li>
+                  <li><a href="https://www.pexels.com/photo/water-bubbles-2853937/" target="_blank" rel="noopener noreferrer">Water Bubbles Photo by Sebastian Sørensen</a> From Pexels using Creative Commons License</li>
                 </ul>
               </div>
             </Grid>

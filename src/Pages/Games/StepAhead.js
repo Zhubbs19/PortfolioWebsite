@@ -51,7 +51,7 @@ function StepAhead() {
             <div className="sa-hero-content">
               <p className="sa-hero-eyebrow"> Claude Code · Flutter · Spring 2026</p>
               <div className="sa-hero-title-row">
-                <img src={ImgLogo} alt="StepAhead app icon" className="sa-hero-logo" />
+                <img loading="lazy" src={ImgLogo} alt="StepAhead app icon" className="sa-hero-logo" />
                 <h1 className="sa-hero-title">StepAhead</h1>
               </div>
               <p className="sa-hero-tagline">Walk smarter. Navigate real-world hazards.</p>
@@ -107,7 +107,7 @@ function StepAhead() {
               </div>
             </div>
             <div className="sa-hero-media">
-              <iframe
+              <iframe loading="lazy"
                 className="sa-hero-video"
                 src="https://www.youtube.com/embed/WvjivgjRZCA"
                 title="StepAhead Vision Video"
@@ -122,7 +122,7 @@ function StepAhead() {
           {/* ── Demo Access ───────────────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Demo Web App Access</h3>
+            <h2 className="subheader">Demo Web App Access</h2>
             <div className="sa-access-card">
               <div className="sa-access-password-row">
                 <span className="sa-access-label">Password</span>
@@ -155,7 +155,7 @@ function StepAhead() {
           {/* ── Core Features ─────────────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Core Features (Some features not available in demo)</h3>
+            <h2 className="subheader">Core Features (Some features not available in demo)</h2>
             <div className="sa-feature-grid">
               <div className="sa-feature-card">Real-time hazard and construction alerts with priority levels and community verification voting</div>
               <div className="sa-feature-card">Accessibility infrastructure pins — elevators, crosswalks, uneven sidewalks, restrooms</div>
@@ -170,7 +170,7 @@ function StepAhead() {
           {/* ── Live Map & Hazard Alerts ──────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Live Map & Hazard Alerts</h3>
+            <h2 className="subheader">Live Map & Hazard Alerts</h2>
             <p className="sa-section-desc">
               The interactive Google Maps view is the core of the app. Active alerts and community
               pins appear as color-coded markers. Tapping any marker opens a bottom sheet with full
@@ -178,15 +178,15 @@ function StepAhead() {
               and community verification buttons (Still There, Cleared, Incorrect).
             </p>
             <div className="sa-phones">
-              <img src={ImgMapPins} alt="Live map with pins and alerts" />
-              <img src={ImgAlertDetail} alt="Construction alert detail sheet" />
+              <img loading="lazy" src={ImgMapPins} alt="Live map with pins and alerts" />
+              <img loading="lazy" src={ImgAlertDetail} alt="Construction alert detail sheet" />
             </div>
           </div>
 
           {/* ── Accessibility Pins ────────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Accessibility Infrastructure Pins</h3>
+            <h2 className="subheader">Accessibility Infrastructure Pins</h2>
             <p className="sa-section-desc">
               Users can place persistent pins marking infrastructure features critical for pedestrians
               with mobility needs — crosswalks, elevators, stairs, uneven sidewalks, and restrooms.
@@ -194,15 +194,15 @@ function StepAhead() {
               feature is currently blocked.
             </p>
             <div className="sa-phones">
-              <img src={ImgPinPlace} alt="Place accessibility pin screen" />
-              <img src={ImgPinDetail} alt="Crosswalk pin detail sheet" />
+              <img loading="lazy" src={ImgPinPlace} alt="Place accessibility pin screen" />
+              <img loading="lazy" src={ImgPinDetail} alt="Crosswalk pin detail sheet" />
             </div>
           </div>
 
           {/* ── Alerts & Reporting ────────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Alerts & Community Reporting</h3>
+            <h2 className="subheader">Alerts & Community Reporting</h2>
             <p className="sa-section-desc">
               The alerts tab lists all active hazards near the user. The reporting system would escalate
               issues through four categories: Infrastructure Issue (routed to local government),
@@ -211,16 +211,16 @@ function StepAhead() {
               community or government accountability.
             </p>
             <div className="sa-phones">
-              <img src={ImgAlertsList} alt="Alerts list" />
-              <img src={ImgReportType} alt="Report type selection" />
-              <img src={ImgReportsList} alt="Reports list with status badges" />
+              <img loading="lazy" src={ImgAlertsList} alt="Alerts list" />
+              <img loading="lazy" src={ImgReportType} alt="Report type selection" />
+              <img loading="lazy" src={ImgReportsList} alt="Reports list with status badges" />
             </div>
           </div>
 
           {/* ── Route Management ──────────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Route Management & Sharing</h3>
+            <h2 className="subheader">Route Management & Sharing</h2>
             <p className="sa-section-desc">
               Users can save, favorite, and recall walking routes. Each route has its own accessibility
               settings — 10 configurable options including wheelchair access, elevator-only paths,
@@ -228,17 +228,17 @@ function StepAhead() {
               6-character share code with expiry options from 1 hour to 30 days.
             </p>
             <div className="sa-phones">
-              <img src={ImgMyRoutes} alt="My Routes list" />
-              <img src={ImgRouteSettingsSafety} alt="Route settings — safety options" />
-              <img src={ImgRouteSettingsCom} alt="Route settings — community options" />
-              <img src={ImgShareRoute} alt="Share route with expiry options" />
+              <img loading="lazy" src={ImgMyRoutes} alt="My Routes list" />
+              <img loading="lazy" src={ImgRouteSettingsSafety} alt="Route settings — safety options" />
+              <img loading="lazy" src={ImgRouteSettingsCom} alt="Route settings — community options" />
+              <img loading="lazy" src={ImgShareRoute} alt="Share route with expiry options" />
             </div>
           </div>
 
           {/* ── Profile & Community ───────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Profile, Badges & Business Dashboard</h3>
+            <h2 className="subheader">Profile, Badges & Business Dashboard</h2>
             <p className="sa-section-desc">
               User profiles show contribution stats and community badges
               awarded to users based on their contribution milestones. Business users
@@ -246,31 +246,31 @@ function StepAhead() {
               notifications during navigation.
             </p>
             <div className="sa-phones">
-              <img src={ImgProfile} alt="User profile with badges" />
-              <img src={ImgMyPins} alt="My Pins list" />
-              <img src={ImgBusiness} alt="Business dashboard" />
+              <img loading="lazy" src={ImgProfile} alt="User profile with badges" />
+              <img loading="lazy" src={ImgMyPins} alt="My Pins list" />
+              <img loading="lazy" src={ImgBusiness} alt="Business dashboard" />
             </div>
           </div>
 
           {/* ── Onboarding ────────────────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Onboarding</h3>
+            <h2 className="subheader">Onboarding</h2>
             <p className="sa-section-desc">
               New users choose between a Personal Account or Business Account at sign-up, with both
               email/password and Google OAuth supported. Email verification via 8-digit OTP is required before the
               app can be accessed.
             </p>
             <div className="sa-phones">
-              <img src={ImgJoin} alt="Join StepAhead — account type selection" />
-              <img src={ImgCreateAccount} alt="Create account form" />
+              <img loading="lazy" src={ImgJoin} alt="Join StepAhead — account type selection" />
+              <img loading="lazy" src={ImgCreateAccount} alt="Create account form" />
             </div>
           </div>
 
           {/* ── Design & Development Process ──────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section">
-            <h3 className="subheader">Design & Development Process</h3>
+            <h2 className="subheader">Design & Development Process</h2>
             <p className="sa-section-desc" style={{ marginBottom: '1.25rem' }}>
               The project ran across three sprints within a 10-week timeframe.
             </p>
@@ -304,7 +304,7 @@ function StepAhead() {
           {/* ── Tech Stack ────────────────────────────────── */}
           <hr className="sa-sep" />
           <div className="sa-section" style={{ marginBottom: '2rem' }}>
-            <h3 className="attribution-header">Tech Stack</h3>
+            <h2 className="attribution-header">Tech Stack</h2>
             <div className="sa-tech-grid">
               <div className="sa-tech-card">
                 <div className="sa-tech-label">Mobile Framework</div>

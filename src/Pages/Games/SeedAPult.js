@@ -120,7 +120,7 @@ function SeedAPult() {
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={8}>
               <div className="media-item">
-                <iframe 
+                <iframe loading="lazy" 
                   className="responsive-iframe"
                   src="https://www.youtube.com/embed/uF1FGmbfRDQ" 
                   title="Appalachian Seed-A-Pult Demo - Global Game Jam 2023" 
@@ -137,7 +137,7 @@ function SeedAPult() {
                   This game was created in the Unity Game Engine through Mon River Games' participation in the 2023 Global Game Jam, where the theme was "Roots".
                 </p>
                 
-                <h3 className="subheader">Throughout the Game's development, I implemented:</h3>
+                <h2 className="subheader">Throughout the Game's development, I implemented:</h2>
                 <ul className="feature-list">
                   <li className='feature'>Collision detection for seeds colliding on fertile/infertile ground and triggering plant growth</li>
                   <li className='feature'>Win and Fail Screens</li>
@@ -146,7 +146,7 @@ function SeedAPult() {
                 </ul>
                 
                 <p>All asset attributions can be found on the game's itch.io page or game jam page linked below.</p>
-                <a style={{ fontWeight: "bold" }} href="https://globalgamejam.org/games/2023/appalachian-seed-pult">Appalachian Seed-A-Pult - Global Game Jam Submission</a>
+                <a style={{ fontWeight: "bold" }} href="https://globalgamejam.org/games/2023/appalachian-seed-pult" target="_blank" rel="noopener noreferrer">Appalachian Seed-A-Pult - Global Game Jam Submission</a>
               </div>
             </Grid>
           </Grid>
@@ -154,18 +154,18 @@ function SeedAPult() {
           {/* Code Samples */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Code Samples</h3>
+              <h2 className="subheader">Code Samples</h2>
             </Grid>
             <Grid item xs={12} md={6}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Seed Launch, Collision & Plant Growth</h4>
+                <h3 className="attribution-subheader">Seed Launch, Collision & Plant Growth</h3>
                 <p>Handles seed velocity detection on landing, ground type checking via overlap circle, distance tracking, and swapping the seed sprite for a grown plant on fertile soil. Collaboration with Tessla Muir — individual contributions cited in comments.</p>
                 <CodeViewer code={launchCode} filename="Launch.cs" />
               </div>
             </Grid>
             <Grid item xs={12} md={6}>
               <div className='info-item'>
-                <h4 className="attribution-subheader">Win / Lose Screens</h4>
+                <h3 className="attribution-subheader">Win / Lose Screens</h3>
                 <p>Activates the correct UI screen and plays the corresponding audio when the seed lands on fertile or sparse ground.</p>
                 <CodeViewer code={winAndLoseCode} filename="WinAndLose.cs" />
               </div>
@@ -174,7 +174,7 @@ function SeedAPult() {
 
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">2023 Global Game Jam Participants</h3>
+              <h2 className="attribution-header">2023 Global Game Jam Participants</h2>
               <div className="info-item">
                 <ul className='attribution-list'>
                   <li>Heather Cole (art and asset creation)</li>
@@ -186,7 +186,7 @@ function SeedAPult() {
               </div>
 
               <div style={{ marginTop: '1rem' }}>
-                <a style={{ fontWeight: "bold" }} href="https://gdimwvu.itch.io/appalachian-seed-a-pult">
+                <a style={{ fontWeight: "bold" }} href="https://gdimwvu.itch.io/appalachian-seed-a-pult" target="_blank" rel="noopener noreferrer">
                   Appalachian Seed-A-Pult on itch.io
                 </a>
               </div>

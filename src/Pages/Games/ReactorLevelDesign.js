@@ -23,7 +23,7 @@ function ReactorLevelDesign() {
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={8}>
               <div className="media-item">
-                <iframe
+                <iframe loading="lazy"
                   className="responsive-iframe"
                   src="https://www.youtube.com/embed/b1GwUKBbMiI"
                   title="Shadow Energy - Level Design"
@@ -75,8 +75,8 @@ function ReactorLevelDesign() {
           {/* Level Map */}
           <Grid container spacing={4} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Level Map</h3>
-              <img
+              <h2 className="subheader">Level Map</h2>
+              <img loading="lazy"
                 src={LevelMapImg}
                 alt="Full level map showing all encounters and item placements"
                 className="responsive-image"
@@ -88,8 +88,8 @@ function ReactorLevelDesign() {
           {/* Encounter Flowcharts */}
           <Grid container spacing={4} sx={{ mt: 4 }}>
             <Grid item xs={12} md={6}>
-              <h3 className="subheader">Encounter 1 – Introduction Flow</h3>
-              <img
+              <h2 className="subheader">Encounter 1 – Introduction Flow</h2>
+              <img loading="lazy"
                 src={Enc1FlowImg}
                 alt="Encounter 1 flowchart: flashlight and monster mechanics"
                 className="responsive-image"
@@ -100,8 +100,8 @@ function ReactorLevelDesign() {
 
           <Grid container spacing={4} sx={{ mt: 4 }}>
             <Grid item xs={12} md={6}>
-              <h3 className="subheader">Encounter 2 – Planned Small Enemies Flow</h3>
-              <img
+              <h2 className="subheader">Encounter 2 – Planned Small Enemies Flow</h2>
+              <img loading="lazy"
                 src={Enc2FlowImg}
                 alt="Encounter 2 flowchart: small enemies and melee weapons"
                 className="responsive-image"
@@ -109,8 +109,8 @@ function ReactorLevelDesign() {
               />
             </Grid>
             <Grid item xs={12} md={6}>
-              <h3 className="subheader">Encounter 3 – Final Boss UML</h3>
-              <img
+              <h2 className="subheader">Encounter 3 – Final Boss UML</h2>
+              <img loading="lazy"
                 src={Enc3UmlImg}
                 alt="UML diagram of the three-phase final boss encounter"
                 className="responsive-image"
@@ -122,69 +122,69 @@ function ReactorLevelDesign() {
           {/* Credits and Attributions */}
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">Credits and Attributions</h3>
+              <h2 className="attribution-header">Credits and Attributions</h2>
 
               <div className="info-item">
-                <h4 className="attribution-subheader">Particles</h4>
+                <h3 className="attribution-subheader">Particles</h3>
                 <ul className="attribution-list">
-                  <li><a href="https://fab.com/s/2b919185c054">M5 VFX Vol2. Fire and Flames(Niagara) by M5VFX from Fab</a></li>
-                  <li><a href="https://fab.com/s/b7603e0a549d">Realistic VFX Starter Pack by FX Cat UA from Fab</a></li>
-                  <li><a href="https://fab.com/s/025dd2d54bc2">FX Variety Pack by Kakky from Fab</a></li>
+                  <li><a href="https://fab.com/s/2b919185c054" target="_blank" rel="noopener noreferrer">M5 VFX Vol2. Fire and Flames(Niagara) by M5VFX from Fab</a></li>
+                  <li><a href="https://fab.com/s/b7603e0a549d" target="_blank" rel="noopener noreferrer">Realistic VFX Starter Pack by FX Cat UA from Fab</a></li>
+                  <li><a href="https://fab.com/s/025dd2d54bc2" target="_blank" rel="noopener noreferrer">FX Variety Pack by Kakky from Fab</a></li>
                 </ul>
 
-                <h4 className="attribution-subheader">Materials</h4>
+                <h3 className="attribution-subheader">Materials</h3>
                 <ul className="attribution-list">
-                  <li><a href="https://fab.com/s/0a7b875ce8ae">Stylized Metallic Floor by Studio94Roots from Fab</a></li>
-                  <li><a href="https://fab.com/s/310223900bd4">Twinmotion Materials Pack by Twinmotion from Fab</a></li>
-                  <li><a href="https://fab.com/s/4b38403b56db">Cinder Blocks Wall by Quixel Megascans from Fab</a></li>
-                  <li><a href="https://fab.com/s/c282e31479c4">Industrial Concrete floor by Quixel Megascans from Fab</a></li>
-                  <li><a href="https://fab.com/s/93837380b770">Stained Concrete Ceiling by Quixel Megascans from Fab</a></li>
-                  <li><a href="https://substance3d.adobe.com/community-assets/assets/70f65855af3bf0196f7fecfe30496c7bf4fb7a67">Metalic steel tiled 01 2K Material by Nicolás Acevedo from Adobe Substance Community Assets</a></li>
-                  <li><a href="https://substance3d.adobe.com/community-assets/assets/ed2f129cfc35f2fc1d388cde8c65155fd7f57a65">Metallic Tile by Fernando Fergo from Adobe Substance Community Assets</a></li>
-                  <li><a href="https://substance3d.adobe.com/community-assets/assets/4c8e5d19141b8af0cf55295c3dda227159b1e794">Concrete Lab Material by Fernando Fergo from Adobe Substance Community Assets</a></li>
+                  <li><a href="https://fab.com/s/0a7b875ce8ae" target="_blank" rel="noopener noreferrer">Stylized Metallic Floor by Studio94Roots from Fab</a></li>
+                  <li><a href="https://fab.com/s/310223900bd4" target="_blank" rel="noopener noreferrer">Twinmotion Materials Pack by Twinmotion from Fab</a></li>
+                  <li><a href="https://fab.com/s/4b38403b56db" target="_blank" rel="noopener noreferrer">Cinder Blocks Wall by Quixel Megascans from Fab</a></li>
+                  <li><a href="https://fab.com/s/c282e31479c4" target="_blank" rel="noopener noreferrer">Industrial Concrete floor by Quixel Megascans from Fab</a></li>
+                  <li><a href="https://fab.com/s/93837380b770" target="_blank" rel="noopener noreferrer">Stained Concrete Ceiling by Quixel Megascans from Fab</a></li>
+                  <li><a href="https://substance3d.adobe.com/community-assets/assets/70f65855af3bf0196f7fecfe30496c7bf4fb7a67" target="_blank" rel="noopener noreferrer">Metalic steel tiled 01 2K Material by Nicolás Acevedo from Adobe Substance Community Assets</a></li>
+                  <li><a href="https://substance3d.adobe.com/community-assets/assets/ed2f129cfc35f2fc1d388cde8c65155fd7f57a65" target="_blank" rel="noopener noreferrer">Metallic Tile by Fernando Fergo from Adobe Substance Community Assets</a></li>
+                  <li><a href="https://substance3d.adobe.com/community-assets/assets/4c8e5d19141b8af0cf55295c3dda227159b1e794" target="_blank" rel="noopener noreferrer">Concrete Lab Material by Fernando Fergo from Adobe Substance Community Assets</a></li>
                 </ul>
-                <h4 className="attribution-subheader">Sounds</h4>
+                <h3 className="attribution-subheader">Sounds</h3>
                 <ul className="attribution-list">
-                  <li><a href="https://freesound.org/people/Qat/sounds/107640/">door-open.wav by Quat from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/Deathscyp/sounds/404049/">Breaker-1.wav by Deathscyp from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/Leadershinji/sounds/701497/">Reactor_Melt_InProg2.wav by Leadershinji from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/pdfpxf520/sounds/784771/">Hit02 by pdfpxf520 from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/Andromadax24/sounds/177433/">S_Death_Slith_10.wav by Andromadax24 from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/whisperbandnumber1/sounds/397276/">Grunt1.wav by whisperbandnumber1 from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/NicknameLarry/sounds/489901/">Scary Monster Roar #2 by NicknameLarry from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/LoudKevin/sounds/707274/">Countdown by loudkevin from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/miksmusic/sounds/424317/">Explosion in the Air by miksmusic from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/vintprox/sounds/352531/">challenging-countdown-20s.wav by vintprox from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/BlondPanda/sounds/659889/">Short Elevator Music Loop by BlondPanda from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/Leadstarson/sounds/559621/">monster_sound_medium_death.wav by Leadstarson from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/kernschall/sounds/411109/">thin metal sliding door close shut by kernschall from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/Matio888/sounds/793491/">Sinister Background Music by Matio888 from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/SquashedSkinner/sounds/564497/">The Corrupted Gates.wav by SquashedSkinner from Freesound.org</a></li>
-                  <li><a href="https://freesound.org/people/blainksaint/sounds/740469/">80 bpm dark scary music loop sci fi by blainksaint from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/Qat/sounds/107640/" target="_blank" rel="noopener noreferrer">door-open.wav by Quat from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/Deathscyp/sounds/404049/" target="_blank" rel="noopener noreferrer">Breaker-1.wav by Deathscyp from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/Leadershinji/sounds/701497/" target="_blank" rel="noopener noreferrer">Reactor_Melt_InProg2.wav by Leadershinji from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/pdfpxf520/sounds/784771/" target="_blank" rel="noopener noreferrer">Hit02 by pdfpxf520 from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/Andromadax24/sounds/177433/" target="_blank" rel="noopener noreferrer">S_Death_Slith_10.wav by Andromadax24 from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/whisperbandnumber1/sounds/397276/" target="_blank" rel="noopener noreferrer">Grunt1.wav by whisperbandnumber1 from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/NicknameLarry/sounds/489901/" target="_blank" rel="noopener noreferrer">Scary Monster Roar #2 by NicknameLarry from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/LoudKevin/sounds/707274/" target="_blank" rel="noopener noreferrer">Countdown by loudkevin from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/miksmusic/sounds/424317/" target="_blank" rel="noopener noreferrer">Explosion in the Air by miksmusic from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/vintprox/sounds/352531/" target="_blank" rel="noopener noreferrer">challenging-countdown-20s.wav by vintprox from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/BlondPanda/sounds/659889/" target="_blank" rel="noopener noreferrer">Short Elevator Music Loop by BlondPanda from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/Leadstarson/sounds/559621/" target="_blank" rel="noopener noreferrer">monster_sound_medium_death.wav by Leadstarson from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/kernschall/sounds/411109/" target="_blank" rel="noopener noreferrer">thin metal sliding door close shut by kernschall from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/Matio888/sounds/793491/" target="_blank" rel="noopener noreferrer">Sinister Background Music by Matio888 from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/SquashedSkinner/sounds/564497/" target="_blank" rel="noopener noreferrer">The Corrupted Gates.wav by SquashedSkinner from Freesound.org</a></li>
+                  <li><a href="https://freesound.org/people/blainksaint/sounds/740469/" target="_blank" rel="noopener noreferrer">80 bpm dark scary music loop sci fi by blainksaint from Freesound.org</a></li>
                   <li>All other sounds from gameplay templates</li>
                 </ul>
-                <h4 className="attribution-subheader">Assets</h4>
+                <h3 className="attribution-subheader">Assets</h3>
                 <ul className="attribution-list">
-                  <li><a href="https://fab.com/s/0e5fd148aab5">Factory Environment Collection by Denys Rutkovskyi from Fab</a></li>
-                  <li><a href="https://fab.com/s/2a822654f66e">Double Doors by Crea2res.com from Fab</a></li>
-                  <li><a href="https://fab.com/s/4dfd107fcb5a">Modular Industrial Catwalk Kit [Free] by LineKotsi from Fab</a></li>
-                  <li><a href="https://fab.com/s/364544615d02">Industrial Wall Light by Haytham918 from Fab</a></li>
-                  <li><a href="https://fab.com/s/fcca88304f72">Sci-Fi Laboratory - Modular Environment pack by ARK.KRA from Fab</a></li>
-                  <li><a href="https://fab.com/s/bcd026f305b6">Dirty SciFi Electrical Lever Switch by DEICIDER78 from Fab</a></li>
-                  <li><a href="https://fab.com/s/89d4bc985649">Sci-fi Industrial Door by NotARealStudio from Fab</a></li>
-                  <li><a href="https://fab.com/s/9a3121956ac8">Monster Pack by Dary Palasky from Fab</a></li>
-                  <li><a href="https://fab.com/s/a8ed54ad0a16">Battery Low Poly by Ele.G from Fab</a></li>
-                  <li><a href="https://fab.com/s/d228b82c596c">Elevator with Animation LOWPOLY by EFX from Fab</a></li>
+                  <li><a href="https://fab.com/s/0e5fd148aab5" target="_blank" rel="noopener noreferrer">Factory Environment Collection by Denys Rutkovskyi from Fab</a></li>
+                  <li><a href="https://fab.com/s/2a822654f66e" target="_blank" rel="noopener noreferrer">Double Doors by Crea2res.com from Fab</a></li>
+                  <li><a href="https://fab.com/s/4dfd107fcb5a" target="_blank" rel="noopener noreferrer">Modular Industrial Catwalk Kit [Free] by LineKotsi from Fab</a></li>
+                  <li><a href="https://fab.com/s/364544615d02" target="_blank" rel="noopener noreferrer">Industrial Wall Light by Haytham918 from Fab</a></li>
+                  <li><a href="https://fab.com/s/fcca88304f72" target="_blank" rel="noopener noreferrer">Sci-Fi Laboratory - Modular Environment pack by ARK.KRA from Fab</a></li>
+                  <li><a href="https://fab.com/s/bcd026f305b6" target="_blank" rel="noopener noreferrer">Dirty SciFi Electrical Lever Switch by DEICIDER78 from Fab</a></li>
+                  <li><a href="https://fab.com/s/89d4bc985649" target="_blank" rel="noopener noreferrer">Sci-fi Industrial Door by NotARealStudio from Fab</a></li>
+                  <li><a href="https://fab.com/s/9a3121956ac8" target="_blank" rel="noopener noreferrer">Monster Pack by Dary Palasky from Fab</a></li>
+                  <li><a href="https://fab.com/s/a8ed54ad0a16" target="_blank" rel="noopener noreferrer">Battery Low Poly by Ele.G from Fab</a></li>
+                  <li><a href="https://fab.com/s/d228b82c596c" target="_blank" rel="noopener noreferrer">Elevator with Animation LOWPOLY by EFX from Fab</a></li>
                 </ul>
 
-                <h4 className="attribution-subheader">Gameplay Templates</h4>
+                <h3 className="attribution-subheader">Gameplay Templates</h3>
                 <ul className="attribution-list">
-                  <li><a href="https://fab.com/s/0842b1e00e26">First-Person Movement Template V1 by Treety from Fab</a></li>
-                  <li><a href="https://fab.com/s/cd97934a1bcf">FREE Complete Horror Template by DNK Studios from Fab</a></li>
-                  <li><a href="https://fab.com/s/fafddc5fcaf6">Bound Horror Framework by Breakboundstudios from Fab</a></li>
+                  <li><a href="https://fab.com/s/0842b1e00e26" target="_blank" rel="noopener noreferrer">First-Person Movement Template V1 by Treety from Fab</a></li>
+                  <li><a href="https://fab.com/s/cd97934a1bcf" target="_blank" rel="noopener noreferrer">FREE Complete Horror Template by DNK Studios from Fab</a></li>
+                  <li><a href="https://fab.com/s/fafddc5fcaf6" target="_blank" rel="noopener noreferrer">Bound Horror Framework by Breakboundstudios from Fab</a></li>
                 </ul>
 
-                <h4 className="attribution-subheader">Plugins</h4>
+                <h3 className="attribution-subheader">Plugins</h3>
                 <ul className="attribution-list">
                   <li>Blockout Tools Plugin by Dmitry Karpukhin from Fab</li>
                 </ul>

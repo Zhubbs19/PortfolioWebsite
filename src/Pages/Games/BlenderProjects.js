@@ -28,12 +28,12 @@ function BlenderProjects() {
             </Grid>
             <Grid item xs={12} md={6}>
               <div className='info-item'>
-                <h3 className='subheader'>Blender Donut Animation</h3>
+                <h2 className='subheader'>Blender Donut Animation</h2>
                 <p>
                   This rotating Blender Donut render and animation was created using YouTube creator Blender Guru's popular Blender Beginner Tutorial Series.
                   The randomly colored sprinkles were rendered using Blender's Geometry Nodes feature.
                 </p>
-                <a style={{ fontWeight: "bold" }} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku">Blender 3.0 Beginner Tutorial Playlist by Blender Guru</a>
+                <a style={{ fontWeight: "bold" }} href="https://youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&si=u7BT7xM7adrHSsku" target="_blank" rel="noopener noreferrer">Blender 3.0 Beginner Tutorial Playlist by Blender Guru</a>
               </div>
             </Grid>
           </Grid>
@@ -51,7 +51,7 @@ function BlenderProjects() {
             </Grid>
             <Grid item xs={12} md={6}>
               <div className='info-item'>
-                <h3 className='subheader'>Milk and Cookies Render</h3>
+                <h2 className='subheader'>Milk and Cookies Render</h2>
                 <p>I created this render after completing the Blender Donut tutorial to better apply what I had learned from the beginner tutorial in order to create my own render.</p>
               </div>
             </Grid>
@@ -59,11 +59,11 @@ function BlenderProjects() {
 
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">Attributions</h3>
+              <h2 className="attribution-header">Attributions</h2>
               <div className="info-item">
                 <ul className="attribution-list">
                   <li>
-                    Learned about simulating fluid physics to create the physics for the milk in my glass through reading this article on CG Cookie by Wes Burke: <a href="https://cgcookie.com/posts/let-s-make-coffee-blender-fluid-sim-mantaflow-tutorial-for-beginners">Let's Make Coffee: Blender Fluid Simulation (Mantaflow) Tutorial For Beginners</a>
+                    Learned about simulating fluid physics to create the physics for the milk in my glass through reading this article on CG Cookie by Wes Burke: <a href="https://cgcookie.com/posts/let-s-make-coffee-blender-fluid-sim-mantaflow-tutorial-for-beginners" target="_blank" rel="noopener noreferrer">Let's Make Coffee: Blender Fluid Simulation (Mantaflow) Tutorial For Beginners</a>
                   </li>
                 </ul>
               </div>

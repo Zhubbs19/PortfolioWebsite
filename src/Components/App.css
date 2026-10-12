@@ -268,7 +268,7 @@ body {
   color: var(--text-secondary);
 }
 
-.info-item h3 {
+.info-item h3:not([class]) {
   color: var(--text-dark);
   font-weight: 600;
   margin-top: 2rem;

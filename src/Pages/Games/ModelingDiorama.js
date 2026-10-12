@@ -19,7 +19,7 @@ function ModelingDiorama() {
             <Grid item xs={12} md={8}>
               <div className="media-item">
                 {/* TODO: Replace with project video or screenshot */}
-                <iframe
+                <iframe loading="lazy"
                   className="responsive-iframe"
                   src="https://www.youtube.com/embed/33XtXKlbD4c"
                   title="Modeling Diorama Demo"
@@ -45,7 +45,7 @@ function ModelingDiorama() {
           {/* Model and UV Layouts */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Model and UV Layouts</h3>
+              <h2 className="subheader">Model and UV Layouts</h2>
               <div className='info-item'>
                 <p>
                   Below are the models and completed UV layouts for all modular components of the home, as well as a modeled export
@@ -58,7 +58,7 @@ function ModelingDiorama() {
           {/* Texturing */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Texturing</h3>
+              <h2 className="subheader">Texturing</h2>
               <div className='info-item'>
                 <p>
                   After completing UVs, texturing of the model was completed using Adobe Photoshop, Adobe Substance Painter,
@@ -71,7 +71,7 @@ function ModelingDiorama() {
           {/* Final Unreal Environment */}
           <Grid container spacing={4} sx={{ mt: 2 }}>
             <Grid item xs={12}>
-              <h3 className="subheader">Final Unreal Environment</h3>
+              <h2 className="subheader">Final Unreal Environment</h2>
               <div className='info-item'>
                 <p>
                   The final Unreal Environment included the completed exported house model in a hilly environment with created tree
@@ -84,24 +84,24 @@ function ModelingDiorama() {
           {/* Credits and Attributions */}
           <Grid container spacing={2} sx={{ mt: 4 }}>
             <Grid item xs={12}>
-              <h3 className="attribution-header">Credits and Attributions</h3>
+              <h2 className="attribution-header">Credits and Attributions</h2>
 
               <div className="info-item">
-                <h4 className="attribution-subheader">Source Images for Texturing</h4>
+                <h3 className="attribution-subheader">Source Images for Texturing</h3>
                 <ul className="attribution-list">
-                  <li><a href="https://as2.ftcdn.net/v2/jpg/02/23/50/63/1000_F_223506315_HtvohLG5PRGzs7X5lTKUwajHAlKtrYfz.jpg">Grey asphalt roofing shingles background texture by olga pink from Adobe Stock</a></li>
-                  <li><a href="https://as1.ftcdn.net/v2/jpg/01/56/42/94/1000_F_156429480_mEyYMe2BcsKxDAgBPhLCZy5Sw689eAXH.jpg">Wooden wall. Wood orange background by Saichol from Adobe Stock</a></li>
-                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/51/03/53/1000_F_351035312_t3WXKABWH14a2G3tRwczeJqRhErzzkHi.jpg">Texture of natural dark brown wood veneer by delobol from Adobe Stock</a></li>
-                  <li><a href="https://as2.ftcdn.net/v2/jpg/07/23/40/55/1000_F_723405528_fTJMJgxbVymlyNsL5ozzPefn5WlNZOxY.jpg">Siberian larch fluted wood terrace by Audris from Adobe Stock</a></li>
-                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/89/01/61/1000_F_389016141_WUFdTlFgqkUholpo4ZNz5QidvVg8SvTp.jpg">Exterior natural stone veneer wall by Bruce Peter Morin from Adobe Stock</a></li>
-                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/79/58/51/1000_F_379585138_B5fseexnGHaX7y6m9zsUqd9yND4C5Xh7.jpg">Black Corrugated metal background by torsakarin from Adobe Stock</a></li>
-                  <li><a href="https://as2.ftcdn.net/v2/jpg/04/82/05/31/1000_F_482053140_TdwcY0VyGI5ugIWAPfe0mLc4tRNg8Dbs.jpg">Dark wood background by Roman's portfolio from Adobe Stock</a></li>
-                  <li><a href="https://stock.adobe.com/search/images?k=mahogany%20wood%20texture">Mahogany wood texture from Adobe Stock</a></li>
-                  <li><a href="https://stock.adobe.com/images/tree-branch-with-green-leaf-isolated-for-object-and-retouch-design/527582012">Tree branch with green leaf by jakkapan from Adobe Stock</a></li>
-                  <li><a href="https://stock.adobe.com/images/close-up-of-maple-tree-trunk-in-park-at-summer/265280827">Close up of maple tree trunk by romantiche from Adobe Stock</a></li>
-                  <li><a href="https://stock.adobe.com/images/natural-gray-granite-stone-texture-background/292731351">Natural gray granite stone texture by htpix from Adobe Stock</a></li>
-                  <li><a href="https://stock.adobe.com/images/green-grass-isolated-for-object-design/527581604">Green grass isolated by jakkapan from Adobe Stock</a></li>
-                  <li><a href="https://stock.adobe.com/images/bouquet-of-young-green-grass-isolated-on-white-or-transparent-background-natural-raster-clipart-of-a-meadow-plant/574013571">Bouquet of young green grass by ioanna_alexa from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/02/23/50/63/1000_F_223506315_HtvohLG5PRGzs7X5lTKUwajHAlKtrYfz.jpg" target="_blank" rel="noopener noreferrer">Grey asphalt roofing shingles background texture by olga pink from Adobe Stock</a></li>
+                  <li><a href="https://as1.ftcdn.net/v2/jpg/01/56/42/94/1000_F_156429480_mEyYMe2BcsKxDAgBPhLCZy5Sw689eAXH.jpg" target="_blank" rel="noopener noreferrer">Wooden wall. Wood orange background by Saichol from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/51/03/53/1000_F_351035312_t3WXKABWH14a2G3tRwczeJqRhErzzkHi.jpg" target="_blank" rel="noopener noreferrer">Texture of natural dark brown wood veneer by delobol from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/07/23/40/55/1000_F_723405528_fTJMJgxbVymlyNsL5ozzPefn5WlNZOxY.jpg" target="_blank" rel="noopener noreferrer">Siberian larch fluted wood terrace by Audris from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/89/01/61/1000_F_389016141_WUFdTlFgqkUholpo4ZNz5QidvVg8SvTp.jpg" target="_blank" rel="noopener noreferrer">Exterior natural stone veneer wall by Bruce Peter Morin from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/03/79/58/51/1000_F_379585138_B5fseexnGHaX7y6m9zsUqd9yND4C5Xh7.jpg" target="_blank" rel="noopener noreferrer">Black Corrugated metal background by torsakarin from Adobe Stock</a></li>
+                  <li><a href="https://as2.ftcdn.net/v2/jpg/04/82/05/31/1000_F_482053140_TdwcY0VyGI5ugIWAPfe0mLc4tRNg8Dbs.jpg" target="_blank" rel="noopener noreferrer">Dark wood background by Roman's portfolio from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/search/images?k=mahogany%20wood%20texture" target="_blank" rel="noopener noreferrer">Mahogany wood texture from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/tree-branch-with-green-leaf-isolated-for-object-and-retouch-design/527582012" target="_blank" rel="noopener noreferrer">Tree branch with green leaf by jakkapan from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/close-up-of-maple-tree-trunk-in-park-at-summer/265280827" target="_blank" rel="noopener noreferrer">Close up of maple tree trunk by romantiche from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/natural-gray-granite-stone-texture-background/292731351" target="_blank" rel="noopener noreferrer">Natural gray granite stone texture by htpix from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/green-grass-isolated-for-object-design/527581604" target="_blank" rel="noopener noreferrer">Green grass isolated by jakkapan from Adobe Stock</a></li>
+                  <li><a href="https://stock.adobe.com/images/bouquet-of-young-green-grass-isolated-on-white-or-transparent-background-natural-raster-clipart-of-a-meadow-plant/574013571" target="_blank" rel="noopener noreferrer">Bouquet of young green grass by ioanna_alexa from Adobe Stock</a></li>
                   <li>Heightmap for terrain created using World Machine software</li>
                 </ul>
               </div>
