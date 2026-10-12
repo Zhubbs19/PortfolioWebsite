@@ -134,38 +134,41 @@ function BPQuestSystem() {
             <Grid item xs={12}>
               <h3 className="subheader">Project Screenshots</h3>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12}>
               <h4 className="attribution-subheader">BP Interactable Parent</h4>
-              <div className="media-item">
+              <a href={BPInteractableParent} target="_blank" rel="noopener noreferrer" title="Open full size" style={{ display: 'block' }}>
                 <img
                   src={BPInteractableParent}
                   alt="BP Interactable Parent Blueprint"
                   className="responsive-image"
-                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                  style={{ display: 'block', margin: '0 auto', cursor: 'zoom-in', width: 'auto', maxWidth: '100%' }}
                 />
-              </div>
+              </a>
+              <p style={{ textAlign: 'center', fontSize: '0.85rem', margin: '0.5rem 0 0' }}>Click to view full size</p>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12}>
               <h4 className="attribution-subheader">Quest Actor</h4>
-              <div className="media-item">
+              <a href={QuestActor} target="_blank" rel="noopener noreferrer" title="Open full size" style={{ display: 'block' }}>
                 <img
                   src={QuestActor}
                   alt="Quest Actor Blueprint"
                   className="responsive-image"
-                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                  style={{ display: 'block', margin: '0 auto', cursor: 'zoom-in', width: 'auto', maxWidth: '100%' }}
                 />
-              </div>
+              </a>
+              <p style={{ textAlign: 'center', fontSize: '0.85rem', margin: '0.5rem 0 0' }}>Click to view full size</p>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12}>
               <h4 className="attribution-subheader">Quest Management</h4>
-              <div className="media-item">
+              <a href={QuestManagement} target="_blank" rel="noopener noreferrer" title="Open full size" style={{ display: 'block' }}>
                 <img
                   src={QuestManagement}
                   alt="Quest Management Blueprint"
                   className="responsive-image"
-                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                  style={{ display: 'block', margin: '0 auto', cursor: 'zoom-in', width: 'auto', maxWidth: '100%' }}
                 />
-              </div>
+              </a>
+              <p style={{ textAlign: 'center', fontSize: '0.85rem', margin: '0.5rem 0 0' }}>Click to view full size</p>
             </Grid>
           </Grid>
 
