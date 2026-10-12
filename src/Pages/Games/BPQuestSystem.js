@@ -16,8 +16,8 @@ import QuestManagement from '../../Images/Project_Images/QuestSystem/QuestManage
 function BPQuestSystem() {
   return (
     <ThemeProvider theme={siteTheme}>
-      <PageWrapper title="Zach Hubbard | UE5 Blueprint Quest Creation and Tracking System">
-        <h1 className="base-header">Quest Creation and Tracking System</h1>
+      <PageWrapper title="Zach Hubbard | Blueprint Quest Creator and Tracking System">
+        <h1 className="base-header">Blueprint Quest Creator and Tracking System</h1>
 
         <Container maxWidth="xl" className="about-content">
           {/* Video and Description Row */}
@@ -25,7 +25,7 @@ function BPQuestSystem() {
             <Grid item xs={12} md={8}>
               <div className="media-item">
                 <iframe className="responsive-iframe" src="https://www.youtube.com/embed/qWCNKJsuuOI" 
-                title="UE5 Blueprint Quest Creation and Tracking System Overview" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
+                title="Blueprint Quest Creator and Tracking System Overview" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; 
                 encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>

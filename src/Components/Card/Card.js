@@ -201,7 +201,7 @@ export function BPQuestSystemCard() {
   return (
     <ProjectCard
       image={QuestSystemCardImg}
-      title="Quest System"
+      title="Blueprint Quest Creator and Tracking System"
       description="Unreal Engine 5 - Blueprint"
       link="/BPQuestSystem"
       altText="Quest System Project"
