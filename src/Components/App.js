@@ -8,17 +8,9 @@ import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from './PageWrapper/PageWrapper';
 
-const RESUME_URL = "https://drive.google.com/file/d/1OCzhkLCWfZ5nWLExsAy0WAApGkR03BHa/view?usp=sharing";
-const GITHUB_URL = "https://github.com/Zhubbs19";
 const SKILLS = ["Unreal Engine 5 & Blueprints", "Unity & C#", "Flutter & Dart", "React", "Blender & Maya", "Level design"];
 
 const heroButton = { px: 4, py: 1.5, fontSize: "1rem", borderRadius: 1.5 };
-const heroOutlined = {
-  ...heroButton,
-  borderColor: "rgba(255,255,255,0.5)",
-  color: "#fff",
-  "&:hover": { borderColor: "#fff", bgcolor: "rgba(255,255,255,0.1)" },
-};
 
 function App() {
   return (
@@ -39,16 +31,7 @@ function App() {
               {SKILLS.map(skill => <li key={skill}>{skill}</li>)}
             </ul>
             <Box className="hero-cta">
-              <Button variant="contained" size="large" component={Link} to="/game-projects" sx={heroButton}>
-                View Projects
-              </Button>
-              <Button variant="outlined" size="large" component="a" href={RESUME_URL} target="_blank" rel="noopener noreferrer" sx={heroOutlined}>
-                Resume
-              </Button>
-              <Button variant="outlined" size="large" component="a" href={GITHUB_URL} target="_blank" rel="noopener noreferrer" sx={heroOutlined}>
-                GitHub
-              </Button>
-              <Button variant="outlined" size="large" component="a" href="mailto:Zhubbs19@gmail.com" sx={heroOutlined}>
+              <Button variant="contained" size="large" component="a" href="mailto:Zhubbs19@gmail.com" sx={heroButton}>
                 Get in Touch
               </Button>
             </Box>
