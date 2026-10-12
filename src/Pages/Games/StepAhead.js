@@ -9,7 +9,6 @@ import './GamePages.css';
 import './StepAhead.css';
 
 import ImgLogo                 from '../../Images/Project_Images/StepAhead/StepAhead_Logo.png';
-import ImgWelcome              from '../../Images/Project_Images/StepAhead/Screenshot_20260523_214853.jpg';
 import ImgMapPins              from '../../Images/Project_Images/StepAhead/Screenshot_20260524_014347.jpg';
 import ImgAlertDetail          from '../../Images/Project_Images/StepAhead/Screenshot_20260523_232245.jpg';
 import ImgPinDetail            from '../../Images/Project_Images/StepAhead/Screenshot_20260524_014249.jpg';
@@ -27,13 +26,16 @@ import ImgBusiness             from '../../Images/Project_Images/StepAhead/Scree
 import ImgJoin                 from '../../Images/Project_Images/StepAhead/Screenshot_20260524_014911.jpg';
 import ImgCreateAccount        from '../../Images/Project_Images/StepAhead/Screenshot_20260524_014937.jpg';
 
-const TECH_TAGS = ['Claude Code', 'Flutter', 'Supabase', 'Google Maps', 'Firebase', 'Cloudflare Pages', 'GitHub', 'Wear OS'];
+const TECH_TAGS = ['Claude Code', 'Flutter', 'Supabase', 'Google Maps', 'GitHub', 'Wear OS'];
+
+const DEMO_PASSWORD = 'ST3PAH3aD_D3m0';
 
 function StepAhead() {
   const [copied, setCopied] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   function copyPassword() {
-    navigator.clipboard.writeText('stepahead_demo').then(() => {
+    navigator.clipboard.writeText(DEMO_PASSWORD).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
@@ -47,7 +49,7 @@ function StepAhead() {
           {/* ── Hero ──────────────────────────────────────── */}
           <div className="sa-hero">
             <div className="sa-hero-content">
-              <p className="sa-hero-eyebrow">IXDS 720 — MVP to Implementation · Claude Code · Flutter · Spring 2026</p>
+              <p className="sa-hero-eyebrow"> Claude Code · Flutter · Spring 2026</p>
               <div className="sa-hero-title-row">
                 <img src={ImgLogo} alt="StepAhead app icon" className="sa-hero-logo" />
                 <h1 className="sa-hero-title">StepAhead</h1>
@@ -85,6 +87,20 @@ function StepAhead() {
                 >
                   Process Book
                 </Button>
+                <Button
+                  variant="outlined"
+                  size="large"
+                  href="/StepAhead_Showcase.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    color: 'rgba(255,255,255,0.85)',
+                    borderColor: 'rgba(255,255,255,0.3)',
+                    '&:hover': { borderColor: '#fff', color: '#fff', background: 'rgba(255,255,255,0.05)' },
+                  }}
+                >
+                  Showcase Document
+                </Button>
               </div>
               <div className="sa-hero-tags">
                 {TECH_TAGS.map(t => <span key={t} className="sa-hero-tag">{t}</span>)}
@@ -110,16 +126,28 @@ function StepAhead() {
             <div className="sa-access-card">
               <div className="sa-access-password-row">
                 <span className="sa-access-label">Password</span>
-                <code className="sa-access-password">stepahead_demo</code>
+                <code className="sa-access-password">
+                  {showPassword ? DEMO_PASSWORD : '•'.repeat(DEMO_PASSWORD.length)}
+                </code>
+                <button
+                  className="sa-copy-btn"
+                  onClick={() => setShowPassword(v => !v)}
+                  aria-label={showPassword ? 'Hide password' : 'Show password'}
+                >
+                  {showPassword ? 'Hide' : 'Show'}
+                </button>
                 <button className="sa-copy-btn" onClick={copyPassword}>
                   {copied ? 'Copied!' : 'Copy'}
                 </button>
               </div>
               <p className="sa-access-desc">
-                Enter the password above to enter the demo. The demo runs fully
-                in-browser with a pre-generated dataset — walking routes, hazard alerts, and accessibility
-                pins and a preset location. No account needed, no location permission required, no data
-                written to the database. Everything in the demo resets on page reload.
+                Enter the password above, then tap "Try Demo" to jump in instantly with a temporary
+                account — no sign-up required. Live Google Maps
+                turn-by-turn navigation, real-time community alerts and accessibility pins seeded around a
+                downtown Chicago location, and a fully working account system (email/password or Google sign-in
+                are also available from the welcome screen). Any account or data you
+                create is automatically cleared shortly after your session ends, 
+                or immediately through sign out (Sign out found at the bottom of the profile page).
               </p>
             </div>
           </div>
@@ -133,7 +161,7 @@ function StepAhead() {
               <div className="sa-feature-card">Accessibility infrastructure pins — elevators, crosswalks, uneven sidewalks, restrooms</div>
               <div className="sa-feature-card">Government infrastructure reporting (simulated) with status lifecycle (pending → reviewed → resolved)</div>
               <div className="sa-feature-card">Saved and recent route management with route accessibility filter settings</div>
-              <div className="sa-feature-card">Route sharing with share codes and configurable expiration time  (not available in demo)</div>
+              <div className="sa-feature-card">Route sharing with share codes and configurable expiration time</div>
               <div className="sa-feature-card">Business profiles and location information</div>
               <div className="sa-feature-card">Wear OS companion app — directions and quick hazard reporting from your wrist (not available in demo)</div>
             </div>
@@ -212,8 +240,8 @@ function StepAhead() {
           <div className="sa-section">
             <h3 className="subheader">Profile, Badges & Business Dashboard</h3>
             <p className="sa-section-desc">
-              User profiles show contribution stats and community badges — Explorer, Mapper, and Sentinel —
-              awarded automatically by Supabase database triggers at contribution milestones. Business users
+              User profiles show contribution stats and community badges
+              awarded to users based on their contribution milestones. Business users
               get a dashboard for managing their storefront profile, visible to nearby walkers via proximity
               notifications during navigation.
             </p>
@@ -284,15 +312,15 @@ function StepAhead() {
               </div>
               <div className="sa-tech-card">
                 <div className="sa-tech-label">Backend</div>
-                <div className="sa-tech-value">Supabase Database and Google OAuth</div>
+                <div className="sa-tech-value">Supabase Database and Google OAuth.</div>
               </div>
               <div className="sa-tech-card">
                 <div className="sa-tech-label">Mapping</div>
-                <div className="sa-tech-value">Google Maps Platform — Maps SDK (Android) using Google Maps JS API (web), Directions API, Places API, Geocoding API</div>
+                <div className="sa-tech-value">Google Maps Platform — Maps SDK (Android) and Google Maps JS API (web).</div>
               </div>
               <div className="sa-tech-card">
                 <div className="sa-tech-label">GitHub Actions Workflows</div>
-                <div className="sa-tech-value">4 GitHub Actions workflows — signed APK build, Flutter web deployment to Cloudflare then GitHub Pages</div>
+                <div className="sa-tech-value">GitHub Actions workflows used to help streamline the development and deployment process.</div>
               </div>
               <div className="sa-tech-card">
                 <div className="sa-tech-label">Design Tools</div>

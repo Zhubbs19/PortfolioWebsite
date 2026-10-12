@@ -9,7 +9,11 @@
       "Bash(rm src/index.js)",
       "Bash(npm run *)",
       "Bash(grep -E \"^webpack$|^html-webpack-plugin$\")",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git commit -m 'Fix demo mode showing empty Alerts tab *)",
+      "Bash(gh run *)",
+      "Bash(gh api *)"
     ]
   }
 }

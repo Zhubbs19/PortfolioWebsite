@@ -19,6 +19,9 @@ import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlinaLarge.JPG';
 import AppalachianSeedCardImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
 import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
 import StepAheadImg from '../../Images/Project_Images/StepAhead/StepAhead_Logo.png';
+import QuestSystemCardImg from '../../Images/Project_Images/QuestSystem/CardImage.png';
+import DataTypesCardImg from '../../Images/Project_Images/DataTypesMod/DataTypesCard.png';
+import ReactorLevelCardImg from '../../Images/Project_Images/ReactorLevel/ReactorLevel.png';
 
 function ProjectCard({ image, title, description, link, altText, imageFit, imageBg }) {
   return (
@@ -194,14 +197,26 @@ export function StepAheadCard() {
   );
 }
 
-export function QuestSystemCard() {
+export function BPQuestSystemCard() {
   return (
     <ProjectCard
-      image={AppalachianSeedCardImg}
+      image={QuestSystemCardImg}
       title="Quest System"
       description="Unreal Engine 5 - Blueprint"
       link="/BPQuestSystem"
       altText="Quest System Project"
+    />
+  );
+}
+
+export function ReactorLevelDesignCard() {
+    return (
+    <ProjectCard
+      image={ReactorLevelCardImg}
+      title="Reactor Level Design"
+      description="Unreal Engine 5 - Blueprint"
+      link="/ReactorLevelDesign"
+      altText="Level Design"
     />
   );
 }
@@ -221,7 +236,7 @@ export function ModelingDioramaCard() {
 export function DataTypesModCard() {
   return (
     <ProjectCard
-      image={AppalachianSeedCardImg}
+      image={DataTypesCardImg}
       title="Data Types Mod"
       description="Minecraft Java / NeoForge"
       link="/MCDataTypesMod"

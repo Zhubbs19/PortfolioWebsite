@@ -6,6 +6,10 @@ import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
 import './GamePages.css';
+import BlockbenchModel from '../../Images/Project_Images/DataTypesMod/BlockbenchModel.png';
+import DataTypesCard from '../../Images/Project_Images/DataTypesMod/DataTypesCard.png';
+import IntegerBlockEntity from '../../Images/Project_Images/DataTypesMod/IntegerBlockEntity.png';
+import IntegerPayload from '../../Images/Project_Images/DataTypesMod/IntegerPayload.png';
 
 function MCDataTypesMod() {
   return (
@@ -14,18 +18,15 @@ function MCDataTypesMod() {
         <h1 className="base-header">Minecraft Game Modification - Data Types Mod</h1>
 
         <Container maxWidth="xl" className="about-content">
-          {/* Video and Description Row */}
+          {/* Image and Description Row */}
           <Grid container spacing={4} className='about-grid'>
             <Grid item xs={12} md={8}>
               <div className="media-item">
-                {/* TODO: Replace with project video or screenshot */}
-                <iframe
-                  className="responsive-iframe"
-                  src="https://www.youtube.com/embed/33XtXKlbD4c"
-                  title="Minecraft Data Types Mod Demo"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
+                <img
+                  src={DataTypesCard}
+                  alt="Data Types Mod Card"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
                 />
               </div>
             </Grid>
@@ -33,7 +34,7 @@ function MCDataTypesMod() {
             <Grid item xs={12} md={12}>
               <div className='info-item'>
                 <p>
-                  The Data Types Mod is an in-development personal project — a digital game modification for the popular open-world
+                  The Data Types Mod is an in development personal project — a digital game modification for the popular open-world
                   sandbox game Minecraft that focuses on teaching programming concepts of data types like Integers, Floats, Strings,
                   etc. through the gameplay of the modification.
                 </p>
@@ -49,6 +50,9 @@ function MCDataTypesMod() {
                   as well as the community-made and supported Mod Development Kit, NeoForge, that allows creation of game modifications
                   for Minecraft. This will enable players to learn more about and use these data types in-game as they are critical,
                   foundational knowledge to have when programming.
+
+                  The main focus of this project is to focus mainly on being a personal project, 
+                  allowing me to apply my programming knowledge to learn more about Minecraft modding.
                 </p>
               </div>
             </Grid>
@@ -65,6 +69,43 @@ function MCDataTypesMod() {
                   <li className="feature">Guidebook item functionality and basic UI when right-clicking item or through a key bind</li>
                   <li className="feature">Modded Blocks and Items present in Minecraft creative mode inventory UI</li>
                 </ul>
+              </div>
+            </Grid>
+          </Grid>
+
+          {/* Project Images */}
+          <Grid container spacing={4} sx={{ mt: 2 }}>
+            <Grid item xs={12}>
+              <h3 className="subheader">Project Images</h3>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className="media-item">
+                <img
+                  src={BlockbenchModel}
+                  alt="Blockbench Model"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                />
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className="media-item">
+                <img
+                  src={IntegerBlockEntity}
+                  alt="Integer Block Entity"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                />
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className="media-item">
+                <img
+                  src={IntegerPayload}
+                  alt="Integer Payload"
+                  className="responsive-image"
+                  style={{ maxWidth: '800px', margin: '0 auto', display: 'block' }}
+                />
               </div>
             </Grid>
           </Grid>

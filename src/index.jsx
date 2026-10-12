@@ -15,6 +15,7 @@ import EpicDoor from './Pages/Games/EpicDoor';
 import EscapeRoom from './Pages/Games/EscapeRoom';
 import WeatheredHome from './Pages/Games/WeatheredHome';
 import StepAhead from './Pages/Games/StepAhead';
+import ReactorLevelDesign from './Pages/Games/ReactorLevelDesign';
 import BPQuestSystem from './Pages/Games/BPQuestSystem';
 import ModelingDiorama from './Pages/Games/ModelingDiorama';
 import MCDataTypesMod from './Pages/Games/MCDataTypesMod';
@@ -67,12 +68,16 @@ const router = createHashRouter([
     element: <WeatheredHome />,
   },
   {
-    path: "StepAhead",
-    element: <StepAhead />,
+    path: "ReactorLevelDesign",
+    element: <ReactorLevelDesign />,
   },
   {
     path: "BPQuestSystem",
     element: <BPQuestSystem />,
+  },
+  {
+    path: "StepAhead",
+    element: <StepAhead />,
   },
   {
     path: "ModelingDiorama",
