@@ -113,9 +113,40 @@ body {
 .hero-subtitle {
   font-size: clamp(1.1rem, 2.5vw, 1.4rem);
   color: rgba(255, 255, 255, 0.75);
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.25rem;
   font-weight: 400;
   animation: fadeInUp 0.7s ease-out 0.1s both;
+}
+
+.hero-pitch {
+  max-width: 38rem;
+  margin: 0 auto 1.5rem;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.82);
+  animation: fadeInUp 0.7s ease-out 0.15s both;
+}
+
+.hero-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0 auto 2.25rem;
+  padding: 0;
+  max-width: 52rem;
+  animation: fadeInUp 0.7s ease-out 0.18s both;
+}
+
+.hero-skills li {
+  padding: 0.3rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .hero-cta {

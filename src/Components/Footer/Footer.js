@@ -17,6 +17,15 @@ function FooterComponent() {
           >
             Contact
           </a>
+          <a
+            href="https://github.com/Zhubbs19"
+            className="footer-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            GitHub
+          </a>
           <a 
             href="https://www.linkedin.com/in/zachary-hubbard-39645b204/" 
             className="footer-link"

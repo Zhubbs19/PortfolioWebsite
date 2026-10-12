@@ -109,3 +109,20 @@
     font-size: 0.8125rem !important;
   }
 }
+
+/* Role / technology chips */
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.card-tags .MuiChip-root {
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-color: rgba(61, 90, 254, 0.35);
+}

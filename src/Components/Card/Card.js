@@ -5,6 +5,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Chip from '@mui/material/Chip';
 import { Link } from "react-router-dom";
 import './Card.css';
 
@@ -23,7 +25,7 @@ import QuestSystemCardImg from '../../Images/Project_Images/QuestSystem/CardImag
 import DataTypesCardImg from '../../Images/Project_Images/DataTypesMod/DataTypesCard.png';
 import ReactorLevelCardImg from '../../Images/Project_Images/ReactorLevel/ReactorLevel.png';
 
-function ProjectCard({ image, title, description, link, altText, imageFit, imageBg }) {
+function ProjectCard({ image, title, pitch, tags = [], link, altText, imageFit, imageBg }) {
   return (
     <Card sx={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
       <CardActionArea
@@ -48,8 +50,15 @@ function ProjectCard({ image, title, description, link, altText, imageFit, image
             {title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {description}
+            {pitch}
           </Typography>
+          {tags.length > 0 && (
+            <Box className="card-tags" component="ul" aria-label="Role and technologies">
+              {tags.map(tag => (
+                <li key={tag}><Chip label={tag} size="small" variant="outlined" /></li>
+              ))}
+            </Box>
+          )}
         </CardContent>
         <CardActions sx={{ pointerEvents: 'none' }}>
           <Button
@@ -72,7 +81,8 @@ export default function EscapeRoomCard() {
     <ProjectCard
       image={EscapeRoomImg}
       title="Depths of the Temple"
-      description="Unreal Engine 5.5"
+      pitch="First-person temple escape with a rotating-pillar puzzle, a pickup torch and collapsing platforms, all scripted in Blueprints."
+      tags={["Solo project","Unreal Engine 5","Blueprints"]}
       link="/EscapeRoom"
       altText="Depths of the Temple Escape Room Project"
     />
@@ -85,7 +95,8 @@ export function EpicDoorCard() {
     <ProjectCard
       image={EpicDoorImg}
       title="Epic Door Project"
-      description="Unreal Engine 5.4"
+      pitch="Vault-style door opening cinematic built for an engine pipelines and practices course."
+      tags={["Cinematic","Unreal Engine 5","Course project"]}
       link="/EpicDoor"
       altText="Epic Door Cinematic Project"
     />
@@ -98,7 +109,8 @@ export function WeatheredHomeCard() {
     <ProjectCard
       image={WeatheredHomeImg}
       title="A Weathered Home"
-      description="Unreal Engine 5.5"
+      pitch="Group proof of concept: prep and repair your home before an earthquake, dust storm and forest fire."
+      tags={["Group project","Unreal Engine 5","Maya"]}
       link="/WeatheredHome"
       altText="A Weathered Home Game Project"
     />
@@ -111,7 +123,8 @@ export function DawnOfAlinaCard() {
     <ProjectCard
       image={DawnOfAlinaImg}
       title="Dawn of Alina"
-      description="Unity"
+      pitch="3D action-adventure prototype with an inventory system I implemented. Development was discontinued after the fall 2022 session."
+      tags={["Prototype","Unity","Programmer"]}
       link="/DawnOfAlina"
       altText="Dawn of Alina Unity Game"
     />
@@ -124,7 +137,8 @@ export function WVQuestCard() {
     <ProjectCard
       image={WVQuestRegistration}
       title="WV Quest"
-      description="Unity - Capstone Project"
+      pitch="Museum app where visitors scan exhibit QR codes to play minigames. Built with the West Virginia State Museum."
+      tags={["Seven-person capstone","Unity","Firebase"]}
       link="/WVQuest"
       altText="WV Quest Museum App"
     />
@@ -137,7 +151,8 @@ export function BlenderProjectsCard() {
     <ProjectCard
       image={BlenderDonutImg}
       title="Blender Projects"
-      description="Blender 3D"
+      pitch="Blender donut animation and a milk-and-cookies render."
+      tags={["Blender 3D"]}
       link="/BlenderProjects"
       altText="Blender 3D Projects"
     />
@@ -150,7 +165,8 @@ export function PhotoshopProjectsCard() {
     <ProjectCard
       image={PhotoshopImg}
       title="Photoshop Projects"
-      description="Adobe Photoshop"
+      pitch="Soda can mockup built in Photoshop."
+      tags={["Adobe Photoshop"]}
       link="/PhotoshopProjects"
       altText="Photoshop Design Projects"
     />
@@ -163,7 +179,8 @@ export function CartSmashCard() {
     <ProjectCard
       image={CartSmashImg}
       title="Cart Smash"
-      description="Unity - 2024 Global Game Jam"
+      pitch="3D physics game: launch a shopping cart off a ramp and keep your items inside. Made for the 2024 Global Game Jam."
+      tags={["Game jam","Unity","Programmer"]}
       link="/CartSmash"
       altText="Cart Smash Game Jam Project"
     />
@@ -176,7 +193,8 @@ export function ApplachianSeedCard() {
     <ProjectCard
       image={AppalachianSeedCardImg}
       title="Appalachian Seed-A-Pult"
-      description="Unity - 2023 Global Game Jam"
+      pitch="2D WebGL game about launching a seed onto fertile soil, made in the 2023 Global Game Jam."
+      tags={["Game jam","Unity","Programmer"]}
       link="/SeedAPult"
       altText="Appalachian Seed-A-Pult Game"
     />
@@ -188,7 +206,8 @@ export function StepAheadCard() {
     <ProjectCard
       image={StepAheadImg}
       title="StepAhead"
-      description="Community Navigation App - Flutter · Claude Code"
+      pitch="Community walking-navigation app with live hazard alerts and accessibility pins. Paper prototype to live backend in two sprints."
+      tags={["Flutter","Google Maps","Live demo"]}
       link="/StepAhead"
       altText="StepAhead community walking navigation app"
       imageFit="contain"
@@ -202,7 +221,8 @@ export function BPQuestSystemCard() {
     <ProjectCard
       image={QuestSystemCardImg}
       title="Blueprint Quest Creator and Tracking System"
-      description="Unreal Engine 5 - Blueprint"
+      pitch="Reusable tool for designers to author quests with custom givers, prerequisites and completion rules, with an in-game quest UI."
+      tags={["Designer & developer","Unreal Engine 5","Blueprints"]}
       link="/BPQuestSystem"
       altText="Quest System Project"
     />
@@ -214,7 +234,8 @@ export function ReactorLevelDesignCard() {
     <ProjectCard
       image={ReactorLevelCardImg}
       title="Reactor Level Design"
-      description="Unreal Engine 5 - Blueprint"
+      pitch="First-person horror level in an abandoned power plant: three encounters, a boss fight and a flashlight-battery mechanic."
+      tags={["Level design","Unreal Engine 5","Course project"]}
       link="/ReactorLevelDesign"
       altText="Level Design"
     />
@@ -226,7 +247,8 @@ export function ModelingDioramaCard() {
     <ProjectCard
       image={AppalachianSeedCardImg}
       title="Modeling Diorama"
-      description="Maya / Substance / Unreal Engine 5"
+      pitch="3D diorama modeled in Maya and Substance, assembled in Unreal Engine 5."
+      tags={["Maya","Substance","Unreal Engine 5"]}
       link="/ModelingDiorama"
       altText="Modeling Diorama Project"
     />
@@ -238,7 +260,8 @@ export function DataTypesModCard() {
     <ProjectCard
       image={DataTypesCardImg}
       title="Data Types Mod"
-      description="Minecraft Java / NeoForge"
+      pitch="Minecraft mod that teaches programming data types with Redstone-style integer, float and string systems."
+      tags={["In development","Java","NeoForge"]}
       link="/MCDataTypesMod"
       altText="Data Types Mod"
     />

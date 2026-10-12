@@ -8,6 +8,18 @@ import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from './PageWrapper/PageWrapper';
 
+const RESUME_URL = "https://drive.google.com/file/d/1OCzhkLCWfZ5nWLExsAy0WAApGkR03BHa/view?usp=sharing";
+const GITHUB_URL = "https://github.com/Zhubbs19";
+const SKILLS = ["Unreal Engine 5 & Blueprints", "Unity & C#", "Flutter & Dart", "React", "Blender & Maya", "Level design"];
+
+const heroButton = { px: 4, py: 1.5, fontSize: "1rem", borderRadius: 1.5 };
+const heroOutlined = {
+  ...heroButton,
+  borderColor: "rgba(255,255,255,0.5)",
+  color: "#fff",
+  "&:hover": { borderColor: "#fff", bgcolor: "rgba(255,255,255,0.1)" },
+};
+
 function App() {
   return (
     <ThemeProvider theme={siteTheme}>
@@ -18,14 +30,25 @@ function App() {
           <Container maxWidth="md">
             <h1 className="hero-title">Hi, I'm Zach Hubbard</h1>
             <p className="hero-subtitle">Game Developer &amp; Software Engineer</p>
+            <p className="hero-pitch">
+              I build games and apps, from gameplay systems and designer tools in Unreal Engine and Unity
+              to community-driven mobile apps in Flutter. Recent work includes StepAhead, a walking navigation
+              app with live hazard alerts, and a Blueprint quest-authoring tool.
+            </p>
+            <ul className="hero-skills" aria-label="Skills">
+              {SKILLS.map(skill => <li key={skill}>{skill}</li>)}
+            </ul>
             <Box className="hero-cta">
-              <Button
-                variant="outlined"
-                size="large"
-                component="a"
-                href="mailto:Zhubbs19@gmail.com"
-                sx={{ px: 4, py: 1.5, fontSize: '1rem', borderRadius: 1.5, borderColor: 'rgba(255,255,255,0.5)', color: '#fff', '&:hover': { borderColor: '#fff', bgcolor: 'rgba(255,255,255,0.1)' } }}
-              >
+              <Button variant="contained" size="large" component={Link} to="/game-projects" sx={heroButton}>
+                View Projects
+              </Button>
+              <Button variant="outlined" size="large" component="a" href={RESUME_URL} target="_blank" rel="noopener noreferrer" sx={heroOutlined}>
+                Resume
+              </Button>
+              <Button variant="outlined" size="large" component="a" href={GITHUB_URL} target="_blank" rel="noopener noreferrer" sx={heroOutlined}>
+                GitHub
+              </Button>
+              <Button variant="outlined" size="large" component="a" href="mailto:Zhubbs19@gmail.com" sx={heroOutlined}>
                 Get in Touch
               </Button>
             </Box>
