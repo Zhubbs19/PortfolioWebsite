@@ -1,0 +1,326 @@
+/* RerunTV portfolio page */
+
+/* ── Hero ─────────────────────────────────── */
+.rtv-hero {
+  background: linear-gradient(135deg, #14171f 0%, #1f2937 55%, #2b3547 100%);
+  border-radius: 12px;
+  padding: 2.75rem 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.rtv-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 85% 30%, rgba(61, 90, 254, 0.22), transparent 60%);
+  pointer-events: none;
+}
+
+.rtv-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 820px;
+}
+
+.rtv-hero-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0 0 0.75rem;
+}
+
+.rtv-hero-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.rtv-hero-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.rtv-hero-title {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  line-height: 1.05;
+}
+
+.rtv-hero-tagline {
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0 0 1rem;
+}
+
+.rtv-hero-desc {
+  font-size: clamp(0.92rem, 1.7vw, 1.02rem);
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.75;
+  margin: 0 0 1.75rem;
+}
+
+.rtv-hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+
+.rtv-hero-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.rtv-hero-tag {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.65);
+  padding: 0.2rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.76rem;
+  font-weight: 500;
+}
+
+/* ── Stat row ─────────────────────────────── */
+.rtv-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.85rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.rtv-stat {
+  background: var(--bg-light);
+  border-top: 3px solid var(--primary-blue);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+}
+
+.rtv-stat-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  line-height: 1.1;
+}
+
+.rtv-stat-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--primary-blue);
+  margin-top: 0.3rem;
+}
+
+.rtv-stat-note {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+  line-height: 1.45;
+}
+
+.rtv-badges {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.rtv-badges img {
+  height: 20px;
+}
+
+/* ── Section layout ───────────────────────── */
+.rtv-section {
+  margin-top: 2.5rem;
+}
+
+.rtv-sep {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 2.5rem 0 0;
+}
+
+.rtv-desc {
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  color: var(--text-secondary);
+  line-height: 1.85;
+  margin: 0 0 1rem;
+}
+
+.rtv-desc:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Card grids (signals, features) ───────── */
+.rtv-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.rtv-card {
+  background: var(--bg-light);
+  border-left: 3px solid var(--primary-blue);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  font-size: clamp(0.88rem, 1.7vw, 0.98rem);
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.rtv-card strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--text-dark);
+}
+
+/* ── Screenshots ──────────────────────────── */
+.rtv-shots {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.rtv-shots figure {
+  margin: 0;
+}
+
+.rtv-shots img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  display: block;
+}
+
+.rtv-shots figcaption {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* ── Challenges table ─────────────────────── */
+.rtv-challenges {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.rtv-challenge {
+  background: var(--bg-light);
+  border-radius: 10px;
+  border-top: 3px solid var(--primary-blue);
+  padding: 1.1rem 1.35rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.rtv-challenge h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.rtv-challenge dl {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.35rem 0.75rem;
+  margin: 0;
+}
+
+.rtv-challenge dt {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--primary-blue);
+  padding-top: 0.2rem;
+}
+
+.rtv-challenge dd {
+  margin: 0;
+  font-size: clamp(0.88rem, 1.7vw, 0.98rem);
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+/* ── Quote / note ─────────────────────────── */
+.rtv-quote {
+  background: var(--bg-light);
+  border-left: 4px solid var(--primary-blue);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 0;
+  font-size: clamp(0.95rem, 1.8vw, 1.05rem);
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+/* ── Evidence list / roadmap ──────────────── */
+.rtv-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+  font-size: clamp(0.95rem, 1.8vw, 1.05rem);
+  line-height: 1.8;
+}
+
+/* ── FAQ ──────────────────────────────────── */
+.rtv-faq details {
+  background: var(--bg-light);
+  border-radius: 8px;
+  padding: 0.75rem 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.rtv-faq summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.rtv-faq p {
+  margin: 0.6rem 0 0;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* ── Responsive ───────────────────────────── */
+@media (max-width: 900px) {
+  .rtv-hero {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .rtv-shots {
+    grid-template-columns: 1fr;
+  }
+
+  .rtv-challenge dl {
+    grid-template-columns: 1fr;
+  }
+
+  .rtv-challenge dt {
+    padding-top: 0.4rem;
+  }
+}

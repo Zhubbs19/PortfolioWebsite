@@ -11,16 +11,13 @@ import { Link } from "react-router-dom";
 import './Card.css';
 
 // Import project images
-import EpicDoorImg from '../../Images/Project_Images/EpicDoor.png';
-import BlenderDonutImg from '../../Images/Project_Images/Cookies2.png';
-import PhotoshopImg from '../../Images/Project_Images/SodaCan.png';
 import CartSmashImg from '../../Images/Project_Images/RampCrash2.png';
 import WVQuestRegistration from '../../Images/Project_Images/RegistrationWVQuest.PNG';
 import WeatheredHomeImg from '../../Images/Project_Images/WeatheredHome.png';
-import DawnOfAlinaImg from '../../Images/Project_Images/DawnOfAlinaLarge.JPG';
 import AppalachianSeedCardImg from '../../Images/Project_Images/AppalachianSeedLaunch.png';
 import EscapeRoomImg from '../../Images/Project_Images/EscapeRoom.png';
 import StepAheadImg from '../../Images/Project_Images/StepAhead/StepAhead_Logo.png';
+import RerunTVImg from '../../Images/Project_Images/RerunTV/icon.png';
 import QuestSystemCardImg from '../../Images/Project_Images/QuestSystem/CardImage.png';
 import DataTypesCardImg from '../../Images/Project_Images/DataTypesMod/DataTypesCard.png';
 import ReactorLevelCardImg from '../../Images/Project_Images/ReactorLevel/ReactorLevel.png';
@@ -89,20 +86,6 @@ export default function EscapeRoomCard() {
   );
 }
 
-// Epic Door Card
-export function EpicDoorCard() {
-  return (
-    <ProjectCard
-      image={EpicDoorImg}
-      title="Epic Door Project"
-      pitch="Vault-style door opening cinematic built for an engine pipelines and practices course."
-      tags={["Cinematic","Unreal Engine 5","Course project"]}
-      link="/EpicDoor"
-      altText="Epic Door Cinematic Project"
-    />
-  );
-}
-
 // Weathered Home Card
 export function WeatheredHomeCard() {
   return (
@@ -117,20 +100,6 @@ export function WeatheredHomeCard() {
   );
 }
 
-// Dawn of Alina Card
-export function DawnOfAlinaCard() {
-  return (
-    <ProjectCard
-      image={DawnOfAlinaImg}
-      title="Dawn of Alina"
-      pitch="3D action-adventure prototype with an inventory system I implemented. Development was discontinued after the fall 2022 session."
-      tags={["Prototype","Unity","Programmer"]}
-      link="/DawnOfAlina"
-      altText="Dawn of Alina Unity Game"
-    />
-  );
-}
-
 // WV Quest Card
 export function WVQuestCard() {
   return (
@@ -141,34 +110,6 @@ export function WVQuestCard() {
       tags={["Seven-person capstone","Unity","Firebase"]}
       link="/WVQuest"
       altText="WV Quest Museum App"
-    />
-  );
-}
-
-// Blender Projects Card
-export function BlenderProjectsCard() {
-  return (
-    <ProjectCard
-      image={BlenderDonutImg}
-      title="Blender Projects"
-      pitch="Blender donut animation and a milk-and-cookies render."
-      tags={["Blender 3D"]}
-      link="/BlenderProjects"
-      altText="Blender 3D Projects"
-    />
-  );
-}
-
-// Photoshop Projects Card
-export function PhotoshopProjectsCard() {
-  return (
-    <ProjectCard
-      image={PhotoshopImg}
-      title="Photoshop Projects"
-      pitch="Soda can mockup built in Photoshop."
-      tags={["Adobe Photoshop"]}
-      link="/PhotoshopProjects"
-      altText="Photoshop Design Projects"
     />
   );
 }
@@ -210,6 +151,21 @@ export function StepAheadCard() {
       tags={["Flutter","Google Maps","Live demo"]}
       link="/StepAhead"
       altText="StepAhead community walking navigation app"
+      imageFit="contain"
+      imageBg="#1a252f"
+    />
+  );
+}
+
+export function RerunTVCard() {
+  return (
+    <ProjectCard
+      image={RerunTVImg}
+      title="RerunTV"
+      pitch="Desktop app that turns your video folders into a live cable box, with a time machine, plugins and a full CI/CD and security pipeline."
+      tags={["Electron","JavaScript","CI/CD","Security","Claude Code"]}
+      link="/RerunTV"
+      altText="RerunTV app icon"
       imageFit="contain"
       imageBg="#1a252f"
     />

@@ -1,6 +1,6 @@
 import EscapeRoomCard, {
-  EpicDoorCard, DawnOfAlinaCard, WVQuestCard, CartSmashCard, ApplachianSeedCard, WeatheredHomeCard,
-  StepAheadCard, ReactorLevelDesignCard, BPQuestSystemCard, DataTypesModCard
+  WVQuestCard, CartSmashCard, ApplachianSeedCard, WeatheredHomeCard,
+  StepAheadCard, RerunTVCard, ReactorLevelDesignCard, BPQuestSystemCard, DataTypesModCard
 } from "../../Components/Card/Card";
 import '../../Components/App.css';
 import '../../Components/Card/Card.css';
@@ -22,6 +22,9 @@ function GameProjects() {
               <StepAheadCard />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
+              <RerunTVCard />
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
               <ReactorLevelDesignCard />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
@@ -37,9 +40,6 @@ function GameProjects() {
               <EscapeRoomCard />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <EpicDoorCard />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
               <WVQuestCard />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
@@ -47,9 +47,6 @@ function GameProjects() {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <CartSmashCard />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <DawnOfAlinaCard />
             </Grid>
           </Grid>
         </Container>

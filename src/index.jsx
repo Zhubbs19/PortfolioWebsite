@@ -5,16 +5,13 @@ import { createRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router';
 import GameProjects from './Pages/Game Projects/GameProjects';
 import WVQuest from './Pages/Games/WVQuest';
-import DawnOfAlina from './Pages/Games/DawnOfAlina';
 import SeedAPult from './Pages/Games/SeedAPult';
-import BlenderProjects from './Pages/Games/BlenderProjects';
 import { createHashRouter } from 'react-router-dom';
-import PhotoshopProjects from './Pages/Games/PhotoshopProjects';
 import CartSmash from './Pages/Games/CartSmash';
-import EpicDoor from './Pages/Games/EpicDoor';
 import EscapeRoom from './Pages/Games/EscapeRoom';
 import WeatheredHome from './Pages/Games/WeatheredHome';
 import StepAhead from './Pages/Games/StepAhead';
+import RerunTV from './Pages/Games/RerunTV';
 import ReactorLevelDesign from './Pages/Games/ReactorLevelDesign';
 import BPQuestSystem from './Pages/Games/BPQuestSystem';
 import ModelingDiorama from './Pages/Games/ModelingDiorama';
@@ -36,28 +33,12 @@ const router = createHashRouter([
     element: <WVQuest />,
   },
   {
-    path: "DawnOfAlina",
-    element: <DawnOfAlina />,
-  },
-  {
     path: "SeedAPult",
     element: <SeedAPult />,
   },
   {
-    path: "BlenderProjects",
-    element: <BlenderProjects />,
-  },
-  {
-    path: "PhotoshopProjects",
-    element: <PhotoshopProjects />,
-  },
-  {
     path: "CartSmash",
     element: <CartSmash />,
-  },
-  {
-    path: "EpicDoor",
-    element: <EpicDoor />,
   },
   {
     path: "EscapeRoom",
@@ -78,6 +59,10 @@ const router = createHashRouter([
   {
     path: "StepAhead",
     element: <StepAhead />,
+  },
+  {
+    path: "RerunTV",
+    element: <RerunTV />,
   },
   {
     path: "ModelingDiorama",

@@ -99,9 +99,7 @@ function EscapeRoom() {
             <Grid item xs={12}>
               <h2 className="attribution-header">Credits and Attributions</h2>
               <div className="info-item">
-              <ul className="attribution-list">
-                <li>My Epic Door project was used as a part of this project, and all its credits and attributions can be found on its project page.</li>
-              </ul>
+              <p>This project includes my earlier Epic Door cinematic; its credits are listed below.</p>
               <CreditsDisclosure>
               <ul className="attribution-list">
                 <li><a href="https://freesound.org/people/steprock/sounds/771164/" target="_blank" rel="noopener noreferrer">Treasure Chest Open by steprock from Freesound.org</a></li>

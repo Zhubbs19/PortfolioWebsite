@@ -15,14 +15,11 @@ Source code for my game and software development portfolio website — zachhubba
 
 | Page | Route |
 |------|-------|
-| Dawn of Alina | `#/DawnOfAlina` |
+| RerunTV | `#/RerunTV` |
 | WV Quest | `#/WVQuest` |
 | Cart Smash | `#/CartSmash` |
 | Seed-A-Pult | `#/SeedAPult` |
-| Epic Door | `#/EpicDoor` |
 | Escape Room | `#/EscapeRoom` |
-| Blender Projects | `#/BlenderProjects` |
-| Photoshop Projects | `#/PhotoshopProjects` |
 | Weathered Home | `#/WeatheredHome` |
 | All Game Projects | `#/GameProjects` |
 
