@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Container } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import CreditsDisclosure from "../../Components/Credits/CreditsDisclosure";
 import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
@@ -178,6 +179,7 @@ function BPQuestSystem() {
               <h2 className="attribution-header">Credits and Attributions</h2>
 
               <div className="info-item">
+                <CreditsDisclosure>
                 <h3 className="attribution-subheader">Sounds</h3>
                 <ul className="attribution-list">
                   <li><a href="https://freesound.org/people/Kenneth_Cooney/sounds/609336/" target="_blank" rel="noopener noreferrer">Completed.wav by Kenneth_Cooney from Freesound.org</a></li>
@@ -205,6 +207,7 @@ function BPQuestSystem() {
                   <li><a href="https://stock.adobe.com/search/images?k=red+x&search_type=usertyped&asset_id=1151536077" target="_blank" rel="noopener noreferrer">Red X graphic by Domingo on Adobe Stock</a></li>
                   <li><a href="https://stock.adobe.com/images/paper-vintage-background-recycle-brown-paper-crumpled-texture-old-paper-surface-on-transparent-background-isolated/534030108" target="_blank" rel="noopener noreferrer">Paper vintage background from Adobe Stock</a></li>
                 </ul>
+                </CreditsDisclosure>
               </div>
             </Grid>
           </Grid>

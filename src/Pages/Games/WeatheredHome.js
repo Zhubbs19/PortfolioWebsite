@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Container } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import CreditsDisclosure from "../../Components/Credits/CreditsDisclosure";
 import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
@@ -77,6 +78,7 @@ function AWeatheredHome() {
                   <li>All UI Art, Backgrounds, and Icons created by Yoru Chen</li>
                 </ul>
 
+                <CreditsDisclosure>
                 <h3 className="attribution-subheader">Sounds</h3>
                 <ul className="attribution-list">
                   <li><a href="https://freesound.org/people/AyaDrevis/sounds/677404/" target="_blank" rel="noopener noreferrer">Earthquake.mp3 by AvaDrevis from Freesound.org</a></li>
@@ -104,6 +106,7 @@ function AWeatheredHome() {
                 <ul className="attribution-list">
                   <li><a href="https://fonts.google.com/specimen/Special+Elite" target="_blank" rel="noopener noreferrer">Special Elite Font by Astigmatic from Google Fonts</a></li>
                 </ul>
+                </CreditsDisclosure>
               </div>
             </Grid>
           </Grid>

@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Container } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import CreditsDisclosure from "../../Components/Credits/CreditsDisclosure";
 import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
@@ -100,6 +101,9 @@ function EscapeRoom() {
               <div className="info-item">
               <ul className="attribution-list">
                 <li>My Epic Door project was used as a part of this project, and all its credits and attributions can be found on its project page.</li>
+              </ul>
+              <CreditsDisclosure>
+              <ul className="attribution-list">
                 <li><a href="https://freesound.org/people/steprock/sounds/771164/" target="_blank" rel="noopener noreferrer">Treasure Chest Open by steprock from Freesound.org</a></li>
                 <li><a href="https://freesound.org/people/patchytherat/sounds/530988/" target="_blank" rel="noopener noreferrer">moving stone platform.wav by patchytherat from Freesound.org</a></li>
                 <li><a href="https://freesound.org/people/samuelreeder/sounds/734048/" target="_blank" rel="noopener noreferrer">audio by samuelreeder from Freesound.org</a></li>
@@ -140,6 +144,7 @@ function EscapeRoom() {
                 <li>Intro Slide Image AI-Generated from Image Creator in Bing</li>
                 <li><a href="https://fonts.google.com/specimen/Londrina+Solid" target="_blank" rel="noopener noreferrer">Londrina Solid Font from Google Fonts</a></li>
               </ul>
+              </CreditsDisclosure>
               </div>
             </Grid>
           </Grid>

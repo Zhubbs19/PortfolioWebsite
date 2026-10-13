@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Container } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import CreditsDisclosure from "../../Components/Credits/CreditsDisclosure";
 import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
@@ -125,6 +126,7 @@ function ReactorLevelDesign() {
               <h2 className="attribution-header">Credits and Attributions</h2>
 
               <div className="info-item">
+                <CreditsDisclosure>
                 <h3 className="attribution-subheader">Particles</h3>
                 <ul className="attribution-list">
                   <li><a href="https://fab.com/s/2b919185c054" target="_blank" rel="noopener noreferrer">M5 VFX Vol2. Fire and Flames(Niagara) by M5VFX from Fab</a></li>
@@ -188,6 +190,7 @@ function ReactorLevelDesign() {
                 <ul className="attribution-list">
                   <li>Blockout Tools Plugin by Dmitry Karpukhin from Fab</li>
                 </ul>
+                </CreditsDisclosure>
               </div>
             </Grid>
           </Grid>

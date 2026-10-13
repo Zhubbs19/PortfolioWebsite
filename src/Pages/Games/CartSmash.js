@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Container } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import CreditsDisclosure from "../../Components/Credits/CreditsDisclosure";
 import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
@@ -43,6 +44,7 @@ function CartSmash() {
             <Grid item xs={12}>
               <h2 className="attribution-header">Credits and Attributions</h2>
               <div className="info-item">
+              <CreditsDisclosure>
               <ul className='attribution-list'>
                 <li><a href="https://www.freepik.com/3d-model/shopping-cart-001_3553" target="_blank" rel="noopener noreferrer">Shopping Cart 001 3D Model by freepik</a> using Freepik free license</li>
                 <li><a href="https://www.freepik.com/free-vector/abstract-perspective-graph-pattern-grid-vector-design_51706871.htm" target="_blank" rel="noopener noreferrer">Free vector abstract perspective graph pattern grid by freepik</a></li>
@@ -57,6 +59,7 @@ function CartSmash() {
                 <li><a href="https://freesound.org/people/qubodup/sounds/183993/" target="_blank" rel="noopener noreferrer">Shopping Cart Return.flac by qubodup</a> using Creative Commons license</li>
                 <li><a href="https://freesound.org/people/Robinhood76/sounds/350609/" target="_blank" rel="noopener noreferrer">06576 leaving shopping cart.wav by Robinhood76</a> using Attribution NonCommercial 4.0 License</li>
               </ul>
+              </CreditsDisclosure>
               </div>
             </Grid>
           </Grid>

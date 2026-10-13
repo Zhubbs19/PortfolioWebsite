@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Container } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import CreditsDisclosure from "../../Components/Credits/CreditsDisclosure";
 import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
@@ -87,6 +88,7 @@ function ModelingDiorama() {
               <h2 className="attribution-header">Credits and Attributions</h2>
 
               <div className="info-item">
+                <CreditsDisclosure>
                 <h3 className="attribution-subheader">Source Images for Texturing</h3>
                 <ul className="attribution-list">
                   <li><a href="https://as2.ftcdn.net/v2/jpg/02/23/50/63/1000_F_223506315_HtvohLG5PRGzs7X5lTKUwajHAlKtrYfz.jpg" target="_blank" rel="noopener noreferrer">Grey asphalt roofing shingles background texture by olga pink from Adobe Stock</a></li>
@@ -104,6 +106,7 @@ function ModelingDiorama() {
                   <li><a href="https://stock.adobe.com/images/bouquet-of-young-green-grass-isolated-on-white-or-transparent-background-natural-raster-clipart-of-a-meadow-plant/574013571" target="_blank" rel="noopener noreferrer">Bouquet of young green grass by ioanna_alexa from Adobe Stock</a></li>
                   <li>Heightmap for terrain created using World Machine software</li>
                 </ul>
+                </CreditsDisclosure>
               </div>
             </Grid>
           </Grid>

@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Container } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from "../../Components/PageWrapper/PageWrapper";
+import CreditsDisclosure from "../../Components/Credits/CreditsDisclosure";
 import siteTheme from '../../SiteTheme';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Components/App.css';
@@ -52,6 +53,7 @@ function EpicDoor() {
             <Grid item xs={12}>
               <h2 className="attribution-header">Credits and Attributions</h2>
               
+              <CreditsDisclosure>
               <h3 className="attribution-subheader">Materials and Textures</h3>
               <ul className="attribution-list">
                 <li><a href="https://substance3d.adobe.com/community-assets/assets/14fb5acfc679523f45d5b223eee64b45b5341ecd" target="_blank" rel="noopener noreferrer">Stone Wall by Ben Rosendahl from Adobe Substance 3D</a></li>
@@ -86,6 +88,7 @@ function EpicDoor() {
                 <li><a href="https://www.fab.com/listings/ea9c89c3-ccd5-492d-972b-72d58815e7fc" target="_blank" rel="noopener noreferrer">Wooden Chest from Quixel Megascans</a></li>
                 <li>Steam from Unreal Engine Starter Content</li>
               </ul>
+              </CreditsDisclosure>
             </Grid>
           </Grid>
         </Container>
