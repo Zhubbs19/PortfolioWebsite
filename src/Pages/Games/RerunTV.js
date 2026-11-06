@@ -11,45 +11,51 @@ import './RerunTV.css';
 import ImgIcon        from '../../Images/Project_Images/RerunTV/icon.png';
 import ImgLive        from '../../Images/Project_Images/RerunTV/live.jpg';
 import ImgGuide       from '../../Images/Project_Images/RerunTV/guide.jpg';
+import ImgGuideHD     from '../../Images/Project_Images/RerunTV/guide-hd.jpg';
 import ImgSetup       from '../../Images/Project_Images/RerunTV/setup.png';
 import ImgTimeMachine from '../../Images/Project_Images/RerunTV/time-machine.jpg';
 
 const REPO_URL = 'https://github.com/Zhubbs19/RerunTV';
+const SITE_URL = 'https://zhubbs19.github.io/RerunTV/';
 const SCORECARD_URL = 'https://scorecard.dev/viewer/?uri=github.com/Zhubbs19/RerunTV';
 
-const TECH_TAGS = ['Electron', 'JavaScript', 'Node.js', 'GitHub Actions', 'CodeQL', 'Claude Code'];
+const TECH_TAGS = ['Electron', 'JavaScript', 'Node.js', 'React Native', 'GitHub Actions', 'CodeQL', 'Claude Code'];
 
 const STATS = [
-  { value: '~7 weeks', label: 'Built in', note: 'First commit 2026-08-22, public beta 2026-10-13' },
-  { value: '474', label: 'Automated tests', note: '63 test files, including property-based tests' },
-  { value: '6', label: 'CI workflows', note: 'Tests, installer smoke test, CodeQL, Scorecard, release build, demo pack' },
-  { value: '432', label: 'Commits', note: 'Detailed messages: cause, fix, verification' },
-  { value: '~92k', label: 'Lines of JS', note: 'Plus 18k CSS and 1.4k Kotlin (Android clients)' },
-  { value: '51', label: 'Bundled plugins', note: '26 features and 25 themes, behind a permission model' },
-  { value: '7.2 / 10', label: 'OpenSSF Scorecard', note: 'Public, live badge' },
-  { value: '29 pages', label: 'Wiki', note: 'Plus 13 design docs and an in-app manual' },
+  { value: '~7 weeks', label: 'To public beta', note: 'First commit 2026-08-22, beta 2026-10-13, still in active development' },
+  { value: '784', label: 'Automated tests', note: '97 test files, including property-based tests, with coverage reported in CI' },
+  { value: '9', label: 'CI workflows', note: 'Tests and lint, installer smoke test, CodeQL, Scorecard, release build, demo pack, companion APK, Linux (experimental), website' },
+  { value: '520', label: 'Commits', note: 'Detailed messages: cause, fix, verification' },
+  { value: '~113k', label: 'Lines of JS', note: 'Plus 20k CSS, 4.1k TypeScript (phone app) and 1.4k Kotlin (Android clients)' },
+  { value: '40', label: 'Bundled plugins', note: '27 features and 13 themes, behind a permission model' },
+  { value: '7.4 / 10', label: 'OpenSSF Scorecard', note: 'Public, live badge' },
+  { value: '27 pages', label: 'Wiki', note: 'Plus a feature website, 15 design docs and an in-app manual' },
 ];
 
 const SIGNALS = [
   ['End-to-end ownership', 'Concept, architecture, implementation direction, testing, release engineering, security, legal diligence and documentation for one shipped product.'],
-  ['Engineering discipline, not a demo', '474 tests, property-based tests that hunt for counter-examples, and CI that builds the real Windows installer, installs it silently on a clean VM and checks that it boots.'],
-  ['Security and supply-chain awareness', 'CodeQL (7 findings triaged: 5 fixed, 2 dismissed with written rationale), OpenSSF Scorecard, SHA-pinned Actions, least-privilege tokens, branch rulesets, Dependabot, and signed SLSA build provenance with SHA-256 checksums on every release.'],
+  ['Engineering discipline, not a demo', '784 tests, property-based tests that hunt for counter-examples, ESLint and coverage in CI, and a job that builds the real Windows installer, installs it silently on a clean VM and checks that it boots.'],
+  ['Security and supply-chain awareness', 'CodeQL and OpenSSF Scorecard on every push, SHA-pinned Actions, least-privilege tokens, branch rulesets, Dependabot, Electron fuses that lock down packaged builds, a hardened LAN server, and signed SLSA build provenance with SHA-256 checksums on every release.'],
   ['Architecture that earns its keep', 'Schedule resolution is a pure function of (channel, time), which makes the time machine possible with no playback log. Config edits are named commands with inverses, applied through a single host.'],
-  ['A plugin platform with a trust model', 'Plugins declare what they need (network, programs, ports, files), the user approves it, and risky plugins run in a separate OS process.'],
+  ['A plugin platform with a trust model', 'Plugins declare what they need (websites, programs, ports, files), the user approves it on a plain-language permission screen, and risky plugins run in a separate OS process that can only reach the sites it declared.'],
   ['Accessibility and responsibility', 'A first-run photosensitivity choice (full / gentle / minimal), measured-gentle demo content and a documented notice, because the app imitates flickering CRT TVs.'],
   ['IP and legal diligence', 'The app ships no media. Real network and show names and trademarked plugin names were removed, plugin IDs renamed with an automatic config migration, third-party licenses documented and git history filtered before publishing.'],
-  ['Communication', '29-page wiki, numbered design documents, an in-app manual, a release checklist, a security policy and a contribution policy.'],
+  ['Communication', 'A feature website, a 27-page wiki, numbered design documents, an in-app manual, a release checklist, a security policy and a contribution policy.'],
   ['Honesty', 'The page, README and repo state plainly that it is a beta, that installers are unsigned, and that it is vibe-coded and not independently audited.'],
 ];
 
 const FEATURES = [
   'Live TV with an on-screen banner and CRT look',
-  'Time-grid program guide',
+  'Two on-screen layouts, including a mid-2000s digital cable-box guide in HD and Classic skins',
+  'Time-grid program guide, Search and Listings by Channel',
   'Time machine: VCR-style shuttle through past and future schedule',
-  'Channel setup, programming blocks, ad breaks and bumpers',
-  '25 themes and 5 period eras',
-  'Phone remote, LAN viewer and Android clients',
-  '51 plugins: virtual channels, overlays, weather, metadata, casting',
+  'Channel setup, presets, programming blocks, ad breaks and bumpers',
+  'Broadcast timing: breaks that pause the show at its fades to black, sped-up end credits, programs fitted to :00 and :30 slots',
+  'Volume leveling across shows and ads',
+  'Show and episode info from local .nfo files, TMDB and TVmaze',
+  '13 themes and 5 period eras',
+  'Phone remote (React Native app and web), LAN viewer and Android TV client',
+  '40 plugins: virtual channels, overlays, weather, metadata, casting',
 ];
 
 const CHALLENGES = [
@@ -64,9 +70,19 @@ const CHALLENGES = [
     result: 'Undo without snapshots, and no more "save reverted my change" races between the desktop and a paired phone.',
   },
   {
+    title: 'Make shows start on the hour and half hour, like real TV',
+    decided: 'An opt-in fit inside the same pure schedule maths: a program that runs a little long speeds up its end credits, then lightly compresses, within set limits; one that runs short gets breaks filled from the ad pool. Breaks pause the show instead of airing over it, from a plan seeded per loop so every pass agrees.',
+    result: 'The guide, channel banner, calendar and time machine all show the same fitted times, with no extra state to keep in sync.',
+  },
+  {
+    title: 'Data files rewritten whole on every change',
+    decided: 'Moved viewing history, the library index and the caches into SQLite (Node\'s built-in driver), with numbered schema steps and a one-time import of the old JSON.',
+    result: 'Writes are a row, not a 1.35 MB file, history holds 50,000 entries instead of 2,000, and a database from a newer build is left untouched instead of being "repaired".',
+  },
+  {
     title: 'Third-party plugins could be dangerous',
-    decided: 'Capability declarations, user approval, and a separate OS process for risky plugins.',
-    result: 'A plugin can only do what it declared and the user approved, and a crash cannot take the app down.',
+    decided: 'Capability declarations, user approval, one capability-checked bridge between a plugin\'s screen code and its main process, and a separate OS process for risky plugins, limited to the sites it declared.',
+    result: 'A plugin can only do what it declared and the user approved, its page shows what it has actually done (calls made and refused, sites reached and blocked), and a crash cannot take the app down.',
   },
   {
     title: 'Releases people can trust without a code-signing certificate',
@@ -86,18 +102,20 @@ const CHALLENGES = [
 ];
 
 const EVIDENCE = [
-  '474 tests, including property-based tests',
-  '6 CI workflows, including a real-installer smoke test',
-  'CodeQL: 0 open alerts (5 fixed, 2 dismissed with rationale)',
-  'OpenSSF Scorecard 7.2 / 10',
+  '784 tests, including property-based tests; deprecated Node APIs fail the run, and CI reports coverage',
+  'ESLint in CI (all 108 findings fixed when it was added)',
+  '9 CI workflows, including a real-installer smoke test, an Android companion build and an experimental Linux run that caught a path leak on its first pass',
+  'CodeQL: 12 findings so far, 8 fixed, 2 dismissed with written rationale, 2 open in a new test file',
+  'OpenSSF Scorecard 7.4 / 10',
   'Actions pinned to commit SHAs, least-privilege tokens, branch rulesets, Dependabot',
+  'Packaged builds lock down Electron fuses (no run-as-Node, no inspector, no NODE_OPTIONS)',
   'Signed SLSA build provenance and SHA-256 checksums on every release',
-  '13 design docs, a 29-page wiki and an in-app manual',
+  '15 design docs, a 27-page wiki, a feature website and an in-app manual',
 ];
 
 const FAQ = [
   ['Did you write the code yourself?', 'An AI coding agent wrote almost all of it under my direction. My contribution is the product vision, architecture and design docs, the invariants and quality gates, testing and release decisions, and the security and legal diligence. The repo says this plainly.'],
-  ['Is it production ready?', 'It is a public beta. The installers are unsigned (Windows shows a warning), there is no external audit, and Windows is the only packaged platform.'],
+  ['Is it production ready?', 'It is a public beta. The installers are unsigned (Windows shows a warning), there is no external audit, and Windows is the only packaged desktop platform.'],
   ['What would you do differently or next?', 'See "What I would do next" above.'],
   ['Can I try it?', 'Download the installer and the demo-library zip from the Releases page. The demo media is generated test video, nothing copyrighted.'],
 ];
@@ -127,15 +145,19 @@ function RerunTV() {
                 I designed and shipped RerunTV, a Windows desktop app (Electron) that simulates an old cable
                 box. Channels are folders of your own videos, and the app computes what <em>would</em> be airing
                 right now, so you can surf mid-show, rewind through a "time machine", and browse a program
-                guide. I took it from idea to a public beta: architecture and design docs, 474 automated tests,
+                guide. I took it from idea to a public beta: architecture and design docs, 784 automated tests,
                 CI that builds and launches the real installer on every push, supply-chain security (CodeQL,
-                OpenSSF Scorecard, signed build provenance), a plugin system, and a 29-page wiki. It is
+                OpenSSF Scorecard, signed build provenance), a plugin system, a 27-page wiki and a feature
+                website. It is
                 vibe-coded: an AI coding agent wrote the code under my direction, and the engineering around
                 it is what makes it trustworthy.
               </p>
               <div className="rtv-hero-actions">
                 <Button variant="contained" size="large" href={REPO_URL} target="_blank" rel="noopener noreferrer">
                   Repo
+                </Button>
+                <Button variant="outlined" size="large" href={SITE_URL} target="_blank" rel="noopener noreferrer" sx={outlinedButton}>
+                  Website
                 </Button>
                 <Button variant="outlined" size="large" href={`${REPO_URL}/wiki`} target="_blank" rel="noopener noreferrer" sx={outlinedButton}>
                   Wiki
@@ -205,8 +227,12 @@ function RerunTV() {
                 <figcaption>Live TV with banner</figcaption>
               </figure>
               <figure>
-                <img loading="lazy" src={ImgGuide} alt="RerunTV time-grid program guide" />
-                <figcaption>Program guide</figcaption>
+                <img loading="lazy" src={ImgGuideHD} alt="RerunTV program guide in the cable-box layout, HD skin" />
+                <figcaption>Program guide, HD skin (the default)</figcaption>
+              </figure>
+              <figure>
+                <img loading="lazy" src={ImgGuide} alt="RerunTV program guide in the cable-box layout, Classic skin" />
+                <figcaption>Program guide, Classic skin</figcaption>
               </figure>
               <figure>
                 <img loading="lazy" src={ImgTimeMachine} alt="RerunTV time machine scrubbing through the schedule" />
@@ -266,8 +292,8 @@ function RerunTV() {
           <div className="rtv-section">
             <h2 className="subheader">What I Would Do Next</h2>
             <p className="rtv-desc">
-              Code signing (SignPath open-source program), a major Electron upgrade with a full test pass,
-              macOS and Linux builds, and more demo content. See the{' '}
+              Code signing (SignPath open-source program), turning the experimental Linux CI build into a
+              released AppImage, a macOS build, and more demo content. See the{' '}
               <a href={`${REPO_URL}/wiki`} target="_blank" rel="noopener noreferrer">wiki</a>'s Roadmap and
               Known Issues page for the full list.
             </p>

@@ -203,6 +203,12 @@
   margin: 0;
 }
 
+.rtv-shots figure:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  max-width: calc(50% - 0.625rem);
+  justify-self: center;
+}
+
 .rtv-shots img {
   width: 100%;
   border-radius: 10px;
@@ -314,6 +320,10 @@
 @media (max-width: 640px) {
   .rtv-shots {
     grid-template-columns: 1fr;
+  }
+
+  .rtv-shots figure:last-child:nth-child(odd) {
+    max-width: none;
   }
 
   .rtv-challenge dl {
