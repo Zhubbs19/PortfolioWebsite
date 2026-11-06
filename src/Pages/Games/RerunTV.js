@@ -117,7 +117,13 @@ const FAQ = [
   ['Did you write the code yourself?', 'An AI coding agent wrote almost all of it under my direction. My contribution is the product vision, architecture and design docs, the invariants and quality gates, testing and release decisions, and the security and legal diligence. The repo says this plainly.'],
   ['Is it production ready?', 'It is a public beta. The installers are unsigned (Windows shows a warning), there is no external audit, and Windows is the only packaged desktop platform.'],
   ['What would you do differently or next?', 'See "What I would do next" above.'],
-  ['Can I try it?', 'Download the installer and the demo-library zip from the Releases page. The demo media is generated test video, nothing copyrighted.'],
+  ['Can I try it?', <>
+    Download the installer from the{' '}
+    <a href={SITE_URL} target="_blank" rel="noopener noreferrer">RerunTV website</a>, or grab it and the
+    demo-library zip from the{' '}
+    <a href={`${REPO_URL}/releases`} target="_blank" rel="noopener noreferrer">Releases page</a>. The demo
+    media is generated test video, nothing copyrighted.
+  </>],
 ];
 
 const outlinedButton = {
@@ -244,7 +250,8 @@ function RerunTV() {
               </figure>
             </div>
             <p className="rtv-desc" style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
-              All screenshots show synthetic demo content only.
+              All screenshots show synthetic demo content only. For a page per feature, see the{' '}
+              <a href={SITE_URL} target="_blank" rel="noopener noreferrer">RerunTV website</a>.
             </p>
           </div>
 
