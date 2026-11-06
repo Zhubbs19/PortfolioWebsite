@@ -8,7 +8,7 @@ import siteTheme from '../SiteTheme.js';
 import { ThemeProvider } from "@mui/material/styles";
 import PageWrapper from './PageWrapper/PageWrapper';
 
-const SKILLS = ["Unreal Engine 5 & Blueprints", "Unity & C#", "Flutter & Dart", "React", "Blender & Maya", "Level design", "Electron & Node.js", "CI/CD & test automation", "Secure software supply chain"];
+const SKILLS = ["Unreal Engine 5", "Unity", "Flutter & Dart", "React", "Level design", "Electron & Node.js", "CI/CD & test automation", "Version Control", "Claude Code"];
 
 const heroButton = { px: 4, py: 1.5, fontSize: "1rem", borderRadius: 1.5 };
 
